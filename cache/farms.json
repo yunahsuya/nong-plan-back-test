@@ -1,0 +1,451 @@
+[
+  {
+    "id": "10002-頭城休閒農場",
+    "name": "頭城休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "261",
+    "county": "10002",
+    "township": "頭城鎮",
+    "address": {
+      "chinese": "宜蘭縣頭城鎮更新路125號",
+      "english": "No.125 Gensin Rd., Touchen Township, Yilan County"
+    },
+    "website": "https://www.tcfarm.com.tw",
+    "coordinates": {
+      "longitude": 121.849468,
+      "latitude": 24.907147
+    },
+    "accessibleItems": [
+      "無障礙廁所",
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10008-南投縣大雁休閒農業區",
+    "name": "南投縣大雁休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "555",
+    "county": "10008",
+    "township": "魚池鄉",
+    "address": {
+      "chinese": "南投縣魚池鄉大雁村大雁巷36-1號",
+      "english": "No.36-1, Dayan Ln., Yuchi Township, Nantou County 555"
+    },
+    "website": "http://www.gont.com.tw/da-yan-xiu-xian-nong-ye-qu",
+    "coordinates": {
+      "longitude": 120.92087,
+      "latitude": 23.923606
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10008-南投縣桃米休閒農業區",
+    "name": "南投縣桃米休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "545",
+    "county": "10008",
+    "township": "埔里鎮",
+    "address": {
+      "chinese": "南投縣埔里鎮桃米里桃米巷5-6號",
+      "english": "No.5-6, Taomi Ln., Puli Township, Nantou County 545"
+    },
+    "website": "http://www.gont.com.tw/tao-mi-xiu-xian-nong-ye-qu",
+    "coordinates": {
+      "longitude": 120.941944,
+      "latitude": 23.939693
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "64000-高雄市民生休閒農業區",
+    "name": "高雄市民生休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "849",
+    "county": "64000",
+    "township": "那瑪夏區",
+    "address": {
+      "chinese": "高雄市那瑪夏區達卡奴瓦里大光巷230號",
+      "english": "No.230, Daguang Ln., Namaxia Dist., Kaohsiung City 849"
+    },
+    "website": "http://namasia.kcg.gov.tw/index.php?zone=page1_01_detail.php&no=146&class=2",
+    "coordinates": {
+      "longitude": 120.695607,
+      "latitude": 23.195993
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10002-宜蘭縣橫山頭休閒農業區",
+    "name": "宜蘭縣橫山頭休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "264",
+    "county": "10002",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山向尚德村八甲路15之1號",
+      "english": "No.15-1, Bajia Rd., Yuanshan Township, Yilan County 264"
+    },
+    "website": "http://yuanshan.17high.com.tw/Hala/",
+    "coordinates": {
+      "longitude": 121.716266,
+      "latitude": 24.730398
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙電梯"
+    ]
+  },
+  {
+    "id": "10002-宜蘭縣天送埤休閒農業區",
+    "name": "宜蘭縣天送埤休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "266",
+    "county": "10002",
+    "township": "三星鄉",
+    "address": {
+      "chinese": "宜蘭縣三星鄉天山村下湖路1號",
+      "english": "No.1, Xiahu Rd., Sanxing Township, Yilan County 266"
+    },
+    "website": "http://song.sunshin.org.tw/",
+    "coordinates": {
+      "longitude": 121.628332,
+      "latitude": 24.656365
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10005-苗栗縣福興南和休閒農業區",
+    "name": "苗栗縣福興南和休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "357",
+    "county": "10005",
+    "township": "通霄鎮",
+    "address": {
+      "chinese": "苗栗縣通霄鎮南和里166號",
+      "english": "No.166, Nanhe, Tongxiao Township, Miaoli County 357"
+    },
+    "website": "http://www.lohas-tongxiao.com.tw/",
+    "coordinates": {
+      "longitude": 120.740487,
+      "latitude": 24.443004
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙停車位"
+    ]
+  },
+  {
+    "id": "10005-苗栗南江休閒農業區",
+    "name": "苗栗南江休閒農業區",
+    "tel": "(88)",
+    "fax": "",
+    "postalCode": "353",
+    "county": "10005",
+    "township": "南庄鄉",
+    "address": {
+      "chinese": "苗栗縣南庄鄉南江村小東河14鄰8號-3",
+      "english": "No.8-3, Xiaodonghe, Nanzhuang Township, Miaoli County 353"
+    },
+    "website": "https://www.facebook.com/pages/%E8%8B%97%E6%A0%97%E7%B8%A3%E5%8D%97%E5%BA%84%E9%84%89%E5%8D%97%E6%B1",
+    "coordinates": {
+      "longitude": 120.996814,
+      "latitude": 24.587553
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙停車位"
+    ]
+  },
+  {
+    "id": "66000-臺中市食水嵙休閒農業區",
+    "name": "臺中市食水嵙休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "422",
+    "county": "66000",
+    "township": "石岡區",
+    "address": {
+      "chinese": "台中市石岡區豐勢路881號",
+      "english": "No.881, Fengshi Rd., Shigang Dist., Taichung City 422"
+    },
+    "website": "http://ezgo.ardswc.gov.tw/Attraction.aspx?134d9fc7-446b-4d25-b85d-6913f46dfca1",
+    "coordinates": {
+      "longitude": 120.789029,
+      "latitude": 24.27383
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10008-南投縣糯米橋休閒農業區",
+    "name": "南投縣糯米橋休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "544",
+    "county": "10008",
+    "township": "國姓鄉",
+    "address": {
+      "chinese": "南投縣國姓鄉國姓路62號-1",
+      "english": "No.62-1, Guoxing Rd., Guoxing Township, Nantou County 544,"
+    },
+    "website": "https://www.facebook.com/NuomiBridge",
+    "coordinates": {
+      "longitude": 120.911646,
+      "latitude": 24.057227
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10009-雲林縣金湖休閒農業區",
+    "name": "雲林縣金湖休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "652",
+    "county": "10009",
+    "township": "口湖鄉",
+    "address": {
+      "chinese": "雲林縣口湖鄉崇文路2段402巷50號",
+      "english": "No.50, Ln. 402, Sec. 2, Chongwen Rd., Kouhu Township, Yunlin County 653"
+    },
+    "website": "http://www.yoyo164.com.tw/",
+    "coordinates": {
+      "longitude": 120.176974,
+      "latitude": 23.581647
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10002-勝洋休閒農場",
+    "name": "勝洋休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "264",
+    "county": "10002",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山鄉尚德村八甲路15-6號",
+      "english": "No.15-6, Bajia Rd., Yuanshan Township, Yilan County"
+    },
+    "website": "https://www.sy-water.com.tw",
+    "coordinates": {
+      "longitude": 121.705748,
+      "latitude": 24.727973
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10002-宜蘭縣枕頭山休閒農業區",
+    "name": "宜蘭縣枕頭山休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "264",
+    "county": "10002",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山鄉枕山村波城路69號",
+      "english": "No.69, Pocheng Rd., Yuanshan Township, Yilan County 264"
+    },
+    "website": "http://www.ete.com.tw/play/",
+    "coordinates": {
+      "longitude": 121.713646,
+      "latitude": 24.766651
+    },
+    "accessibleItems": [
+      "無障礙廁所",
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10014-臺東金針山休閒農業區",
+    "name": "臺東金針山休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "963",
+    "county": "10014",
+    "township": "太麻里",
+    "address": {
+      "chinese": "台東縣太麻里鄉大王村佳崙202號",
+      "english": "No.202, Jialun, Taimali Township, Taitung County 963"
+    },
+    "website": "http://tour.taitung.gov.tw/zh-tw/Travel/ScenicSpot/345/%E9%87%91%E9%87%9D%E5%B1%B1%E4%BC%91%E9%96%92",
+    "coordinates": {
+      "longitude": 120.953212,
+      "latitude": 22.554056
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10004-雪霸休閒農場",
+    "name": "雪霸休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "311",
+    "county": "10004",
+    "township": "五峰鄉",
+    "address": {
+      "chinese": "新竹縣五峰鄉桃山村民石380號",
+      "english": "No.380 Cunminshi, Taoshan Vil., Wufeng Township, Hsinchu County"
+    },
+    "website": "https://www.sheipa.com.tw",
+    "coordinates": {
+      "longitude": 121.117167,
+      "latitude": 24.527875
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10007-魔菇部落休閒農場",
+    "name": "魔菇部落休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "513",
+    "county": "10007",
+    "township": "埔心鄉",
+    "address": {
+      "chinese": "彰化縣埔心鄉埤腳村柳橋東路829號",
+      "english": "No.829 Liuqiao E. Rd., Puxin Township, Changhua County"
+    },
+    "website": "https://www.mushrooms.com.tw",
+    "coordinates": {
+      "longitude": 120.520925,
+      "latitude": 23.974009
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "67000-走馬瀨休閒農場",
+    "name": "走馬瀨休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "742",
+    "county": "67000",
+    "township": "大內區",
+    "address": {
+      "chinese": "台南市大內區二溪里其子瓦60號",
+      "english": "No.60, Qiziwa, Danei Dist., Tainan City 742, Taiwan (R.O.C.)"
+    },
+    "website": "https://www.farm.com.tw",
+    "coordinates": {
+      "longitude": 120.429941,
+      "latitude": 23.136504
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10007-彰化休閒農場",
+    "name": "彰化休閒農場",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "524",
+    "county": "10007",
+    "township": "溪州鄉",
+    "address": {
+      "chinese": "彰化縣溪州鄉中央路三段138號",
+      "english": "No.138, Sec. 3, Zhongyang Rd., Xizhou Township, Changhua County 524"
+    },
+    "website": "http://www.chcg.gov.tw/agriculture/07other/other01_con.asp?topsn=17&data_id=10238",
+    "coordinates": {
+      "longitude": 120.496348,
+      "latitude": 23.842461
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "10004-新竹照門休閒農業區",
+    "name": "新竹照門休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "305",
+    "county": "10004",
+    "township": "新埔鎮",
+    "address": {
+      "chinese": "新竹縣新埔鎮中正路776號",
+      "english": "No.776, Zhongzheng Rd., Xinpu Township, Hsinchu County"
+    },
+    "website": "http://ezgo.ardswc.gov.tw/Attraction.aspx?27de3bc4-4189-4a3b-bf18-11556e971afd",
+    "coordinates": {
+      "longitude": 121.105941,
+      "latitude": 24.850753
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "id": "10005-苗栗縣舊山線休閒農業區",
+    "name": "苗栗縣舊山線休閒農業區",
+    "tel": "(88)",
+    "fax": "",
+    "postalCode": "367",
+    "county": "10005",
+    "township": "三義鄉",
+    "address": {
+      "chinese": "苗栗縣三義鄉龍騰村外庄10號",
+      "english": "No.10, Waizhuang, Sanyi Township, Miaoli County 367"
+    },
+    "website": "https://www.facebook.com/881oml",
+    "coordinates": {
+      "longitude": 120.778048,
+      "latitude": 24.361093
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "id": "66000-臺中市馬力埔休閒農業區",
+    "name": "臺中市馬力埔休閒農業區",
+    "tel": "(88)",
+    "fax": "(88)",
+    "postalCode": "426",
+    "county": "66000",
+    "township": "新社區",
+    "address": {
+      "chinese": "台中市新社區新社里中和街四段226號",
+      "english": "No.226, Sec. 4, Zhonghe St., Xinshe Dist., Taichung City 426"
+    },
+    "website": "http://www.mlp-farm.com/",
+    "coordinates": {
+      "longitude": 120.808245,
+      "latitude": 24.24367
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  }
+]
