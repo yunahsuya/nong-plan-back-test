@@ -6,6 +6,7 @@
     "fax": "(88)",
     "postalCode": "261",
     "county": "10002",
+    "countyName": "宜蘭縣",
     "township": "頭城鎮",
     "address": {
       "chinese": "宜蘭縣頭城鎮更新路125號",
@@ -28,6 +29,7 @@
     "fax": "(88)",
     "postalCode": "555",
     "county": "10008",
+    "countyName": "南投縣",
     "township": "魚池鄉",
     "address": {
       "chinese": "南投縣魚池鄉大雁村大雁巷36-1號",
@@ -49,6 +51,7 @@
     "fax": "(88)",
     "postalCode": "545",
     "county": "10008",
+    "countyName": "南投縣",
     "township": "埔里鎮",
     "address": {
       "chinese": "南投縣埔里鎮桃米里桃米巷5-6號",
@@ -70,6 +73,7 @@
     "fax": "(88)",
     "postalCode": "849",
     "county": "64000",
+    "countyName": "高雄市",
     "township": "那瑪夏區",
     "address": {
       "chinese": "高雄市那瑪夏區達卡奴瓦里大光巷230號",
@@ -92,6 +96,7 @@
     "fax": "(88)",
     "postalCode": "264",
     "county": "10002",
+    "countyName": "宜蘭縣",
     "township": "員山鄉",
     "address": {
       "chinese": "宜蘭縣員山向尚德村八甲路15之1號",
@@ -114,6 +119,7 @@
     "fax": "(88)",
     "postalCode": "266",
     "county": "10002",
+    "countyName": "宜蘭縣",
     "township": "三星鄉",
     "address": {
       "chinese": "宜蘭縣三星鄉天山村下湖路1號",
@@ -136,6 +142,7 @@
     "fax": "(88)",
     "postalCode": "357",
     "county": "10005",
+    "countyName": "苗栗縣",
     "township": "通霄鎮",
     "address": {
       "chinese": "苗栗縣通霄鎮南和里166號",
@@ -158,6 +165,7 @@
     "fax": "",
     "postalCode": "353",
     "county": "10005",
+    "countyName": "苗栗縣",
     "township": "南庄鄉",
     "address": {
       "chinese": "苗栗縣南庄鄉南江村小東河14鄰8號-3",
@@ -180,6 +188,7 @@
     "fax": "(88)",
     "postalCode": "422",
     "county": "66000",
+    "countyName": "台中市",
     "township": "石岡區",
     "address": {
       "chinese": "台中市石岡區豐勢路881號",
@@ -201,6 +210,7 @@
     "fax": "(88)",
     "postalCode": "544",
     "county": "10008",
+    "countyName": "南投縣",
     "township": "國姓鄉",
     "address": {
       "chinese": "南投縣國姓鄉國姓路62號-1",
@@ -222,6 +232,7 @@
     "fax": "(88)",
     "postalCode": "652",
     "county": "10009",
+    "countyName": "雲林縣",
     "township": "口湖鄉",
     "address": {
       "chinese": "雲林縣口湖鄉崇文路2段402巷50號",
@@ -243,6 +254,7 @@
     "fax": "(88)",
     "postalCode": "264",
     "county": "10002",
+    "countyName": "宜蘭縣",
     "township": "員山鄉",
     "address": {
       "chinese": "宜蘭縣員山鄉尚德村八甲路15-6號",
@@ -264,6 +276,7 @@
     "fax": "(88)",
     "postalCode": "264",
     "county": "10002",
+    "countyName": "宜蘭縣",
     "township": "員山鄉",
     "address": {
       "chinese": "宜蘭縣員山鄉枕山村波城路69號",
@@ -286,6 +299,7 @@
     "fax": "(88)",
     "postalCode": "963",
     "county": "10014",
+    "countyName": "台東縣",
     "township": "太麻里",
     "address": {
       "chinese": "台東縣太麻里鄉大王村佳崙202號",
@@ -307,6 +321,7 @@
     "fax": "(88)",
     "postalCode": "311",
     "county": "10004",
+    "countyName": "新竹縣",
     "township": "五峰鄉",
     "address": {
       "chinese": "新竹縣五峰鄉桃山村民石380號",
@@ -328,6 +343,7 @@
     "fax": "(88)",
     "postalCode": "513",
     "county": "10007",
+    "countyName": "彰化縣",
     "township": "埔心鄉",
     "address": {
       "chinese": "彰化縣埔心鄉埤腳村柳橋東路829號",
@@ -349,6 +365,7 @@
     "fax": "(88)",
     "postalCode": "742",
     "county": "67000",
+    "countyName": "台南市",
     "township": "大內區",
     "address": {
       "chinese": "台南市大內區二溪里其子瓦60號",
@@ -370,6 +387,7 @@
     "fax": "(88)",
     "postalCode": "524",
     "county": "10007",
+    "countyName": "彰化縣",
     "township": "溪州鄉",
     "address": {
       "chinese": "彰化縣溪州鄉中央路三段138號",
@@ -391,6 +409,7 @@
     "fax": "(88)",
     "postalCode": "305",
     "county": "10004",
+    "countyName": "新竹縣",
     "township": "新埔鎮",
     "address": {
       "chinese": "新竹縣新埔鎮中正路776號",
@@ -413,6 +432,7 @@
     "fax": "",
     "postalCode": "367",
     "county": "10005",
+    "countyName": "苗栗縣",
     "township": "三義鄉",
     "address": {
       "chinese": "苗栗縣三義鄉龍騰村外庄10號",
@@ -434,6 +454,7 @@
     "fax": "(88)",
     "postalCode": "426",
     "county": "66000",
+    "countyName": "台中市",
     "township": "新社區",
     "address": {
       "chinese": "台中市新社區新社里中和街四段226號",
