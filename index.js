@@ -5,6 +5,8 @@ import { StatusCodes } from "http-status-codes";
 
 // 引入路由
 import farmRoutes from "./routes/farms.js";
+import cacheRoutes from "./routes/cache.js";
+import cropPricesRoutes from "./routes/crop-prices.js";
 
 // 引入中間件
 import errorHandler from "./middleware/errorHandler.js";
@@ -17,6 +19,8 @@ app.use(express.json());
 
 // 路由
 app.use("/api", farmRoutes);
+app.use("/api/cache", cacheRoutes);
+app.use("/api/crop-prices", cropPricesRoutes);
 
 // 錯誤處理中間件
 app.use(errorHandler);
