@@ -47,6 +47,7 @@ async function fetchRawDataFromMOA() {
     console.log('🌐 正在從農委會 API 取得資料...')
     const response = await axios.get(MOA_API_URL, {
       timeout: 10000,
+      maxContentLength: 5 * 1024 * 1024, // 限制回應大小 5MB
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       }
@@ -54,6 +55,10 @@ async function fetchRawDataFromMOA() {
     
     if (!response.data || !Array.isArray(response.data)) {
       throw new Error('API 回應格式不正確')
+    }
+    
+    if (response.data.length > 10000) {
+      throw new Error('API 回應資料過多')
     }
     
     console.log(`✅ 成功從農委會 API 取得 ${response.data.length} 筆資料`)
@@ -68,32 +73,26 @@ async function fetchRawDataFromMOA() {
 function transformFarmData(rawData) {
   return rawData.map(farm => {
     // 解析無障礙設施
-    const accessibleItems = farm.AccessibleItem 
-      ? farm.AccessibleItem.split('、').filter(item => item.trim())
-      : []
+    const accessibleItems = (farm.AccessibleItem || '').split('、').filter(Boolean)
     
     // 取得縣市名稱
     const countyName = COUNTY_MAP[farm.County] || farm.County
     
     return {
-      id: `${farm.County}-${farm.FarmNm_CH}`,
-      name: farm.FarmNm_CH,
-      tel: farm.TEL || '',
-      fax: farm.FAX || '',
-      postalCode: farm.PCode || '',
-      county: farm.County,
-      countyName: countyName,
-      township: farm.Township || '',
+      // id: `${farm.County}-${farm.FarmNm_CH}`,           // 自訂 ID
+      name: farm.FarmNm_CH,                             // 農場名稱
+      // tel: farm.TEL || '',                              // 電話
+      countyName: countyName,                           // 縣市中文名稱（轉換）
+      township: farm.Township || '',                    // 鄉鎮市區
       address: {
-        chinese: farm.Address_CH || '',
-        english: farm.Address_EN || ''
+        chinese: farm.Address_CH || '',                 // 中文地址
       },
-      website: farm.WebURL || '',
+      website: farm.WebURL || '',                       // 官方網站
       coordinates: {
-        longitude: parseFloat(farm.Longitude) || 0,
-        latitude: parseFloat(farm.Latitude) || 0
+        longitude: parseFloat(farm.Longitude) || 0,     // 經度（轉數字）
+        latitude: parseFloat(farm.Latitude) || 0        // 緯度（轉數字）
       },
-      accessibleItems: accessibleItems
+      accessibleItems: accessibleItems                  // 無障礙設施（轉陣列）
     }
   })
 }
@@ -105,12 +104,17 @@ async function saveToCache(farms) {
     await fs.mkdir(CACHE_DIR, { recursive: true })
     
     // 儲存農場資料
-    await fs.writeFile(FARMS_CACHE_FILE, JSON.stringify(farms, null, 2), 'utf8')
-    
+    const jsonData = JSON.stringify(farms, null, 2)
+    if (jsonData.length > 10 * 1024 * 1024) {
+      throw new Error('Cache data too large')
+    }
+    await fs.writeFile(FARMS_CACHE_FILE, jsonData, 'utf8')
+
     // 更新快取配置
     const cacheConfig = {
       enabled: true,
-      ttl: 86400000, // 24 小時
+      // 48 小時（2 天）
+      ttl: 172800000, 
       maxRetries: 3,
       lastUpdate: new Date().toISOString()
     }
@@ -144,7 +148,8 @@ async function isCacheValid() {
     
     const lastUpdate = new Date(config.lastUpdate)
     const now = new Date()
-    const ttl = config.ttl || 86400000 // 預設 24 小時
+    // 48 小時（2 天）
+    const ttl = config.ttl || 172800000 
     
     return (now - lastUpdate) < ttl
   } catch (error) {
@@ -178,13 +183,15 @@ async function fetchFarmsFromMOA(forceRefresh = false) {
   } catch (error) {
     console.error('❌ 取得農場資料失敗:', error.message)
     
-    // 如果 API 失敗，嘗試使用快取資料
+    // 如果 API 失敗，嘗試使用快取資料作為備案
+    console.log('⚠️ API 失敗，嘗試使用快取資料作為備案')
     const cachedData = await loadFromCache()
     if (cachedData) {
-      console.log('⚠️ API 失敗，使用快取資料')
+      console.log('📦 使用快取資料作為備案')
       return cachedData
     }
     
+    // 如果連快取都沒有，那就真的失敗了
     throw error
   }
 }
@@ -241,7 +248,7 @@ export const getFarmsByCounty = async (req, res, next) => {
     const { county } = req.params
     const { refresh } = req.query
     
-    if (!county || county.trim() === '') {
+    if (!county || county.trim() === '' || county.length > 50 || !/^[\u4e00-\u9fff\w\s]+$/.test(county)) {
       return res.status(StatusCodes.BAD_REQUEST).json({
         success: false,
         message: '請提供有效的縣市名稱'
@@ -266,12 +273,21 @@ export const getFarmsByCounty = async (req, res, next) => {
   }
 }
 
+// Helper 函數：檢查檔案是否存在
+async function fileExists(path) {
+  try {
+    await fs.access(path)
+    return true
+  } catch {
+    return false
+  }
+}
+
 // 快取管理 API
 export const getFarmCacheStatus = async (req, res, next) => {
   try {
-    // 檢查快取檔案是否存在
-    const farmsExists = await fs.access(FARMS_CACHE_FILE).then(() => true).catch(() => false)
-    const configExists = await fs.access(CACHE_CONFIG_FILE).then(() => true).catch(() => false)
+    const farmsExists = await fileExists(FARMS_CACHE_FILE)
+    const configExists = await fileExists(CACHE_CONFIG_FILE)
     
     if (!farmsExists || !configExists) {
       return res.json({
