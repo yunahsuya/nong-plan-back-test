@@ -5,6 +5,7 @@ import { StatusCodes } from 'http-status-codes'
 
 // 引入路由
 import farmRoutes from './routes/farms.js'
+import priceRoutes from './routes/prices.js'
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
@@ -17,6 +18,7 @@ app.use(express.json())
 
 // 路由
 app.use('/api', farmRoutes)
+app.use('/api', priceRoutes)
 
 // 錯誤處理中間件
 app.use(errorHandler)
@@ -37,5 +39,9 @@ app.listen(PORT, () => {
   console.log('可用路由：')
   console.log('  GET /api/accessible-farms - 取得所有無障礙休閒農場')
   console.log('  GET /api/accessible-farms/:county - 根據縣市篩選農場')
+  console.log('  GET /api/prices - 取得農產品交易行情')
+  console.log('  GET /api/prices/crop/:crop - 根據作物查詢行情')
+  console.log('  GET /api/prices/market/:market - 根據市場查詢行情')
+  console.log('  GET /api/prices/stats - 取得價格統計')
   console.log('  GET / - 健康檢查')
 })
