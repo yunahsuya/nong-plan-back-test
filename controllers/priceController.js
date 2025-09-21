@@ -430,3 +430,151 @@ export const refreshPriceCache = async (req, res, next) => {
     next(error)
   }
 }
+
+// 新的前端專用 API：取得農產品分類彙整
+export const getCropCategories = async (req, res, next) => {
+  try {
+    console.log('🌾 取得農產品分類彙整')
+
+    const priceData = await fetchPriceData()
+
+    // 按作物分組並計算統計
+    const cropGroups = {}
+
+    priceData.forEach(item => {
+      const cropName = item.cropName
+
+      if (!cropGroups[cropName]) {
+        cropGroups[cropName] = {
+          name: cropName,
+          records: [],
+          markets: new Set(),
+          totalVolume: 0,
+          totalValue: 0
+        }
+      }
+
+      cropGroups[cropName].records.push(item)
+      cropGroups[cropName].markets.add(item.marketName)
+      cropGroups[cropName].totalVolume += item.volume
+      cropGroups[cropName].totalValue += item.totalValue
+    })
+
+    // 轉換為前端需要的格式
+    const categories = Object.values(cropGroups).map(group => {
+      const prices = group.records.map(r => r.prices.average).filter(p => p > 0)
+      const avgPrice = prices.length > 0 ? prices.reduce((a, b) => a + b, 0) / prices.length : 0
+      const minPrice = prices.length > 0 ? Math.min(...prices) : 0
+      const maxPrice = prices.length > 0 ? Math.max(...prices) : 0
+
+      return {
+        name: group.name,
+        marketCount: group.markets.size,
+        avgPrice: Math.round(avgPrice * 100) / 100,
+        priceRange: {
+          min: Math.round(minPrice * 100) / 100,
+          max: Math.round(maxPrice * 100) / 100
+        },
+        totalVolume: Math.round(group.totalVolume * 100) / 100,
+        lastUpdated: new Date().toISOString()
+      }
+    }).sort((a, b) => b.totalVolume - a.totalVolume) // 按交易量排序
+
+    res.json({
+      status: 'success',
+      data: {
+        categories,
+        summary: {
+          totalCategories: categories.length,
+          totalMarkets: [...new Set(priceData.map(item => item.marketName))].length,
+          lastUpdated: new Date().toISOString()
+        }
+      }
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// 新的前端專用 API：取得特定作物的各地價格
+export const getCropLocationPrices = async (req, res, next) => {
+  try {
+    const { crop, market, sort } = req.query
+
+    if (!crop) {
+      return res.status(StatusCodes.BAD_REQUEST).json({
+        status: 'error',
+        message: '請提供作物名稱參數 crop'
+      })
+    }
+
+    console.log(`🔍 取得 ${crop} 的各地價格`)
+
+    const priceData = await fetchPriceData()
+
+    // 篩選作物
+    let filteredData = priceData.filter(item =>
+      item.cropName.toLowerCase().includes(crop.toLowerCase())
+    )
+
+    // 篩選市場（如果提供）
+    if (market) {
+      filteredData = filteredData.filter(item =>
+        item.marketName.toLowerCase().includes(market.toLowerCase()) ||
+        item.marketCode.toLowerCase().includes(market.toLowerCase())
+      )
+    }
+
+    // 轉換為前端需要的格式
+    const locations = filteredData.map(item => ({
+      id: item.id,
+      market: {
+        code: item.marketCode,
+        name: item.marketName
+      },
+      variant: item.cropName,
+      prices: item.prices,
+      volume: item.volume,
+      totalValue: item.totalValue,
+      priceRange: item.priceRange,
+      lastUpdated: new Date().toISOString()
+    }))
+
+    // 排序
+    if (sort === 'price_desc') {
+      locations.sort((a, b) => b.prices.average - a.prices.average)
+    } else if (sort === 'price_asc') {
+      locations.sort((a, b) => a.prices.average - b.prices.average)
+    } else if (sort === 'volume_desc') {
+      locations.sort((a, b) => b.volume - a.volume)
+    }
+
+    // 計算統計
+    const validPrices = locations.filter(l => l.prices.average > 0)
+    const statistics = validPrices.length > 0 ? {
+      maxPrice: Math.max(...validPrices.map(l => l.prices.average)),
+      maxPriceMarket: validPrices.find(l => l.prices.average === Math.max(...validPrices.map(p => p.prices.average)))?.market.name,
+      minPrice: Math.min(...validPrices.map(l => l.prices.average)),
+      minPriceMarket: validPrices.find(l => l.prices.average === Math.min(...validPrices.map(p => p.prices.average)))?.market.name,
+      avgPrice: validPrices.reduce((sum, l) => sum + l.prices.average, 0) / validPrices.length,
+      totalVolume: locations.reduce((sum, l) => sum + l.volume, 0),
+      totalValue: locations.reduce((sum, l) => sum + l.totalValue, 0)
+    } : null
+
+    res.json({
+      status: 'success',
+      data: {
+        cropName: crop,
+        locations,
+        statistics,
+        pagination: {
+          total: locations.length,
+          page: 1,
+          limit: locations.length
+        }
+      }
+    })
+  } catch (error) {
+    next(error)
+  }
+}
