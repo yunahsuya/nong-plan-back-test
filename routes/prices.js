@@ -9,6 +9,8 @@ import {
   getPriceCacheStatus,
   clearPriceCache,
   refreshPriceCache,
+  getPopularCropsWithStatus,
+  getPopularCropsList,
 } from "../controllers/priceController.js";
 
 const router = express.Router();
@@ -22,6 +24,10 @@ router.get("/prices/stats", getPriceStats);
 // 新的前端專用 API
 router.get("/crops/categories", getCropCategories);
 router.get("/crops/locations", getCropLocationPrices);
+
+// 熱門作物 API
+router.get("/popular-crops", getPopularCropsWithStatus);
+router.get("/popular-crops-list", getPopularCropsList);
 
 // 交易行情快取管理 API
 router.get("/prices/cache/status", getPriceCacheStatus);

@@ -20,7 +20,7 @@ async function fetchPriceDataFromMOA() {
   try {
     console.log('🌐 正在從農委會 API 取得交易行情資料...')
     const response = await axios.get(MOA_PRICE_API_URL, {
-      timeout: 10000,
+      timeout: 60000, // 增加到60秒
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       }
@@ -41,12 +41,12 @@ async function fetchPriceDataFromMOA() {
 // 轉換交易資料格式
 function transformPriceData(rawData) {
   return rawData.map(item => ({
-    id: `${item['交易日期']}-${item['作物代號']}-${item['市場代號']}`,
+    // id: `${item['交易日期']}-${item['作物代號']}-${item['市場代號']}`,
     tradeDate: item['交易日期'],
-    categoryCode: item['種類代碼'],
-    cropCode: item['作物代號'],
+    // categoryCode: item['種類代碼'],
+    // cropCode: item['作物代號'],
     cropName: item['作物名稱'],
-    marketCode: item['市場代號'],
+    // marketCode: item['市場代號'],
     marketName: item['市場名稱'],
     prices: {
       high: parseFloat(item['上價']) || 0,
@@ -60,6 +60,138 @@ function transformPriceData(rawData) {
     totalValue: (parseFloat(item['平均價']) || 0) * (parseFloat(item['交易量']) || 0)
   }))
 }
+
+// 智能篩選熱門作物並顯示休市狀態
+// function smartFilterWithRestStatus(rawData) {
+//   // 1. 分離休市記錄和正常記錄
+//   const restRecords = rawData.filter(item => item['作物名稱'] === '休市')
+//   const normalRecords = rawData.filter(item => item['作物名稱'] !== '休市')
+  
+//   // 2. 找出熱門作物 (基於歷史平均交易量)
+//   const cropGroups = {}
+//   normalRecords.forEach(item => {
+//     const crop = item['作物名稱']
+//     if (!cropGroups[crop]) {
+//       cropGroups[crop] = []
+//     }
+//     cropGroups[crop].push(parseFloat(item['交易量']) || 0)
+//   })
+  
+//   const cropAverages = {}
+//   Object.keys(cropGroups).forEach(crop => {
+//     const volumes = cropGroups[crop]
+//     const average = volumes.reduce((sum, vol) => sum + vol, 0) / volumes.length
+//     cropAverages[crop] = average
+//   })
+  
+//   // 3. 定義熱門作物 (平均交易量 > 100公斤)
+//   const popularCrops = Object.keys(cropAverages)
+//     .filter(crop => cropAverages[crop] > 100)
+  
+//   // 4. 找出所有市場和今天休市的市場
+//   const allMarkets = [...new Set(rawData.map(item => ({
+//     marketCode: item['市場代號'],
+//     marketName: item['市場名稱']
+//   })))]
+  
+//   const restMarkets = restRecords.map(item => ({
+//     marketCode: item['市場代號'],
+//     marketName: item['市場名稱']
+//   }))
+  
+//   // 5. 為每個熱門作物生成完整記錄
+//   const result = []
+//   const today = rawData[0]['交易日期'] // 假設是同一天
+  
+//   popularCrops.forEach(crop => {
+//     allMarkets.forEach(market => {
+//       // 檢查該作物今天在這個市場是否有交易記錄
+//       const todayRecord = rawData.find(item => 
+//         item['作物名稱'] === crop &&
+//         item['市場代號'] === market.marketCode &&
+//         item['交易日期'] === today &&
+//         item['作物名稱'] !== '休市'
+//       )
+      
+//       if (todayRecord) {
+//         // 有交易記錄，正常顯示
+//         result.push({
+//           id: `${today}-${todayRecord['作物代號']}-${market.marketCode}`,
+//           tradeDate: today,
+//           categoryCode: todayRecord['種類代碼'],
+//           cropCode: todayRecord['作物代號'],
+//           cropName: crop,
+//           marketCode: market.marketCode,
+//           marketName: market.marketName,
+//           prices: {
+//             high: parseFloat(todayRecord['上價']) || 0,
+//             middle: parseFloat(todayRecord['中價']) || 0,
+//             low: parseFloat(todayRecord['下價']) || 0,
+//             average: parseFloat(todayRecord['平均價']) || 0
+//           },
+//           volume: parseFloat(todayRecord['交易量']) || 0,
+//           priceRange: (parseFloat(todayRecord['上價']) || 0) - (parseFloat(todayRecord['下價']) || 0),
+//           totalValue: (parseFloat(todayRecord['平均價']) || 0) * (parseFloat(todayRecord['交易量']) || 0),
+//           status: '正常交易',
+//           isRest: false
+//         })
+//       } else {
+//         // 沒有交易記錄，檢查是否為休市
+//         const isMarketRest = restMarkets.some(rest => 
+//           rest.marketCode === market.marketCode
+//         )
+        
+//         if (isMarketRest) {
+//           // 市場休市
+//           result.push({
+//             id: `${today}-${crop}-${market.marketCode}-rest`,
+//             tradeDate: today,
+//             categoryCode: 'N00',
+//             cropCode: 'rest',
+//             cropName: crop,
+//             marketCode: market.marketCode,
+//             marketName: market.marketName,
+//             prices: { high: 0, middle: 0, low: 0, average: 0 },
+//             volume: 0,
+//             priceRange: 0,
+//             totalValue: 0,
+//             status: '市場休市',
+//             isRest: true
+//           })
+//         } else {
+//           // 市場正常，但該作物沒交易
+//           result.push({
+//             id: `${today}-${crop}-${market.marketCode}-no-trade`,
+//             tradeDate: today,
+//             categoryCode: 'N00',
+//             cropCode: 'no-trade',
+//             cropName: crop,
+//             marketCode: market.marketCode,
+//             marketName: market.marketName,
+//             prices: { high: 0, middle: 0, low: 0, average: 0 },
+//             volume: 0,
+//             priceRange: 0,
+//             totalValue: 0,
+//             status: '無交易',
+//             isRest: false
+//           })
+//         }
+//       }
+//     })
+//   })
+  
+//   return {
+//     data: result,
+//     stats: {
+//       totalRecords: rawData.length,
+//       normalRecords: normalRecords.length,
+//       restRecords: restRecords.length,
+//       popularCrops: popularCrops.length,
+//       filteredRecords: result.length,
+//       restMarkets: restMarkets.length
+//     }
+//   }
+// }
 
 // 儲存資料到快取檔案
 async function savePriceToCache(priceData) {
@@ -120,7 +252,7 @@ async function fetchPriceData(forceRefresh = false) {
       if (isValid) {
         const cachedData = await loadPriceFromCache()
         if (cachedData) {
-          console.log('📦 使用交易快取資料')
+          console.log('�� 使用交易快取資料')
           return cachedData
         }
       }
@@ -128,10 +260,18 @@ async function fetchPriceData(forceRefresh = false) {
 
     const rawData = await fetchPriceDataFromMOA()
     const transformedData = transformPriceData(rawData)
+    
+    // 在儲存快取前進行篩選
+    const filteredResult = smartFilterWithRestStatus(transformedData)
+    const filteredData = filteredResult.data
+    
+    console.log(`�� 原始資料: ${transformedData.length} 筆`)
+    console.log(`📊 篩選後: ${filteredData.length} 筆`)
+    console.log(`📊 減少: ${Math.round((1 - filteredData.length / transformedData.length) * 100)}%`)
 
-    await savePriceToCache(transformedData)
+    await savePriceToCache(filteredData)
 
-    return transformedData
+    return filteredData
   } catch (error) {
     console.error('❌ 取得交易資料失敗:', error.message)
 
@@ -437,6 +577,7 @@ export const getCropCategories = async (req, res, next) => {
     console.log('🌾 取得農產品分類彙整')
 
     const priceData = await fetchPriceData()
+    // 注意：現在 priceData 已經是篩選後的資料，不需要再次篩選
 
     // 按作物分組並計算統計
     const cropGroups = {}
@@ -511,6 +652,7 @@ export const getCropLocationPrices = async (req, res, next) => {
     console.log(`🔍 取得 ${crop} 的各地價格`)
 
     const priceData = await fetchPriceData()
+    // 注意：現在 priceData 已經是篩選後的資料，不需要再次篩選
 
     // 篩選作物
     let filteredData = priceData.filter(item =>
@@ -573,6 +715,140 @@ export const getCropLocationPrices = async (req, res, next) => {
           limit: locations.length
         }
       }
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// 智能篩選熱門作物並顯示休市狀態
+function smartFilterWithRestStatus(rawData) {
+  console.log(`📊 原始資料: ${rawData.length} 筆`)
+  
+  // 直接篩選：移除不需要的記錄
+  const filtered = rawData.filter(item => {
+    // 1. 移除休市記錄
+    if (item.cropName === '休市') {
+      return false
+    }
+    
+    // 2. 移除交易量為0的記錄
+    if (item.volume === 0) {
+      return false
+    }
+    
+    // 3. 移除交易量過小的記錄
+    if (item.volume < 1000) {
+      return false
+    }
+    
+    // 4. 移除價格異常的記錄
+    if (item.prices.average <= 0) {
+      return false
+    }
+    
+    // 5. 移除"其他"分類
+    if (item.cropName.includes('其他')) {
+      return false
+    }
+    
+    // 6. 移除"改良種"分類
+    if (item.cropName.includes('改良種')) {
+      return false
+    }
+    
+    return true
+  })
+  
+  console.log(`📊 篩選後: ${filtered.length} 筆`)
+  console.log(`📊 減少: ${Math.round((1 - filtered.length / rawData.length) * 100)}%`)
+  
+  return {
+    data: filtered,
+    stats: {
+      totalRecords: rawData.length,
+      filteredRecords: filtered.length,
+      reductionRate: Math.round((1 - filtered.length / rawData.length) * 100)
+    }
+  }
+}
+
+// 新的API：取得熱門作物狀態（包含休市資訊）
+export const getPopularCropsWithStatus = async (req, res, next) => {
+  try {
+    const { refresh } = req.query
+
+    console.log('🌾 取得熱門作物狀態...')
+
+    // 修正：使用 fetchPriceData 而不是 fetchPriceDataFromMOA
+    const priceData = await fetchPriceData(refresh === 'true')
+    const result = smartFilterWithRestStatus(priceData)
+
+    console.log(`✅ 成功處理 ${result.stats.filteredRecords} 筆熱門作物記錄`)
+
+    res.json({
+      success: true,
+      data: result.data,
+      stats: result.stats,
+      message: `成功取得 ${result.stats.popularCrops} 種熱門作物狀態`,
+      timestamp: new Date().toISOString(),
+      cached: refresh !== 'true'
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// 新的API：取得熱門作物清單
+export const getPopularCropsList = async (req, res, next) => {
+  try {
+    const { refresh } = req.query
+
+    console.log('📋 取得熱門作物清單...')
+
+    const priceData = await fetchPriceData(refresh === 'true')
+    const normalRecords = priceData.filter(item => item.cropName !== '休市')
+    
+    // 計算作物平均交易量
+    const cropGroups = {}
+    normalRecords.forEach(item => {
+      const crop = item.cropName
+      if (!cropGroups[crop]) {
+        cropGroups[crop] = []
+      }
+      cropGroups[crop].push(item.volume || 0)
+    })
+    
+    const cropAverages = Object.keys(cropGroups).map(crop => {
+      const volumes = cropGroups[crop]
+      const average = volumes.reduce((sum, vol) => sum + vol, 0) / volumes.length
+      return {
+        name: crop,
+        averageVolume: Math.round(average * 100) / 100,
+        recordCount: volumes.length,
+        isPopular: average > 100
+      }
+    }).sort((a, b) => b.averageVolume - a.averageVolume)
+
+    const popularCrops = cropAverages.filter(crop => crop.isPopular)
+    const otherCrops = cropAverages.filter(crop => !crop.isPopular)
+
+    console.log(`📊 熱門作物: ${popularCrops.length} 種`)
+    console.log(`�� 其他作物: ${otherCrops.length} 種`)
+
+    res.json({
+      success: true,
+      data: {
+        popularCrops,
+        otherCrops,
+        summary: {
+          totalCrops: cropAverages.length,
+          popularCount: popularCrops.length,
+          otherCount: otherCrops.length
+        }
+      },
+      message: `找到 ${popularCrops.length} 種熱門作物`,
+      timestamp: new Date().toISOString()
     })
   } catch (error) {
     next(error)
