@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "ttl": 172800000,
+  "ttl": 86400000,
   "maxRetries": 3,
-  "lastUpdate": "2025-09-21T15:32:42.924Z"
+  "lastUpdate": "2025-09-20T16:03:42.085Z"
 }
