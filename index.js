@@ -5,6 +5,7 @@ import { StatusCodes } from 'http-status-codes'
 
 // 引入路由
 import farmRoutes from './routes/farms.js'
+import educationRoutes from './routes/education.js'
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
@@ -17,19 +18,20 @@ app.use(express.json())
 
 // 路由
 app.use('/api', farmRoutes)
+app.use('/api/education', educationRoutes)
 
 // 錯誤處理中間件
 app.use(errorHandler)
 
-// // 404 處理 - 使用 Express 5.x 正確語法
-// app.use('*', (req, res) => {
-//   res.status(StatusCodes.NOT_FOUND).json({
-//     success: false,
-//     message: '找不到該路由',
-//     path: req.originalUrl
-//   })
-// })
-
+// 健康檢查
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: '農業計畫後端服務正常運行',
+    timestamp: new Date().toISOString(),
+    version: '1.0.0'
+  })
+})
 
 const PORT = process.env.PORT || 4000
 app.listen(PORT, () => {
@@ -37,5 +39,6 @@ app.listen(PORT, () => {
   console.log('可用路由：')
   console.log('  GET /api/accessible-farms - 取得所有無障礙休閒農場')
   console.log('  GET /api/accessible-farms/:county - 根據縣市篩選農場')
-  console.log('  GET / - 健康檢查')
+  console.log('  GET /api/education/categories - 取得教育資源分類')
+  console.log('  GET /api/education/data/:category - 取得特定分類的教育資源資料')
 })
