@@ -292,7 +292,7 @@ export const getEducationCategories = async (req, res, next) => {
       {
         id: 'aquaculture',
         name: '水產知識淺說',
-        icon: '��',
+        icon: '🐟',
         description: '水產知識小遊戲'
       },
       {

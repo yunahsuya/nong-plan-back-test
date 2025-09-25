@@ -1,8 +1,0 @@
-{
-  "enabled": true,
-  "ttl": 3600000,
-  "maxRetries": 3,
-  "lastUpdate": "2025-09-25T04:54:20.046Z",
-  "category": "varieties",
-  "dataCount": 119
-}
