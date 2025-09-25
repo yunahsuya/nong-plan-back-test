@@ -9,11 +9,9 @@ const __dirname = path.dirname(__filename)
 
 // 教育資源 API URLs
 const EDUCATION_APIS = {
-  market: 'https://data.moa.gov.tw/Service/OpenData/MarketUnitData.aspx?IsTransData=1&UnitId=178',
   product: 'https://data.moa.gov.tw/Service/OpenData/MemberProductData.aspx?IsTransData=1&UnitId=173',
   aquaculture: 'https://data.moa.gov.tw/Service/OpenData/Tfrin.aspx?key=1200&IsTransData=1&UnitId=373',
-  varieties: 'https://data.moa.gov.tw/Service/OpenData/Tarivariety.aspx?IsTransData=1&UnitId=356',
-  waste: 'https://data.moenv.gov.tw/api/v2/wr_p_56?api_key=540e2ca4-41e1-4186-8497-fdd67024ac44&limit=1000&sort=ImportDate%20desc&format=JSON'
+  varieties: 'https://data.moa.gov.tw/Service/OpenData/Tarivariety.aspx?IsTransData=1&UnitId=356'
 }
 
 // 快取檔案路徑
@@ -70,6 +68,12 @@ function transformEducationData(rawData, category) {
     }
   }
 
+  // 添加調試資訊來查看原始資料結構
+  if (rawData && rawData.length > 0) {
+    console.log(`🔍 ${category} 原始資料範例:`, JSON.stringify(rawData[0], null, 2))
+    console.log(` ${category} 原始資料欄位:`, Object.keys(rawData[0]))
+  }
+
   return rawData.map((item, index) => {
     const baseItem = {
       id: `${category}-${index}`,
@@ -78,72 +82,50 @@ function transformEducationData(rawData, category) {
 
     // 根據不同分類處理不同的欄位
     switch (category) {
-      case 'market':
-        return {
-          ...baseItem,
-          name: item.Name || item.name || '未命名',
-          tel: item.Tel || item.tel || '',
-          county: item.County || item.county || '',
-          address: item.Address || item.address || '',
-          website: item.Website || item.website || '',
-          hours: item.Hours || item.hours || '',
-          coordinates: {
-            longitude: parseFloat(item.Longitude || item.longitude) || 0,
-            latitude: parseFloat(item.Latitude || item.latitude) || 0
-          }
-        }
-      
       case 'product':
         return {
           ...baseItem,
-          name: item.Name || item.name || '未命名',
-          tel: item.Tel || item.tel || '',
-          county: item.County || item.county || '',
-          address: item.Address || item.address || '',
-          website: item.Website || item.website || '',
-          coordinates: {
-            longitude: parseFloat(item.Longitude || item.longitude) || 0,
-            latitude: parseFloat(item.Latitude || item.latitude) || 0
-          }
+          // 產品名稱
+          crop: item.crop || item.產品名稱 || item.產品名 || '未命名產品',
+          // 安全等級/驗證標章
+          verify_marker: item.verify_marker || item.安全等級 || item.驗證標章 || '',
+          // 月供貨量（公斤）
+          yield: item.yield || item.月供貨量 || 0,
+         // 產季（月份）
+         season: (() => {
+          const seasonValue = item.season || item.產季 || ''
+          return seasonValue === '13' ? '全年' : seasonValue
+        })(),
+          // 最小出貨量（公斤）
+          shipments_min: item.shipments_min || item.最小出貨量 || 0,
+          
+          // 連結到農民學院官方搜尋頁面
+    url: `https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=${encodeURIComponent(item.crop || item.產品名稱 || '')}`,
+   
         }
       
       case 'aquaculture':
         return {
           ...baseItem,
-          name: item.Name || item.name || '未命名',
-          description: item.Description || item.description || '',
-          gameType: item.GameType || item.gameType || '',
+          name: item.遊戲名稱 || item.名稱 || item.Name || item.name || item.GameName || item.gameName || '未命名',
+          description: item.描述 || item.說明 || item.Description || item.description || '',
+          gameType: item.遊戲類型 || item.類型 || item.GameType || item.gameType || '',
           coordinates: {
-            longitude: parseFloat(item.Longitude || item.longitude) || 0,
-            latitude: parseFloat(item.Latitude || item.latitude) || 0
+            longitude: parseFloat(item.經度 || item.Longitude || item.longitude) || 0,
+            latitude: parseFloat(item.緯度 || item.Latitude || item.latitude) || 0
           }
         }
       
       case 'varieties':
         return {
           ...baseItem,
-          name: item.Name || item.name || '未命名',
-          varietyName: item.VarietyName || item.varietyName || '',
-          cropType: item.CropType || item.cropType || '',
-          description: item.Description || item.description || '',
+          name: item.品種名稱 || item.品種名 || item.Name || item.name || item.VarietyName || item.varietyName || item.CropType || item.cropType || '未命名品種',
+          varietyName: item.品種名稱 || item.VarietyName || item.varietyName || '',
+          cropType: item.作物類型 || item.作物種類 || item.CropType || item.cropType || '',
+          description: item.品種特性 || item.描述 || item.Description || item.description || '',
           coordinates: {
-            longitude: parseFloat(item.Longitude || item.longitude) || 0,
-            latitude: parseFloat(item.Latitude || item.latitude) || 0
-          }
-        }
-      
-      case 'waste':
-        return {
-          ...baseItem,
-          name: item.Name || item.name || '未命名',
-          organizationType: item.OrganizationType || item.organizationType || '',
-          wasteType: item.WasteType || item.wasteType || '',
-          address: item.Address || item.address || '',
-          tel: item.Tel || item.tel || '',
-          website: item.Website || item.website || '',
-          coordinates: {
-            longitude: parseFloat(item.Longitude || item.longitude) || 0,
-            latitude: parseFloat(item.Latitude || item.latitude) || 0
+            longitude: parseFloat(item.經度 || item.Longitude || item.longitude) || 0,
+            latitude: parseFloat(item.緯度 || item.Latitude || item.latitude) || 0
           }
         }
       
@@ -302,12 +284,6 @@ export const getEducationCategories = async (req, res, next) => {
   try {
     const categories = [
       {
-        id: 'market',
-        name: '農民學院找通路',
-        icon: '🏪',
-        description: '農民市集與通路資訊'
-      },
-      {
         id: 'product',
         name: '農民學院找產品',
         icon: '🌾',
@@ -324,12 +300,6 @@ export const getEducationCategories = async (req, res, next) => {
         name: '農業試驗所品種介紹',
         icon: '🌱',
         description: '農作品種介紹與資訊'
-      },
-      {
-        id: 'waste',
-        name: '農業廢棄物再利用',
-        icon: '♻️',
-        description: '廢棄物再利用機構'
       }
     ]
     

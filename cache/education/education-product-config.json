@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "ttl": 3600000,
+  "maxRetries": 3,
+  "lastUpdate": "2025-09-25T04:48:47.223Z",
+  "category": "product",
+  "dataCount": 27
+}
