@@ -248,25 +248,5 @@
     "season": "05,06,07,08",
     "shipments_min": 77425,
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E9%B3%B3%E6%A2%A8"
-  },
-  {
-    "id": "product-25",
-    "category": "product",
-    "crop": "葉用甘藷(地瓜葉)",
-    "verify_marker": "TAP",
-    "yield": 180000,
-    "season": "全年",
-    "shipments_min": 300,
-    "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E8%91%89%E7%94%A8%E7%94%98%E8%97%B7(%E5%9C%B0%E7%93%9C%E8%91%89)"
-  },
-  {
-    "id": "product-26",
-    "category": "product",
-    "crop": "水蕹菜",
-    "verify_marker": "TAP",
-    "yield": 20000,
-    "season": "03,04,05,06,07,08,09,10,11",
-    "shipments_min": 50,
-    "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%B0%B4%E8%95%B9%E8%8F%9C"
   }
 ]

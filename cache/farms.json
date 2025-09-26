@@ -1,0 +1,346 @@
+[
+  {
+    "name": "頭城休閒農場",
+    "countyName": "宜蘭縣",
+    "township": "頭城鎮",
+    "address": {
+      "chinese": "宜蘭縣頭城鎮更新路125號"
+    },
+    "website": "https://www.tcfarm.com.tw",
+    "coordinates": {
+      "longitude": 121.849468,
+      "latitude": 24.907147
+    },
+    "accessibleItems": [
+      "無障礙廁所",
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "南投縣大雁休閒農業區",
+    "countyName": "南投縣",
+    "township": "魚池鄉",
+    "address": {
+      "chinese": "南投縣魚池鄉大雁村大雁巷36-1號"
+    },
+    "website": "http://www.gont.com.tw/da-yan-xiu-xian-nong-ye-qu",
+    "coordinates": {
+      "longitude": 120.92087,
+      "latitude": 23.923606
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "南投縣桃米休閒農業區",
+    "countyName": "南投縣",
+    "township": "埔里鎮",
+    "address": {
+      "chinese": "南投縣埔里鎮桃米里桃米巷5-6號"
+    },
+    "website": "http://www.gont.com.tw/tao-mi-xiu-xian-nong-ye-qu",
+    "coordinates": {
+      "longitude": 120.941944,
+      "latitude": 23.939693
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "高雄市民生休閒農業區",
+    "countyName": "高雄市",
+    "township": "那瑪夏區",
+    "address": {
+      "chinese": "高雄市那瑪夏區達卡奴瓦里大光巷230號"
+    },
+    "website": "http://namasia.kcg.gov.tw/index.php?zone=page1_01_detail.php&no=146&class=2",
+    "coordinates": {
+      "longitude": 120.695607,
+      "latitude": 23.195993
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "宜蘭縣橫山頭休閒農業區",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山向尚德村八甲路15之1號"
+    },
+    "website": "http://yuanshan.17high.com.tw/Hala/",
+    "coordinates": {
+      "longitude": 121.716266,
+      "latitude": 24.730398
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙電梯"
+    ]
+  },
+  {
+    "name": "宜蘭縣天送埤休閒農業區",
+    "countyName": "宜蘭縣",
+    "township": "三星鄉",
+    "address": {
+      "chinese": "宜蘭縣三星鄉天山村下湖路1號"
+    },
+    "website": "http://song.sunshin.org.tw/",
+    "coordinates": {
+      "longitude": 121.628332,
+      "latitude": 24.656365
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "苗栗縣福興南和休閒農業區",
+    "countyName": "苗栗縣",
+    "township": "通霄鎮",
+    "address": {
+      "chinese": "苗栗縣通霄鎮南和里166號"
+    },
+    "website": "http://www.lohas-tongxiao.com.tw/",
+    "coordinates": {
+      "longitude": 120.740487,
+      "latitude": 24.443004
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙停車位"
+    ]
+  },
+  {
+    "name": "苗栗南江休閒農業區",
+    "countyName": "苗栗縣",
+    "township": "南庄鄉",
+    "address": {
+      "chinese": "苗栗縣南庄鄉南江村小東河14鄰8號-3"
+    },
+    "website": "https://www.facebook.com/pages/%E8%8B%97%E6%A0%97%E7%B8%A3%E5%8D%97%E5%BA%84%E9%84%89%E5%8D%97%E6%B1",
+    "coordinates": {
+      "longitude": 120.996814,
+      "latitude": 24.587553
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙停車位"
+    ]
+  },
+  {
+    "name": "臺中市食水嵙休閒農業區",
+    "countyName": "台中市",
+    "township": "石岡區",
+    "address": {
+      "chinese": "台中市石岡區豐勢路881號"
+    },
+    "website": "http://ezgo.ardswc.gov.tw/Attraction.aspx?134d9fc7-446b-4d25-b85d-6913f46dfca1",
+    "coordinates": {
+      "longitude": 120.789029,
+      "latitude": 24.27383
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "南投縣糯米橋休閒農業區",
+    "countyName": "南投縣",
+    "township": "國姓鄉",
+    "address": {
+      "chinese": "南投縣國姓鄉國姓路62號-1"
+    },
+    "website": "https://www.facebook.com/NuomiBridge",
+    "coordinates": {
+      "longitude": 120.911646,
+      "latitude": 24.057227
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "雲林縣金湖休閒農業區",
+    "countyName": "雲林縣",
+    "township": "口湖鄉",
+    "address": {
+      "chinese": "雲林縣口湖鄉崇文路2段402巷50號"
+    },
+    "website": "http://www.yoyo164.com.tw/",
+    "coordinates": {
+      "longitude": 120.176974,
+      "latitude": 23.581647
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "勝洋休閒農場",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山鄉尚德村八甲路15-6號"
+    },
+    "website": "https://www.sy-water.com.tw",
+    "coordinates": {
+      "longitude": 121.705748,
+      "latitude": 24.727973
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "宜蘭縣枕頭山休閒農業區",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "address": {
+      "chinese": "宜蘭縣員山鄉枕山村波城路69號"
+    },
+    "website": "http://www.ete.com.tw/play/",
+    "coordinates": {
+      "longitude": 121.713646,
+      "latitude": 24.766651
+    },
+    "accessibleItems": [
+      "無障礙廁所",
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "臺東金針山休閒農業區",
+    "countyName": "台東縣",
+    "township": "太麻里",
+    "address": {
+      "chinese": "台東縣太麻里鄉大王村佳崙202號"
+    },
+    "website": "http://tour.taitung.gov.tw/zh-tw/Travel/ScenicSpot/345/%E9%87%91%E9%87%9D%E5%B1%B1%E4%BC%91%E9%96%92",
+    "coordinates": {
+      "longitude": 120.953212,
+      "latitude": 22.554056
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "雪霸休閒農場",
+    "countyName": "新竹縣",
+    "township": "五峰鄉",
+    "address": {
+      "chinese": "新竹縣五峰鄉桃山村民石380號"
+    },
+    "website": "https://www.sheipa.com.tw",
+    "coordinates": {
+      "longitude": 121.117167,
+      "latitude": 24.527875
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "魔菇部落休閒農場",
+    "countyName": "彰化縣",
+    "township": "埔心鄉",
+    "address": {
+      "chinese": "彰化縣埔心鄉埤腳村柳橋東路829號"
+    },
+    "website": "https://www.mushrooms.com.tw",
+    "coordinates": {
+      "longitude": 120.520925,
+      "latitude": 23.974009
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "走馬瀨休閒農場",
+    "countyName": "台南市",
+    "township": "大內區",
+    "address": {
+      "chinese": "台南市大內區二溪里其子瓦60號"
+    },
+    "website": "https://www.farm.com.tw",
+    "coordinates": {
+      "longitude": 120.429941,
+      "latitude": 23.136504
+    },
+    "accessibleItems": [
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "彰化休閒農場",
+    "countyName": "彰化縣",
+    "township": "溪州鄉",
+    "address": {
+      "chinese": "彰化縣溪州鄉中央路三段138號"
+    },
+    "website": "http://www.chcg.gov.tw/agriculture/07other/other01_con.asp?topsn=17&data_id=10238",
+    "coordinates": {
+      "longitude": 120.496348,
+      "latitude": 23.842461
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "新竹照門休閒農業區",
+    "countyName": "新竹縣",
+    "township": "新埔鎮",
+    "address": {
+      "chinese": "新竹縣新埔鎮中正路776號"
+    },
+    "website": "http://ezgo.ardswc.gov.tw/Attraction.aspx?27de3bc4-4189-4a3b-bf18-11556e971afd",
+    "coordinates": {
+      "longitude": 121.105941,
+      "latitude": 24.850753
+    },
+    "accessibleItems": [
+      "無障礙坡道",
+      "無障礙廁所"
+    ]
+  },
+  {
+    "name": "苗栗縣舊山線休閒農業區",
+    "countyName": "苗栗縣",
+    "township": "三義鄉",
+    "address": {
+      "chinese": "苗栗縣三義鄉龍騰村外庄10號"
+    },
+    "website": "https://www.facebook.com/881oml",
+    "coordinates": {
+      "longitude": 120.778048,
+      "latitude": 24.361093
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  },
+  {
+    "name": "臺中市馬力埔休閒農業區",
+    "countyName": "台中市",
+    "township": "新社區",
+    "address": {
+      "chinese": "台中市新社區新社里中和街四段226號"
+    },
+    "website": "http://www.mlp-farm.com/",
+    "coordinates": {
+      "longitude": 120.808245,
+      "latitude": 24.24367
+    },
+    "accessibleItems": [
+      "無障礙坡道"
+    ]
+  }
+]

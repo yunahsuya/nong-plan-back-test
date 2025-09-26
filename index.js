@@ -5,7 +5,7 @@ import { StatusCodes } from 'http-status-codes'
 
 // 引入路由
 import farmRoutes from './routes/farms.js'
-import educationRoutes from './routes/education.js'
+import educationRoutes from './routes/education.js'  // 修改這一行
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'

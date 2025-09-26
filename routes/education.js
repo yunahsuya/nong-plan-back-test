@@ -1,20 +1,21 @@
 import express from 'express'
-import { 
-  getEducationData, 
-  getEducationCategories, 
-  clearEducationCache, 
-  refreshEducationCache 
-} from '../controllers/educationController.js'
+import categoriesRouter from './education/categories.js'
+import dataRouter from './education/data.js'
+import productRouter from './education/product.js'        // 修改這裡
+import aquacultureRouter from './education/aquaculture.js' // 修改這裡
+import varietiesRouter from './education/varieties.js'    // 修改這裡
 
 const router = express.Router()
 
-// 教育資源 API
-router.get('/categories', getEducationCategories)
-router.get('/data/:category', getEducationData)
+// 分類 API
+router.use('/categories', categoriesRouter)  // /api/education/categories
 
-// 快取管理 API
-router.delete('/cache', clearEducationCache)
-router.post('/cache/refresh', refreshEducationCache) // 重新整理所有分類
-router.post('/cache/refresh/:category', refreshEducationCache) // 重新整理特定分類
+// 兼容舊 API 的路由
+router.use('/data', dataRouter)              // /api/education/data/:category
+
+// 各 API 的獨立路由
+router.use('/product', productRouter)        // /api/education/product/*
+router.use('/aquaculture', aquacultureRouter) // /api/education/aquaculture/*
+router.use('/varieties', varietiesRouter)    // /api/education/varieties/*
 
 export default router
