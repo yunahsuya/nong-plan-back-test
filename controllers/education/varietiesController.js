@@ -1,20 +1,14 @@
 import { StatusCodes } from 'http-status-codes'
 import axios from 'axios'
-import fs from 'fs/promises'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import { varietiesModel } from '../../index.js'  // 從主程式匯入
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
 
-// 品種 API 配置
+// API 配置
 const VARIETIES_API_URL = 'https://data.moa.gov.tw/Service/OpenData/Tarivariety.aspx?IsTransData=1&UnitId=356'
-// 路徑
-const CACHE_DIR = path.join(__dirname, '../../cache/education')
-const CACHE_FILE = path.join(CACHE_DIR, 'varieties.json')
-const CACHE_CONFIG_FILE = path.join(CACHE_DIR, 'varieties-config.json')
 
-// 從農業部 API 取得品種原始資料
+/**
+ * 從農業部 API 取得品種原始資料
+ */
 async function fetchRawVarietiesData() {
   try {
     console.log('🌱 正在從農業部 API 取得品種資料...')
@@ -39,114 +33,41 @@ async function fetchRawVarietiesData() {
   }
 }
 
-// 轉換品種資料格式
-function transformVarietiesData(rawData) {
-  if (!Array.isArray(rawData)) {
-    if (rawData.data && Array.isArray(rawData.data)) {
-      rawData = rawData.data
-    } else {
-      return [rawData]
-    }
-  }
-
-  return rawData.map((item, index) => ({
-    id: `varieties-${index}`,
-    category: 'varieties',
-    title: item.title || item.品種名稱 || item.品種名 || '未命名品種',
-    link: item.link || item.Link || '',
-    pubDate: item.pubDate || item.作物類型 || item.作物種類 || '',
-    description: item.description || item.品種特性 || item.描述 || item.Description || ''
-  }))
-}
-
-// 儲存品種資料到快取
-async function saveVarietiesToCache(data) {
-  try {
-    await fs.mkdir(CACHE_DIR, { recursive: true })
-    
-    const jsonData = JSON.stringify(data, null, 2)
-    if (jsonData.length > 20 * 1024 * 1024) {
-      throw new Error('Cache data too large')
-    }
-    await fs.writeFile(CACHE_FILE, jsonData, 'utf8')
-
-    const cacheConfig = {
-      enabled: true,
-      ttl: 3600000, // 1 小時
-      lastUpdate: new Date().toISOString(),
-      dataCount: data.length
-    }
-    await fs.writeFile(CACHE_CONFIG_FILE, JSON.stringify(cacheConfig, null, 2), 'utf8')
-    
-    console.log('�� 品種資料已儲存到快取檔案')
-  } catch (error) {
-    console.error('❌ 儲存品種快取檔案失敗:', error.message)
-    throw error
-  }
-}
-
-// 從快取讀取品種資料
-async function loadVarietiesFromCache() {
-  try {
-    const data = await fs.readFile(CACHE_FILE, 'utf8')
-    return JSON.parse(data)
-  } catch (error) {
-    console.log('⚠️ 無法讀取品種快取檔案')
-    return null
-  }
-}
-
-// 檢查品種快取是否有效
-async function isVarietiesCacheValid() {
-  try {
-    const configData = await fs.readFile(CACHE_CONFIG_FILE, 'utf8')
-    const config = JSON.parse(configData)
-    
-    if (!config.enabled) return false
-    
-    const lastUpdate = new Date(config.lastUpdate)
-    const now = new Date()
-    const ttl = config.ttl || 3600000
-    
-    return (now - lastUpdate) < ttl
-  } catch (error) {
-    return false
-  }
-}
-
-// 取得品種資料（主要函數）
+/**
+ * 取得品種資料（主要函數）
+ */
 async function fetchVarietiesData(forceRefresh = false) {
   try {
     // 如果不是強制重新整理，優先嘗試使用快取資料
     if (!forceRefresh) {
-      const cachedData = await loadVarietiesFromCache()
-      if (cachedData) {
+      try {
+        const cachedData = await varietiesModel.getAll()
         console.log('📦 使用品種快取資料')
         return cachedData
+      } catch (error) {
+        console.log('⚠️ 沒有快取資料，將從 API 取得')
       }
     }
     
     // 從 API 取得資料
-    console.log('�� 嘗試從農業部 API 取得品種資料...')
+    console.log('🌱 嘗試從農業部 API 取得品種資料...')
     try {
       const rawData = await fetchRawVarietiesData()
-      const transformedData = transformVarietiesData(rawData)
-      
-      await saveVarietiesToCache(transformedData)
+      const processedData = await varietiesModel.processData(rawData)
       
       console.log('✅ 成功從 API 取得並快取品種資料')
-      return transformedData
+      return processedData
     } catch (apiError) {
       console.log(`⚠️ API 失敗: ${apiError.message}`)
       
       // API 失敗時，嘗試使用快取資料
-      const cachedData = await loadVarietiesFromCache()
-      if (cachedData) {
+      try {
+        const cachedData = await varietiesModel.getAll()
         console.log('📦 API 失敗，使用品種快取資料作為備案')
         return cachedData
+      } catch (cacheError) {
+        throw new Error('無法取得品種資料：API 不可用且無快取資料')
       }
-      
-      throw new Error('無法取得品種資料：API 不可用且無快取資料')
     }
   } catch (error) {
     console.error('❌ 取得品種資料完全失敗:', error.message)
@@ -159,18 +80,37 @@ async function fetchVarietiesData(forceRefresh = false) {
 // GET /api/education/varieties - 取得品種資料
 export const getVarieties = async (req, res, next) => {
   try {
-    const { refresh } = req.query
+    const { refresh, search, limit, offset } = req.query
     
-    console.log('�� 開始取得品種資料...')
+    console.log('🌱 開始取得品種資料...')
     
-    const data = await fetchVarietiesData(refresh === 'true')
+    let data
+    if (search) {
+      // 搜尋功能
+      const searchCriteria = JSON.parse(search)
+      data = await varietiesModel.search(searchCriteria)
+    } else {
+      // 取得所有資料
+      data = await fetchVarietiesData(refresh === 'true')
+    }
     
-    console.log(`✅ 成功取得 ${data.length} 筆品種資料`)
+    // 分頁處理
+    const startIndex = parseInt(offset) || 0
+    const endIndex = startIndex + (parseInt(limit) || data.length)
+    const paginatedData = data.slice(startIndex, endIndex)
+    
+    console.log(`✅ 成功取得 ${paginatedData.length} 筆品種資料`)
     
     res.json({
       success: true,
-      data: data,
-      message: `成功取得 ${data.length} 筆品種資料`,
+      data: paginatedData,
+      pagination: {
+        total: data.length,
+        limit: parseInt(limit) || data.length,
+        offset: startIndex,
+        hasMore: endIndex < data.length
+      },
+      message: `成功取得 ${paginatedData.length} 筆品種資料`,
       timestamp: new Date().toISOString(),
       cached: refresh !== 'true'
     })
@@ -184,10 +124,9 @@ export const getVarietyById = async (req, res, next) => {
   try {
     const { id } = req.params
     
-    const allVarieties = await fetchVarietiesData()
-    const variety = allVarieties.find(v => v.id === id)
+    const item = await varietiesModel.getById(id)
     
-    if (!variety) {
+    if (!item) {
       return res.status(StatusCodes.NOT_FOUND).json({
         success: false,
         message: '找不到指定的品種'
@@ -196,8 +135,52 @@ export const getVarietyById = async (req, res, next) => {
     
     res.json({
       success: true,
-      data: variety,
+      data: item,
       message: '成功取得品種資料'
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// GET /api/education/varieties/search - 搜尋品種資料
+export const searchVarieties = async (req, res, next) => {
+  try {
+    const { title, pubDate, description } = req.query
+    
+    console.log('🔍 開始搜尋品種資料...')
+    
+    const searchCriteria = {}
+    if (title) searchCriteria.title = title
+    if (pubDate) searchCriteria.pubDate = pubDate
+    if (description) searchCriteria.description = description
+    
+    const results = await varietiesModel.search(searchCriteria)
+    
+    console.log(`✅ 搜尋完成，找到 ${results.length} 筆結果`)
+    
+    res.json({
+      success: true,
+      data: results,
+      message: `搜尋完成，找到 ${results.length} 筆結果`,
+      searchCriteria
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// GET /api/education/varieties/statistics - 取得品種統計
+export const getVarietiesStatistics = async (req, res, next) => {
+  try {
+    console.log('📊 取得品種統計...')
+    
+    const statistics = await varietiesModel.getStatistics()
+    
+    res.json({
+      success: true,
+      data: statistics,
+      message: '成功取得品種統計'
     })
   } catch (error) {
     next(error)
@@ -209,25 +192,7 @@ export const clearVarietiesCache = async (req, res, next) => {
   try {
     console.log('🗑️ 正在清除品種快取...')
     
-    await fs.mkdir(CACHE_DIR, { recursive: true })
-    
-    try {
-      await fs.unlink(CACHE_FILE)
-      console.log('✅ 品種資料快取已清除')
-    } catch (error) {
-      if (error.code !== 'ENOENT') {
-        throw error
-      }
-    }
-    
-    try {
-      await fs.unlink(CACHE_CONFIG_FILE)
-      console.log('✅ 品種快取配置已清除')
-    } catch (error) {
-      if (error.code !== 'ENOENT') {
-        throw error
-      }
-    }
+    await varietiesModel.clearCache()
     
     res.json({
       success: true,
@@ -258,17 +223,11 @@ export const refreshVarietiesCache = async (req, res, next) => {
 // GET /api/education/varieties/cache/status - 取得品種快取狀態
 export const getVarietiesCacheStatus = async (req, res, next) => {
   try {
-    const isValid = await isVarietiesCacheValid()
-    const cachedData = await loadVarietiesFromCache()
+    const status = await varietiesModel.getCacheStatus()
     
     res.json({
       success: true,
-      data: {
-        isValid,
-        hasCache: !!cachedData,
-        dataCount: cachedData ? cachedData.length : 0,
-        lastUpdate: cachedData ? (await fs.readFile(CACHE_CONFIG_FILE, 'utf8').then(data => JSON.parse(data).lastUpdate)) : null
-      },
+      data: status,
       message: '成功取得品種快取狀態'
     })
   } catch (error) {

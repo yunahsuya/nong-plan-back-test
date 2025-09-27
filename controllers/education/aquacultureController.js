@@ -1,19 +1,13 @@
 import { StatusCodes } from 'http-status-codes'
 import axios from 'axios'
-import fs from 'fs/promises'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import { aquacultureModel } from '../../index.js'  // 從主程式匯入
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-
-// 水產 API 配置
+// API 配置
 const AQUACULTURE_API_URL = 'https://data.moa.gov.tw/Service/OpenData/Tfrin.aspx?key=1200&IsTransData=1&UnitId=373'
-const CACHE_DIR = path.join(__dirname, '../../cache/education')
-const CACHE_FILE = path.join(CACHE_DIR, 'aquaculture.json')
-const CACHE_CONFIG_FILE = path.join(CACHE_DIR, 'aquaculture-config.json')
 
-// 從農業部 API 取得水產原始資料
+/**
+ * 從農業部 API 取得原始資料
+ */
 async function fetchRawAquacultureData() {
   try {
     console.log('🐟 正在從農業部 API 取得水產資料...')
@@ -38,119 +32,41 @@ async function fetchRawAquacultureData() {
   }
 }
 
-// 轉換水產資料格式
-function transformAquacultureData(rawData) {
-  if (!Array.isArray(rawData)) {
-    if (rawData.data && Array.isArray(rawData.data)) {
-      rawData = rawData.data
-    } else {
-      return [rawData]
-    }
-  }
-
-  return rawData.map((item, index) => ({
-    id: `aquaculture-${index}`,
-    category: 'aquaculture',
-    title: item.遊戲名稱 || item.名稱 || item.title || item.title || item.title || item.title || '未命名',
-    description: item.描述 || item.說明 || item.Description || item.description || '',
-    link: item.遊戲類型 || item.類型 || item.link || item.link || '',
-    pubDate: item.遊戲類型 || item.類型 || item.pubDate || item.pubDate || '',
-
-    coordinates: {
-      longitude: parseFloat(item.經度 || item.Longitude || item.longitude) || 0,
-      latitude: parseFloat(item.緯度 || item.Latitude || item.latitude) || 0
-    }
-  }))
-}
-
-// 儲存水產資料到快取
-async function saveAquacultureToCache(data) {
-  try {
-    await fs.mkdir(CACHE_DIR, { recursive: true })
-    
-    const jsonData = JSON.stringify(data, null, 2)
-    if (jsonData.length > 20 * 1024 * 1024) {
-      throw new Error('Cache data too large')
-    }
-    await fs.writeFile(CACHE_FILE, jsonData, 'utf8')
-
-    const cacheConfig = {
-      enabled: true,
-      ttl: 3600000, // 1 小時
-      lastUpdate: new Date().toISOString(),
-      dataCount: data.length
-    }
-    await fs.writeFile(CACHE_CONFIG_FILE, JSON.stringify(cacheConfig, null, 2), 'utf8')
-    
-    console.log('�� 水產資料已儲存到快取檔案')
-  } catch (error) {
-    console.error('❌ 儲存水產快取檔案失敗:', error.message)
-    throw error
-  }
-}
-
-// 從快取讀取水產資料
-async function loadAquacultureFromCache() {
-  try {
-    const data = await fs.readFile(CACHE_FILE, 'utf8')
-    return JSON.parse(data)
-  } catch (error) {
-    console.log('⚠️ 無法讀取水產快取檔案')
-    return null
-  }
-}
-
-// 檢查水產快取是否有效
-async function isAquacultureCacheValid() {
-  try {
-    const configData = await fs.readFile(CACHE_CONFIG_FILE, 'utf8')
-    const config = JSON.parse(configData)
-    
-    if (!config.enabled) return false
-    
-    const lastUpdate = new Date(config.lastUpdate)
-    const now = new Date()
-    const ttl = config.ttl || 3600000
-    
-    return (now - lastUpdate) < ttl
-  } catch (error) {
-    return false
-  }
-}
-
-// 取得水產資料（主要函數）
+/**
+ * 取得水產資料（主要函數）
+ */
 async function fetchAquacultureData(forceRefresh = false) {
   try {
     // 如果不是強制重新整理，優先嘗試使用快取資料
     if (!forceRefresh) {
-      const cachedData = await loadAquacultureFromCache()
-      if (cachedData) {
+      try {
+        const cachedData = await aquacultureModel.getAll()
         console.log('📦 使用水產快取資料')
         return cachedData
+      } catch (error) {
+        console.log('⚠️ 沒有快取資料，將從 API 取得')
       }
     }
     
     // 從 API 取得資料
-    console.log('�� 嘗試從農業部 API 取得水產資料...')
+    console.log('🐟 嘗試從農業部 API 取得水產資料...')
     try {
       const rawData = await fetchRawAquacultureData()
-      const transformedData = transformAquacultureData(rawData)
-      
-      await saveAquacultureToCache(transformedData)
+      const processedData = await aquacultureModel.processData(rawData)
       
       console.log('✅ 成功從 API 取得並快取水產資料')
-      return transformedData
+      return processedData
     } catch (apiError) {
       console.log(`⚠️ API 失敗: ${apiError.message}`)
       
       // API 失敗時，嘗試使用快取資料
-      const cachedData = await loadAquacultureFromCache()
-      if (cachedData) {
+      try {
+        const cachedData = await aquacultureModel.getAll()
         console.log('📦 API 失敗，使用水產快取資料作為備案')
         return cachedData
+      } catch (cacheError) {
+        throw new Error('無法取得水產資料：API 不可用且無快取資料')
       }
-      
-      throw new Error('無法取得水產資料：API 不可用且無快取資料')
     }
   } catch (error) {
     console.error('❌ 取得水產資料完全失敗:', error.message)
@@ -163,18 +79,37 @@ async function fetchAquacultureData(forceRefresh = false) {
 // GET /api/education/aquaculture - 取得水產資料
 export const getAquaculture = async (req, res, next) => {
   try {
-    const { refresh } = req.query
+    const { refresh, search, limit, offset } = req.query
     
     console.log('🐟 開始取得水產資料...')
     
-    const data = await fetchAquacultureData(refresh === 'true')
+    let data
+    if (search) {
+      // 搜尋功能
+      const searchCriteria = JSON.parse(search)
+      data = await aquacultureModel.search(searchCriteria)
+    } else {
+      // 取得所有資料
+      data = await fetchAquacultureData(refresh === 'true')
+    }
     
-    console.log(`✅ 成功取得 ${data.length} 筆水產資料`)
+    // 分頁處理
+    const startIndex = parseInt(offset) || 0
+    const endIndex = startIndex + (parseInt(limit) || data.length)
+    const paginatedData = data.slice(startIndex, endIndex)
+    
+    console.log(`✅ 成功取得 ${paginatedData.length} 筆水產資料`)
     
     res.json({
       success: true,
-      data: data,
-      message: `成功取得 ${data.length} 筆水產資料`,
+      data: paginatedData,
+      pagination: {
+        total: data.length,
+        limit: parseInt(limit) || data.length,
+        offset: startIndex,
+        hasMore: endIndex < data.length
+      },
+      message: `成功取得 ${paginatedData.length} 筆水產資料`,
       timestamp: new Date().toISOString(),
       cached: refresh !== 'true'
     })
@@ -188,8 +123,7 @@ export const getAquacultureById = async (req, res, next) => {
   try {
     const { id } = req.params
     
-    const allAquaculture = await fetchAquacultureData()
-    const item = allAquaculture.find(a => a.id === id)
+    const item = await aquacultureModel.getById(id)
     
     if (!item) {
       return res.status(StatusCodes.NOT_FOUND).json({
@@ -208,30 +142,62 @@ export const getAquacultureById = async (req, res, next) => {
   }
 }
 
+// GET /api/education/aquaculture/search - 搜尋水產資料
+export const searchAquaculture = async (req, res, next) => {
+  try {
+    const { title, category, minLat, maxLat, minLng, maxLng } = req.query
+    
+    console.log('🔍 開始搜尋水產資料...')
+    
+    const searchCriteria = {}
+    if (title) searchCriteria.title = title
+    if (category) searchCriteria.category = category
+    if (minLat || maxLat || minLng || maxLng) {
+      searchCriteria.coordinates = {}
+      if (minLat) searchCriteria.coordinates.minLat = parseFloat(minLat)
+      if (maxLat) searchCriteria.coordinates.maxLat = parseFloat(maxLat)
+      if (minLng) searchCriteria.coordinates.minLng = parseFloat(minLng)
+      if (maxLng) searchCriteria.coordinates.maxLng = parseFloat(maxLng)
+    }
+    
+    const results = await aquacultureModel.search(searchCriteria)
+    
+    console.log(`✅ 搜尋完成，找到 ${results.length} 筆結果`)
+    
+    res.json({
+      success: true,
+      data: results,
+      message: `搜尋完成，找到 ${results.length} 筆結果`,
+      searchCriteria
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
+// GET /api/education/aquaculture/statistics - 取得水產資料統計
+export const getAquacultureStatistics = async (req, res, next) => {
+  try {
+    console.log('📊 取得水產資料統計...')
+    
+    const statistics = await aquacultureModel.getStatistics()
+    
+    res.json({
+      success: true,
+      data: statistics,
+      message: '成功取得水產資料統計'
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
 // DELETE /api/education/aquaculture/cache - 清除水產快取
 export const clearAquacultureCache = async (req, res, next) => {
   try {
     console.log('🗑️ 正在清除水產快取...')
     
-    await fs.mkdir(CACHE_DIR, { recursive: true })
-    
-    try {
-      await fs.unlink(CACHE_FILE)
-      console.log('✅ 水產資料快取已清除')
-    } catch (error) {
-      if (error.code !== 'ENOENT') {
-        throw error
-      }
-    }
-    
-    try {
-      await fs.unlink(CACHE_CONFIG_FILE)
-      console.log('✅ 水產快取配置已清除')
-    } catch (error) {
-      if (error.code !== 'ENOENT') {
-        throw error
-      }
-    }
+    await aquacultureModel.clearCache()
     
     res.json({
       success: true,
@@ -262,17 +228,11 @@ export const refreshAquacultureCache = async (req, res, next) => {
 // GET /api/education/aquaculture/cache/status - 取得水產快取狀態
 export const getAquacultureCacheStatus = async (req, res, next) => {
   try {
-    const isValid = await isAquacultureCacheValid()
-    const cachedData = await loadAquacultureFromCache()
+    const status = await aquacultureModel.getCacheStatus()
     
     res.json({
       success: true,
-      data: {
-        isValid,
-        hasCache: !!cachedData,
-        dataCount: cachedData ? cachedData.length : 0,
-        lastUpdate: cachedData ? (await fs.readFile(CACHE_CONFIG_FILE, 'utf8').then(data => JSON.parse(data).lastUpdate)) : null
-      },
+      data: status,
       message: '成功取得水產快取狀態'
     })
   } catch (error) {

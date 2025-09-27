@@ -3,9 +3,21 @@ import express from 'express'
 import cors from 'cors'
 import { StatusCodes } from 'http-status-codes'
 
+// 引入 Model 類別
+import { AquacultureModel } from './models/AquacultureModel.js'
+import { ProductModel } from './models/ProductModel.js'
+import { VarietiesModel } from './models/VarietiesModel.js'
+import { FarmModel } from './models/FarmModel.js'
+
+// 建立 Model 實例
+export const aquacultureModel = new AquacultureModel()
+export const productModel = new ProductModel()
+export const varietiesModel = new VarietiesModel()
+export const farmModel = new FarmModel()
+
 // 引入路由
 import farmRoutes from './routes/farms.js'
-import educationRoutes from './routes/education.js'  // 修改這一行
+import educationRoutes from './routes/education.js'
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
