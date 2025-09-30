@@ -8,12 +8,15 @@ import { AquacultureModel } from './models/AquacultureModel.js'
 import { ProductModel } from './models/ProductModel.js'
 import { VarietiesModel } from './models/VarietiesModel.js'
 import { FarmModel } from './models/FarmModel.js'
+import { OutdoorEduFarmModel } from './models/OutdoorEduFarmModel.js'
 
 // 建立 Model 實例
 export const aquacultureModel = new AquacultureModel()
 export const productModel = new ProductModel()
 export const varietiesModel = new VarietiesModel()
 export const farmModel = new FarmModel()
+export const outdoorEduFarmModel = new OutdoorEduFarmModel()
+
 
 // 引入路由
 import farmRoutes from './routes/farms.js'

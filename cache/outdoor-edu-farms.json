@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "outdoor-新北市平溪區農會-新北市",
+    "name": "新北市平溪區農會",
+    "address": "新北市平溪區嶺腳里中華街15號",
+    "tel": "02-2495-1051",
+    "website": "http://psfa.org.tw/default.htm",
+    "countyName": "新北市",
+    "township": "平溪區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "天燈釋放",
+      "竹玩製作",
+      "竹筒飯食"
+    ],
+    "accessibleItems": [
+      "天燈釋放",
+      "竹玩製作",
+      "竹筒飯食"
+    ],
+    "coordinates": {
+      "longitude": 121.742388,
+      "latitude": 25.024858
+    },
+    "facebook": "https://www.facebook.com/pages/%E6%96%B0%E5%8C%97%E5%B8%82%E5%B9%B3%E6%BA%AA%E5%8D%80%E8%BE%B2%E6%9C%83/1428871317334105?sk=info&tab=page_info",
+    "postalCode": "226"
+  },
+  {
+    "id": "outdoor-飛牛牧場-苗栗縣",
+    "name": "飛牛牧場",
+    "address": "苗栗縣通霄鎮南和166號",
+    "tel": "037-782999",
+    "website": "http://www.flyingcow.com.tw/",
+    "countyName": "苗栗縣",
+    "township": "通霄鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "環境教育",
+      "乳牛彩繪",
+      "餅乾製作"
+    ],
+    "accessibleItems": [
+      "環境教育",
+      "乳牛彩繪",
+      "餅乾製作"
+    ],
+    "coordinates": {
+      "longitude": 120.741791,
+      "latitude": 24.440365
+    },
+    "facebook": "https://www.facebook.com/flyingcowofficial?fref=ts",
+    "postalCode": "357"
+  },
+  {
+    "id": "outdoor-雲也居一休閒農場-苗栗縣",
+    "name": "雲也居一休閒農場",
+    "address": " 苗栗縣大湖鄉栗林村薑麻園6號",
+    "tel": "037-951530",
+    "website": "http://ginger.mmmtravel.com.tw/?ptype=info",
+    "countyName": "苗栗縣",
+    "township": "大湖鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "薑餅製作",
+      "採果體驗",
+      "生態導覽"
+    ],
+    "accessibleItems": [
+      "薑餅製作",
+      "採果體驗",
+      "生態導覽"
+    ],
+    "coordinates": {
+      "longitude": 120.827849,
+      "latitude": 24.384963
+    },
+    "facebook": "https://www.facebook.com/pages/%E7%94%B0%E5%AA%BD%E5%AA%BD-%E9%9B%B2%E4%B9%9F%E5%B1%85%E4%B8%80%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4-Mile-High-Cafe/198090083543569?fref=ts",
+    "postalCode": "364"
+  },
+  {
+    "id": "outdoor-台中東勢林場-台中市",
+    "name": "台中東勢林場",
+    "address": "台中市東勢區勢林街6號-1",
+    "tel": "04-2587-2191 / 0800-298-588",
+    "website": "http://www.tsfa.com.tw/?ptype=info",
+    "countyName": "台中市",
+    "township": "東勢區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "夜間導覽",
+      "彩繪甲蟲",
+      "筆筒製作"
+    ],
+    "accessibleItems": [
+      "夜間導覽",
+      "彩繪甲蟲",
+      "筆筒製作"
+    ],
+    "coordinates": {
+      "longitude": 120.872846,
+      "latitude": 24.282949
+    },
+    "facebook": "https://www.facebook.com/tsfa.firefly?fref=ts",
+    "postalCode": "423"
+  },
+  {
+    "id": "outdoor-羅望子生態教育休閒農場-台中市",
+    "name": "羅望子生態教育休閒農場",
+    "address": "台中市石岡區萬仙街岡仙巷6號-6",
+    "tel": "0910-495-155",
+    "website": "http://www.treed.com.tw/about.asp",
+    "countyName": "台中市",
+    "township": "石岡區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "種子體驗",
+      "扦插採果",
+      "壓花製作"
+    ],
+    "accessibleItems": [
+      "種子體驗",
+      "扦插採果",
+      "壓花製作"
+    ],
+    "coordinates": {
+      "longitude": 120.782516,
+      "latitude": 24.267596
+    },
+    "facebook": "",
+    "postalCode": "422"
+  },
+  {
+    "id": "outdoor-文山休閒農場-台中市",
+    "name": "文山休閒農場",
+    "address": "台中市大里區健東路 123 號",
+    "tel": "04-2493-7679",
+    "website": "http://www.wfarm.com.tw/",
+    "countyName": "台中市",
+    "township": "大里區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "竹製茶杯",
+      "竹耙彩繪",
+      "竹製水槍"
+    ],
+    "accessibleItems": [
+      "竹製茶杯",
+      "竹耙彩繪",
+      "竹製水槍"
+    ],
+    "coordinates": {
+      "longitude": 120.72547,
+      "latitude": 24.085016
+    },
+    "facebook": "https://www.facebook.com/pages/%E7%AB%B9%E5%AD%90%E5%9D%91-%E6%96%87%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/140429099306642?fref=ts",
+    "postalCode": "412"
+  },
+  {
+    "id": "outdoor-國立臺灣大學生物資源暨農學院附設山地農場-南投縣",
+    "name": "國立臺灣大學生物資源暨農學院附設山地農場",
+    "address": "南投縣仁愛鄉大同村仁和路215號",
+    "tel": "049-2803148 / 049-2803891",
+    "website": "http://mf.ntu.edu.tw/index.php",
+    "countyName": "南投縣",
+    "township": "仁愛鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "夜間觀察",
+      "園區導覽",
+      "森林探索"
+    ],
+    "accessibleItems": [
+      "夜間觀察",
+      "園區導覽",
+      "森林探索"
+    ],
+    "coordinates": {
+      "longitude": 121.17607,
+      "latitude": 24.088617
+    },
+    "facebook": "",
+    "postalCode": "546"
+  },
+  {
+    "id": "outdoor-森18休閒農場-南投縣",
+    "name": "森18休閒農場",
+    "address": "南投縣名間鄉田仔村田仔巷16-8號",
+    "tel": "049-2273797",
+    "website": "http://www.forest18.com/",
+    "countyName": "南投縣",
+    "township": "名間鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "創意盆栽",
+      "香皂製作",
+      "手工披薩"
+    ],
+    "accessibleItems": [
+      "創意盆栽",
+      "香皂製作",
+      "手工披薩"
+    ],
+    "coordinates": {
+      "longitude": 120.675015,
+      "latitude": 23.865916
+    },
+    "facebook": "",
+    "postalCode": "551"
+  },
+  {
+    "id": "outdoor-蘑菇部落休閒農場-彰化縣",
+    "name": "蘑菇部落休閒農場",
+    "address": "彰化縣埔心鄉埤腳村柳橋東路829號",
+    "tel": "04-852-1898",
+    "website": "http://www.qyo.com.tw/index-2.php",
+    "countyName": "彰化縣",
+    "township": "埔心鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "披薩製作",
+      "生態導覽",
+      "彩繪公仔"
+    ],
+    "accessibleItems": [
+      "披薩製作",
+      "生態導覽",
+      "彩繪公仔"
+    ],
+    "coordinates": {
+      "longitude": 120.520925,
+      "latitude": 23.974009
+    },
+    "facebook": "",
+    "postalCode": "513"
+  },
+  {
+    "id": "outdoor-菁芳園休閒農場-彰化縣",
+    "name": "菁芳園休閒農場",
+    "address": "彰化縣田尾鄉打簾村張厝巷73號",
+    "tel": "0912-243-535/04-8223535",
+    "website": "http://www.green.com.tw/",
+    "countyName": "彰化縣",
+    "township": "田尾鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "綠能溫室",
+      "撿蛋體驗"
+    ],
+    "accessibleItems": [
+      "綠能溫室",
+      "撿蛋體驗"
+    ],
+    "coordinates": {
+      "longitude": 120.533999,
+      "latitude": 23.9066
+    },
+    "facebook": "https://www.facebook.com/ChingFangYuan",
+    "postalCode": "522"
+  },
+  {
+    "id": "outdoor-彰化縣二林鎮農會-彰化縣",
+    "name": "彰化縣二林鎮農會",
+    "address": "彰化縣二林鎮儒林路二段260號",
+    "tel": "04-8961191",
+    "website": "http://www.rlfa.org.tw/main.asp?item=15",
+    "countyName": "彰化縣",
+    "township": "二林鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "採果體驗",
+      "蕎麥麵製作"
+    ],
+    "accessibleItems": [
+      "採果體驗",
+      "蕎麥麵製作"
+    ],
+    "coordinates": {
+      "longitude": 120.36966,
+      "latitude": 23.89606
+    },
+    "facebook": "",
+    "postalCode": "526"
+  },
+  {
+    "id": "outdoor-雙溪平林休閒農場-新北市",
+    "name": "雙溪平林休閒農場",
+    "address": "新北市雙溪區平林里外平林35號",
+    "tel": "02-2493-4016",
+    "website": "http://www.ping-lingfarm.com.tw/",
+    "countyName": "新北市",
+    "township": "雙溪區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "愛玉製作",
+      "野薑花粽",
+      "草編昆蟲"
+    ],
+    "accessibleItems": [
+      "愛玉製作",
+      "野薑花粽",
+      "草編昆蟲"
+    ],
+    "coordinates": {
+      "longitude": 121.853608,
+      "latitude": 25.036749
+    },
+    "facebook": "https://www.facebook.com/pingling.farm?fref=ts",
+    "postalCode": "227"
+  },
+  {
+    "id": "outdoor-雲科生態休閒農場-雲林縣",
+    "name": "雲科生態休閒農場",
+    "address": "雲林縣斗六市大學路二段273巷67號",
+    "tel": "0918-218-971 / 05-5338447",
+    "website": "http://www.winfarm.com/",
+    "countyName": "雲林縣",
+    "township": "斗六市",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "生態解說",
+      "採果體驗",
+      "彩繪帽子"
+    ],
+    "accessibleItems": [
+      "生態解說",
+      "採果體驗",
+      "彩繪帽子"
+    ],
+    "coordinates": {
+      "longitude": 120.547701,
+      "latitude": 23.69974
+    },
+    "facebook": "",
+    "postalCode": "640"
+  },
+  {
+    "id": "outdoor-竹耕生態教育休閒農場-嘉義縣",
+    "name": "竹耕生態教育休閒農場",
+    "address": "嘉義縣竹崎鄉 田尾20號",
+    "tel": "05-2790565 / 0980-904-079",
+    "website": "http://cy.store.tnn.tw/store.html?sid=158011",
+    "countyName": "嘉義縣",
+    "township": "竹崎鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "生態導覽",
+      "採果體驗",
+      "石頭彩繪"
+    ],
+    "accessibleItems": [
+      "生態導覽",
+      "採果體驗",
+      "石頭彩繪"
+    ],
+    "coordinates": {
+      "longitude": 120.486026,
+      "latitude": 23.500144
+    },
+    "facebook": "",
+    "postalCode": "604"
+  },
+  {
+    "id": "outdoor-台南市農會走馬瀨農場-台南市",
+    "name": "台南市農會走馬瀨農場",
+    "address": "台南市大內區二溪里唭子瓦60號",
+    "tel": "06-5760121~3",
+    "website": "http://www.farm.com.tw/",
+    "countyName": "台南市",
+    "township": "大內區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "堆放牧草",
+      "陶瓷彩繪",
+      "饅頭製作"
+    ],
+    "accessibleItems": [
+      "堆放牧草",
+      "陶瓷彩繪",
+      "饅頭製作"
+    ],
+    "coordinates": {
+      "longitude": 120.2546,
+      "latitude": 23.0812
+    },
+    "facebook": "https://www.facebook.com/tsoumalai?fref=ts",
+    "postalCode": "742"
+  },
+  {
+    "id": "outdoor-薰之園香草休閒農場-屏東縣",
+    "name": "薰之園香草休閒農場",
+    "address": "屏東縣里港鄉過江路126號",
+    "tel": "08-7722077",
+    "website": "http://ptherb.tw/main/about.html",
+    "countyName": "屏東縣",
+    "township": "里港鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "香草香包",
+      "香草防蚊",
+      "香草卡片"
+    ],
+    "accessibleItems": [
+      "香草香包",
+      "香草防蚊",
+      "香草卡片"
+    ],
+    "coordinates": {
+      "longitude": 120.498121,
+      "latitude": 22.784649
+    },
+    "facebook": "https://www.facebook.com/a7722077?fref=ts",
+    "postalCode": "905"
+  },
+  {
+    "id": "outdoor-不一樣鱷魚生態農場-屏東縣",
+    "name": "不一樣鱷魚生態農場",
+    "address": "屏東縣潮州鎮太平路600巷108號",
+    "tel": "08-7882707",
+    "website": "http://www.crocodile-farm.com.tw/index.html",
+    "countyName": "屏東縣",
+    "township": "潮州鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "鱷魚餵食",
+      "毛豆採收",
+      "手工披薩"
+    ],
+    "accessibleItems": [
+      "鱷魚餵食",
+      "毛豆採收",
+      "手工披薩"
+    ],
+    "coordinates": {
+      "longitude": 120.535341,
+      "latitude": 22.562147
+    },
+    "facebook": "https://www.facebook.com/crocodile.farm?ref=hl",
+    "postalCode": "920"
+  },
+  {
+    "id": "outdoor-藏酒酒莊休閒農場-宜蘭縣",
+    "name": "藏酒酒莊休閒農場",
+    "address": "宜蘭縣頭城鎮更新路126-50號",
+    "tel": "03-9778555",
+    "website": "http://www.cjwine.com/",
+    "countyName": "宜蘭縣",
+    "township": "頭城鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "酒窖解說",
+      "環境導覽",
+      "紅酒番茄"
+    ],
+    "accessibleItems": [
+      "酒窖解說",
+      "環境導覽",
+      "紅酒番茄"
+    ],
+    "coordinates": {
+      "longitude": 121.849468,
+      "latitude": 24.907147
+    },
+    "facebook": "https://www.facebook.com/cjwine?fref=ts",
+    "postalCode": "261"
+  },
+  {
+    "id": "outdoor-頭城休閒農場-宜蘭縣",
+    "name": "頭城休閒農場",
+    "address": "宜蘭縣頭城鎮更新路125號",
+    "tel": "03-9772222",
+    "website": "http://www.tcfarm.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "頭城鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "窯烤體驗",
+      "蜜餞製作",
+      "水稻體驗"
+    ],
+    "accessibleItems": [
+      "窯烤體驗",
+      "蜜餞製作",
+      "水稻體驗"
+    ],
+    "coordinates": {
+      "longitude": 121.850072,
+      "latitude": 24.907286
+    },
+    "facebook": "https://www.facebook.com/Ilantcfarm?fref=ts",
+    "postalCode": "261"
+  },
+  {
+    "id": "outdoor-大安藥園休閒農場-宜蘭縣",
+    "name": "大安藥園休閒農場",
+    "address": "宜蘭縣員山鄉同樂村蘭城路42-21號",
+    "tel": "03-9232808 / 03-9225803 / 0932-232-808",
+    "website": "http://www.daanbio.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "藥草教學",
+      "藥草體驗",
+      "藥草壓花"
+    ],
+    "accessibleItems": [
+      "藥草教學",
+      "藥草體驗",
+      "藥草壓花"
+    ],
+    "coordinates": {
+      "longitude": 121.730727,
+      "latitude": 24.771194
+    },
+    "facebook": "https://www.facebook.com/TaAnHerb?fref=ts",
+    "postalCode": "264"
+  },
+  {
+    "id": "outdoor-千里光藥園休閒農場-宜蘭縣",
+    "name": "千里光藥園休閒農場",
+    "address": "宜蘭縣宜蘭市大坡路二段131巷53號",
+    "tel": "03-9284349 / 0919901241",
+    "website": "http://clkherb.com/",
+    "countyName": "宜蘭縣",
+    "township": "宜蘭市",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "藥草湯圓",
+      "藥草香皂",
+      "茶包製作"
+    ],
+    "accessibleItems": [
+      "藥草湯圓",
+      "藥草香皂",
+      "茶包製作"
+    ],
+    "coordinates": {
+      "longitude": 121.742125,
+      "latitude": 24.776998
+    },
+    "facebook": "https://www.facebook.com/herblight.organic?fref=ts",
+    "postalCode": "260"
+  },
+  {
+    "id": "outdoor-花泉休閒農場-宜蘭縣",
+    "name": "花泉休閒農場",
+    "address": "宜蘭縣員山鄉八甲路15-1號",
+    "tel": "0937-909-733",
+    "website": "",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "野薑花園",
+      "粽子製作",
+      "園區導覽"
+    ],
+    "accessibleItems": [
+      "野薑花園",
+      "粽子製作",
+      "園區導覽"
+    ],
+    "coordinates": {
+      "longitude": 121.705091,
+      "latitude": 24.727473
+    },
+    "facebook": "https://www.facebook.com/f039221506",
+    "postalCode": "264"
+  },
+  {
+    "id": "outdoor-樁萱休閒農場-台北市",
+    "name": "樁萱休閒農場",
+    "address": "台北市南港區舊庄街二段122巷11號",
+    "tel": "0933-923-863",
+    "website": "",
+    "countyName": "台北市",
+    "township": "南港區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "香皂製作",
+      "青苔體驗",
+      "烤土窯雞"
+    ],
+    "accessibleItems": [
+      "香皂製作",
+      "青苔體驗",
+      "烤土窯雞"
+    ],
+    "coordinates": {
+      "longitude": 121.635247,
+      "latitude": 25.027897
+    },
+    "facebook": "https://www.facebook.com/pages/%E6%A4%BF%E8%90%B1%E8%BE%B2%E5%A0%B4/229135943800349",
+    "postalCode": "115"
+  },
+  {
+    "id": "outdoor-勝洋水草休閒農場-宜蘭縣",
+    "name": "勝洋水草休閒農場",
+    "address": "宜蘭縣員山鄉尚德村八甲路15-6號",
+    "tel": "03-922-2487 /  03-9225300",
+    "website": "http://www.sy-water.com.tw/goods.html",
+    "countyName": "宜蘭縣",
+    "township": "員山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "生態教育",
+      "水草卡片",
+      "水草生態"
+    ],
+    "accessibleItems": [
+      "生態教育",
+      "水草卡片",
+      "水草生態"
+    ],
+    "coordinates": {
+      "longitude": 121.705342,
+      "latitude": 24.728185
+    },
+    "facebook": "https://www.facebook.com/sy039222487?fref=ts",
+    "postalCode": "264"
+  },
+  {
+    "id": "outdoor-宜蘭縣三星地區農會-宜蘭縣",
+    "name": "宜蘭縣三星地區農會",
+    "address": "宜蘭縣三星鄉義德村中山路 31 號",
+    "tel": "03-9893170-4",
+    "website": "http://www.sunshin.org.tw/",
+    "countyName": "宜蘭縣",
+    "township": "三星鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "麻糬製作",
+      "蔥餅製作",
+      "鹹蛋製作"
+    ],
+    "accessibleItems": [
+      "麻糬製作",
+      "蔥餅製作",
+      "鹹蛋製作"
+    ],
+    "coordinates": {
+      "longitude": 121.652212,
+      "latitude": 24.667831
+    },
+    "facebook": "",
+    "postalCode": "266"
+  },
+  {
+    "id": "outdoor-旺山休閒農場-宜蘭縣",
+    "name": "旺山休閒農場",
+    "address": "宜蘭縣壯圍鄉新南村新南路107之7號",
+    "tel": "0932088992 / 03-9383918",
+    "website": "http://wanshun.hiweb.tw/",
+    "countyName": "宜蘭縣",
+    "township": "壯圍鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "南瓜體驗",
+      "環境教育"
+    ],
+    "accessibleItems": [
+      "南瓜體驗",
+      "環境教育"
+    ],
+    "coordinates": {
+      "longitude": 121.807383,
+      "latitude": 24.728395
+    },
+    "facebook": "https://www.facebook.com/wanshun168?fref=ts",
+    "postalCode": "263"
+  },
+  {
+    "id": "outdoor-廣興農場-宜蘭縣",
+    "name": "廣興農場",
+    "address": "宜蘭縣冬山鄉柯林村光華三路132巷12號",
+    "tel": "03-9513236 / 03-9615236",
+    "website": "http://www.pigs.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "玻璃體驗",
+      "山豬彩繪"
+    ],
+    "accessibleItems": [
+      "玻璃體驗",
+      "山豬彩繪"
+    ],
+    "coordinates": {
+      "longitude": 121.734219,
+      "latitude": 24.683827
+    },
+    "facebook": "https://www.facebook.com/pigs8888?fref=ts",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-童話村休閒農場-宜蘭縣",
+    "name": "童話村休閒農場",
+    "address": "宜蘭縣冬山鄉廣興村梅花路300號",
+    "tel": "03-9613385 / 0932-090-003",
+    "website": "http://www.fairy-story.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "蜜餞製作",
+      "稻田體驗",
+      "餵魚體驗"
+    ],
+    "accessibleItems": [
+      "蜜餞製作",
+      "稻田體驗",
+      "餵魚體驗"
+    ],
+    "coordinates": {
+      "longitude": 121.742405,
+      "latitude": 24.665818
+    },
+    "facebook": "",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-旺樹園梅花湖休閒養生農場-宜蘭縣",
+    "name": "旺樹園梅花湖休閒養生農場",
+    "address": "宜蘭縣冬山鄉得安村環湖路62號",
+    "tel": "03-9613222 / 03-9612888",
+    "website": "http://www.9612888.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "竹筒飯食",
+      "控窯體驗",
+      "餅乾製作"
+    ],
+    "accessibleItems": [
+      "竹筒飯食",
+      "控窯體驗",
+      "餅乾製作"
+    ],
+    "coordinates": {
+      "longitude": 121.734598,
+      "latitude": 24.649233
+    },
+    "facebook": "https://www.facebook.com/pages/%E6%A2%85%E8%8A%B1%E6%B9%96%E6%97%BA%E6%A8%B9%E5%9C%92/324562647634454?fref=ts",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-香格里拉休閒農場-宜蘭縣",
+    "name": "香格里拉休閒農場",
+    "address": "宜蘭縣冬山鄉大進村梅山路168號",
+    "tel": "03-9511456",
+    "website": "http://www.shangrilas.com.tw/shangrila/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "天燈製作",
+      "草編昆蟲",
+      "陀螺彩繪"
+    ],
+    "accessibleItems": [
+      "天燈製作",
+      "草編昆蟲",
+      "陀螺彩繪"
+    ],
+    "coordinates": {
+      "longitude": 121.729009,
+      "latitude": 24.632506
+    },
+    "facebook": "https://www.facebook.com/ShangrilaFarm?fref=ts",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-東風有機休閒農場-宜蘭縣",
+    "name": "東風有機休閒農場",
+    "address": "宜蘭縣冬山鄉中山路768巷11號",
+    "tel": "03-9587511/ 0932-090-498",
+    "website": "http://www.a222.tw/WebMaster/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "精油提煉",
+      "盆栽製作",
+      "堆肥製作"
+    ],
+    "accessibleItems": [
+      "精油提煉",
+      "盆栽製作",
+      "堆肥製作"
+    ],
+    "coordinates": {
+      "longitude": 121.728361,
+      "latitude": 24.621044
+    },
+    "facebook": "https://www.facebook.com/DongFengLeisureFarming?fref=ts",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-三富休閒農場-宜蘭縣",
+    "name": "三富休閒農場",
+    "address": " 宜蘭縣冬山鄉中山村新寮二路161巷82號 ",
+    "tel": "03-9588690 / 03-9588795",
+    "website": "http://www.sanfufarm.com.tw/",
+    "countyName": "宜蘭縣",
+    "township": "冬山鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "生態解說",
+      "蛙覺陷阱",
+      "水來滅蚊"
+    ],
+    "accessibleItems": [
+      "生態解說",
+      "蛙覺陷阱",
+      "水來滅蚊"
+    ],
+    "coordinates": {
+      "longitude": 121.754068,
+      "latitude": 24.617286
+    },
+    "facebook": "https://www.facebook.com/sanfufarm?fref=ts",
+    "postalCode": "269"
+  },
+  {
+    "id": "outdoor-新光兆豐休閒農場-花蓮縣",
+    "name": "新光兆豐休閒農場",
+    "address": "花蓮縣鳳林鎮永福街20號",
+    "tel": "03-8772666",
+    "website": "http://www.skcf.com.tw/html2/html/guide_01.asp",
+    "countyName": "花蓮縣",
+    "township": "鳳林鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "榨乳體驗",
+      "浣熊餵食",
+      "生態解說"
+    ],
+    "accessibleItems": [
+      "榨乳體驗",
+      "浣熊餵食",
+      "生態解說"
+    ],
+    "coordinates": {
+      "longitude": 121.463043,
+      "latitude": 23.802001
+    },
+    "facebook": "https://www.facebook.com/xin.zhaofeng?fref=ts",
+    "postalCode": "975"
+  },
+  {
+    "id": "outdoor-阿里磅生態休閒農場-新北市",
+    "name": "阿里磅生態休閒農場",
+    "address": "新北市石門區阿里磅84號",
+    "tel": "02-2638-2745 / 02-2636-9122",
+    "website": "http://www.albefarm.idv.tw/",
+    "countyName": "新北市",
+    "township": "石門區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "夜間觀察",
+      "溪流生態",
+      "葉拓體驗"
+    ],
+    "accessibleItems": [
+      "夜間觀察",
+      "溪流生態",
+      "葉拓體驗"
+    ],
+    "coordinates": {
+      "longitude": 121.583295,
+      "latitude": 25.264314
+    },
+    "facebook": "https://www.facebook.com/AlbeEcoFarm?fref=ts",
+    "postalCode": "253"
+  },
+  {
+    "id": "outdoor-台東縣池上鄉農會光觀工廠與金色豐收館-台東縣",
+    "name": "台東縣池上鄉農會光觀工廠與金色豐收館",
+    "address": "台東縣池上鄉新興村7鄰85-6號",
+    "tel": "089-864880轉37 (陳小姐)",
+    "website": "http://csfa.org.tw/demo/index.asp",
+    "countyName": "台東縣",
+    "township": "池上鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "香米製作",
+      "碾米體驗",
+      "文化導覽"
+    ],
+    "accessibleItems": [
+      "香米製作",
+      "碾米體驗",
+      "文化導覽"
+    ],
+    "coordinates": {
+      "longitude": 121.203281,
+      "latitude": 23.112069
+    },
+    "facebook": "",
+    "postalCode": "958"
+  },
+  {
+    "id": "outdoor-台東縣關山鎮農會米國學校-台東縣",
+    "name": "台東縣關山鎮農會米國學校",
+    "address": "台東縣關山鎮昌林路24之1號",
+    "tel": "(本會)089-811680(超市)089-811022(休閒中心訂購專線)089-814903",
+    "website": "http://www.ksfa.org.tw/",
+    "countyName": "台東縣",
+    "township": "關山鎮",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "產業解說",
+      "蜜蠟製作",
+      "製米體驗"
+    ],
+    "accessibleItems": [
+      "產業解說",
+      "蜜蠟製作",
+      "製米體驗"
+    ],
+    "coordinates": {
+      "longitude": 121.168867,
+      "latitude": 23.060955
+    },
+    "facebook": "",
+    "postalCode": "956"
+  },
+  {
+    "id": "outdoor-台東縣鹿野鄉永安社區-台東縣",
+    "name": "台東縣鹿野鄉永安社區",
+    "address": "台東市中華路一段665號",
+    "tel": "089-320893",
+    "website": "http://yongan.swcb.gov.tw/",
+    "countyName": "台東縣",
+    "township": "台東市",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "鳳梨體驗",
+      "茶業體驗環境教育"
+    ],
+    "accessibleItems": [
+      "鳳梨體驗",
+      "茶業體驗環境教育"
+    ],
+    "coordinates": {
+      "longitude": 121.147769,
+      "latitude": 22.748863
+    },
+    "facebook": "",
+    "postalCode": "950"
+  },
+  {
+    "id": "outdoor-番婆林觀光花園休閒農場-新北市",
+    "name": "番婆林觀光花園休閒農場",
+    "address": "新北市三芝區錫板里17鄰番婆林44號",
+    "tel": "02-2636-2716 / 0921-070-169",
+    "website": "http://fpl.myweb.hinet.net/",
+    "countyName": "新北市",
+    "township": "三芝區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "地瓜體驗",
+      "醬菜製作",
+      "湯圓製作"
+    ],
+    "accessibleItems": [
+      "地瓜體驗",
+      "醬菜製作",
+      "湯圓製作"
+    ],
+    "coordinates": {
+      "longitude": 121.494556,
+      "latitude": 25.23736
+    },
+    "facebook": "https://www.facebook.com/fplfarm?fref=ts",
+    "postalCode": "252"
+  },
+  {
+    "id": "outdoor-準園休閒農場-新北市",
+    "name": "準園休閒農場",
+    "address": "新北市五股區新五路二段70號",
+    "tel": "02-2292-2466 / 0912-068-088",
+    "website": "http://www.wugu-farm.com.tw/new/index.html",
+    "countyName": "新北市",
+    "township": "五股區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "香草盆栽",
+      "生態導覽",
+      "披薩製作"
+    ],
+    "accessibleItems": [
+      "香草盆栽",
+      "生態導覽",
+      "披薩製作"
+    ],
+    "coordinates": {
+      "longitude": 121.438386,
+      "latitude": 25.071697
+    },
+    "facebook": "https://www.facebook.com/pages/%E6%BA%96%E5%9C%92%E7%94%9F%E6%85%8B%E8%8E%8A%E5%9C%92/578871275510171?fref=ts",
+    "postalCode": "248"
+  },
+  {
+    "id": "outdoor-福田園教育休閒農場-台北市",
+    "name": "福田園教育休閒農場",
+    "address": "台北市士林區菁山路131巷18號",
+    "tel": "02-2862-2145",
+    "website": "http://www.2ftv.com.tw/fu_tian_1.html",
+    "countyName": "台北市",
+    "township": "士林區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "手工湯圓",
+      "竹笛製作",
+      "藍染體驗"
+    ],
+    "accessibleItems": [
+      "手工湯圓",
+      "竹笛製作",
+      "藍染體驗"
+    ],
+    "coordinates": {
+      "longitude": 121.568303,
+      "latitude": 25.144747
+    },
+    "facebook": "",
+    "postalCode": "111"
+  },
+  {
+    "id": "outdoor-好時節休閒農場永續農業環境教育中心-桃園市",
+    "name": "好時節休閒農場永續農業環境教育中心",
+    "address": "桃園市大溪區康莊路三段225號",
+    "tel": "03-388-9689",
+    "website": "https://www.facebook.com/greatlifetime?fref=ts",
+    "countyName": "桃園市",
+    "township": "大溪區",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "窯烤披薩",
+      "陀螺文化",
+      "導覽解說"
+    ],
+    "accessibleItems": [
+      "窯烤披薩",
+      "陀螺文化",
+      "導覽解說"
+    ],
+    "coordinates": {
+      "longitude": 121.282398,
+      "latitude": 24.854629
+    },
+    "facebook": "https://www.facebook.com/greatlifetime?fref=ts",
+    "postalCode": "335"
+  },
+  {
+    "id": "outdoor-新竹縣北埔鄉南埔社區-新竹縣",
+    "name": "新竹縣北埔鄉南埔社區",
+    "address": "新竹縣北埔鄉南埔2鄰17號",
+    "tel": "03-5805590",
+    "website": "http://tc0wei.blogspot.tw/",
+    "countyName": "新竹縣",
+    "township": "北埔鄉",
+    "farmType": "戶外教育農場",
+    "serveItems": [
+      "稻田採收",
+      "水圳巡禮",
+      "橘餅製作"
+    ],
+    "accessibleItems": [
+      "稻田採收",
+      "水圳巡禮",
+      "橘餅製作"
+    ],
+    "coordinates": {
+      "longitude": 121.038555,
+      "latitude": 24.695977
+    },
+    "facebook": "",
+    "postalCode": "314"
+  }
+]
