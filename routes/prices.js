@@ -3,35 +3,25 @@ import {
   getAllPrices,
   getPricesByCrop,
   getPricesByMarket,
-  getPriceStats,
-  getCropCategories,
-  getCropLocationPrices,
-  getPriceCacheStatus,
-  clearPriceCache,
-  refreshPriceCache,
-  getPopularCropsWithStatus,
-  getPopularCropsList,
+  getCacheStatus,
+  clearCache,
+  refreshCache,
 } from "../controllers/priceController.js";
+import { handlePriceError } from "../middleware/priceError.js";
 
 const router = express.Router();
 
-// 農產品交易行情 API
-router.get("/prices", getAllPrices);
-router.get("/prices/crop/:crop", getPricesByCrop);
-router.get("/prices/market/:market", getPricesByMarket);
-router.get("/prices/stats", getPriceStats);
+// Price routes
+router.get("/", getAllPrices);
+router.get("/crop/:crop", getPricesByCrop);
+router.get("/market/:market", getPricesByMarket);
 
-// 新的前端專用 API
-router.get("/crops/categories", getCropCategories);
-router.get("/crops/locations", getCropLocationPrices);
+// Cache management
+router.get("/cache/status", getCacheStatus);
+router.delete("/cache", clearCache);
+router.post("/cache/refresh", refreshCache);
 
-// 熱門作物 API
-router.get("/popular-crops", getPopularCropsWithStatus);
-router.get("/popular-crops-list", getPopularCropsList);
-
-// 交易行情快取管理 API
-router.get("/prices/cache/status", getPriceCacheStatus);
-router.delete("/prices/cache", clearPriceCache);
-router.post("/prices/cache/refresh", refreshPriceCache);
+// Error handler
+router.use(handlePriceError);
 
 export default router;

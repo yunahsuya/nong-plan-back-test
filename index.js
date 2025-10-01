@@ -18,7 +18,7 @@ app.use(express.json());
 
 // 路由
 app.use("/api", farmRoutes);
-app.use("/api", priceRoutes);
+app.use("/api/prices", priceRoutes);
 
 // 錯誤處理中間件
 app.use(errorHandler);
@@ -41,6 +41,7 @@ app.listen(PORT, () => {
   console.log("  GET /api/prices - 取得農產品交易行情");
   console.log("  GET /api/prices/crop/:crop - 根據作物查詢行情");
   console.log("  GET /api/prices/market/:market - 根據市場查詢行情");
-  console.log("  GET /api/prices/stats - 取得價格統計");
-  console.log("  GET / - 健康檢查");
+  console.log("  GET /api/prices/cache/status - 取得快取狀態");
+  console.log("  DELETE /api/prices/cache - 清除快取");
+  console.log("  POST /api/prices/cache/refresh - 強制刷新快取");
 });
