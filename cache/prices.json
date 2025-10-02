@@ -1,5 +1,8936 @@
 [
   {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椰子-剝殼進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 28.2,
+      "middle": 26.7,
+      "low": 26.7,
+      "average": 27
+    },
+    "volume": 1100
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "小番茄-聖女",
+    "marketName": "台北二",
+    "prices": {
+      "high": 211.6,
+      "middle": 163.9,
+      "low": 135.7,
+      "average": 167.8
+    },
+    "volume": 1255
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-白肉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 90.1,
+      "middle": 63.4,
+      "low": 36,
+      "average": 63.3
+    },
+    "volume": 1770
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 88.8,
+      "middle": 56.5,
+      "low": 31.4,
+      "average": 57.9
+    },
+    "volume": 7156
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 33,
+      "middle": 17.9,
+      "low": 11.5,
+      "average": 19.6
+    },
+    "volume": 11981
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 68,
+      "middle": 39.8,
+      "low": 21.7,
+      "average": 41.8
+    },
+    "volume": 1102
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柑橘-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 65.5,
+      "middle": 37.9,
+      "low": 33,
+      "average": 42.5
+    },
+    "volume": 4750
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-柳橙",
+    "marketName": "台北二",
+    "prices": {
+      "high": 32.2,
+      "middle": 24.2,
+      "low": 16.1,
+      "average": 24.2
+    },
+    "volume": 1044
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 50.7,
+      "middle": 44.4,
+      "low": 44.2,
+      "average": 45.6
+    },
+    "volume": 2536
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-無子檸檬",
+    "marketName": "台北二",
+    "prices": {
+      "high": 80.9,
+      "middle": 51.5,
+      "low": 40.8,
+      "average": 55.2
+    },
+    "volume": 1879
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "黃秋葵",
+    "marketName": "台北二",
+    "prices": {
+      "high": 115.3,
+      "middle": 65.8,
+      "low": 28.3,
+      "average": 68.2
+    },
+    "volume": 1208
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "台北二",
+    "prices": {
+      "high": 77.8,
+      "middle": 59.9,
+      "low": 30,
+      "average": 57.5
+    },
+    "volume": 1975
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "台北二",
+    "prices": {
+      "high": 36.6,
+      "middle": 20.7,
+      "low": 8.5,
+      "average": 21.5
+    },
+    "volume": 6177
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 71.6,
+      "middle": 52.5,
+      "low": 36.9,
+      "average": 53.2
+    },
+    "volume": 13237
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "台北二",
+    "prices": {
+      "high": 25,
+      "middle": 13.9,
+      "low": 6.9,
+      "average": 14.7
+    },
+    "volume": 3317
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 52.9,
+      "middle": 35.5,
+      "low": 19.5,
+      "average": 35.8
+    },
+    "volume": 5771
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "台北二",
+    "prices": {
+      "high": 93,
+      "middle": 65.6,
+      "low": 36,
+      "average": 65.2
+    },
+    "volume": 3473
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "台北二",
+    "prices": {
+      "high": 28,
+      "middle": 19.4,
+      "low": 12.6,
+      "average": 19.8
+    },
+    "volume": 1096
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-梨子蒲",
+    "marketName": "台北二",
+    "prices": {
+      "high": 29.8,
+      "middle": 18.6,
+      "low": 14.6,
+      "average": 20
+    },
+    "volume": 2890
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "台北二",
+    "prices": {
+      "high": 66.4,
+      "middle": 39.9,
+      "low": 24.9,
+      "average": 42.2
+    },
+    "volume": 4691
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "台北二",
+    "prices": {
+      "high": 111,
+      "middle": 76.1,
+      "low": 34.7,
+      "average": 74.8
+    },
+    "volume": 8168
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-彩色種 紅色",
+    "marketName": "台北二",
+    "prices": {
+      "high": 160.4,
+      "middle": 98.7,
+      "low": 39.4,
+      "average": 99.2
+    },
+    "volume": 1178
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-彩色種 黃色",
+    "marketName": "台北二",
+    "prices": {
+      "high": 118.2,
+      "middle": 54,
+      "low": 34.2,
+      "average": 62.8
+    },
+    "volume": 1218
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "台北二",
+    "prices": {
+      "high": 137.4,
+      "middle": 106.3,
+      "low": 67,
+      "average": 104.7
+    },
+    "volume": 2250
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菜豆-青色",
+    "marketName": "台北二",
+    "prices": {
+      "high": 80.4,
+      "middle": 52.1,
+      "low": 39,
+      "average": 55.1
+    },
+    "volume": 1350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "台北二",
+    "prices": {
+      "high": 201.8,
+      "middle": 138.5,
+      "low": 63.3,
+      "average": 136.1
+    },
+    "volume": 2287
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 91.4,
+      "middle": 76.3,
+      "low": 63.6,
+      "average": 76.8
+    },
+    "volume": 6624
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿成",
+    "marketName": "台北二",
+    "prices": {
+      "high": 41.8,
+      "middle": 26,
+      "low": 17.6,
+      "average": 27.5
+    },
+    "volume": 1626
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿嬌",
+    "marketName": "台北二",
+    "prices": {
+      "high": 26.7,
+      "middle": 20.5,
+      "low": 14.5,
+      "average": 20.5
+    },
+    "volume": 1199
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-圓形",
+    "marketName": "台北二",
+    "prices": {
+      "high": 27.6,
+      "middle": 21.4,
+      "low": 16.2,
+      "average": 21.6
+    },
+    "volume": 2573
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "台北二",
+    "prices": {
+      "high": 97.8,
+      "middle": 61.3,
+      "low": 31.5,
+      "average": 62.6
+    },
+    "volume": 3375
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-進口 栗子",
+    "marketName": "台北二",
+    "prices": {
+      "high": 32.8,
+      "middle": 27.6,
+      "low": 21.1,
+      "average": 27.3
+    },
+    "volume": 4664
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "隼人瓜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 16.8,
+      "middle": 11.8,
+      "low": 8.6,
+      "average": 12.2
+    },
+    "volume": 1718
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "台北二",
+    "prices": {
+      "high": 41,
+      "middle": 23.4,
+      "low": 13.6,
+      "average": 24.9
+    },
+    "volume": 4875
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "台北二",
+    "prices": {
+      "high": 31.7,
+      "middle": 24.4,
+      "low": 16.3,
+      "average": 24.2
+    },
+    "volume": 4445
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "台北二",
+    "prices": {
+      "high": 44.4,
+      "middle": 30.9,
+      "low": 17.7,
+      "average": 31
+    },
+    "volume": 4564
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-白龍王",
+    "marketName": "台北二",
+    "prices": {
+      "high": 76.8,
+      "middle": 48.4,
+      "low": 27.5,
+      "average": 49.9
+    },
+    "volume": 1585
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "台北二",
+    "prices": {
+      "high": 106.3,
+      "middle": 85.3,
+      "low": 61.8,
+      "average": 84.8
+    },
+    "volume": 4182
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 118.9,
+      "middle": 99.8,
+      "low": 61.9,
+      "average": 96
+    },
+    "volume": 5633
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "台北二",
+    "prices": {
+      "high": 49.8,
+      "middle": 18.6,
+      "low": 15.3,
+      "average": 24.2
+    },
+    "volume": 18320
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 73.6,
+      "middle": 48.8,
+      "low": 36,
+      "average": 51.2
+    },
+    "volume": 9712
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "龍眼-粉殼",
+    "marketName": "台北二",
+    "prices": {
+      "high": 70.4,
+      "middle": 46,
+      "low": 31.2,
+      "average": 48
+    },
+    "volume": 1241
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "台北二",
+    "prices": {
+      "high": 60,
+      "middle": 49.8,
+      "low": 34,
+      "average": 48.6
+    },
+    "volume": 2233
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 初秋",
+    "marketName": "台北二",
+    "prices": {
+      "high": 23,
+      "middle": 22.3,
+      "low": 22,
+      "average": 22.4
+    },
+    "volume": 1050
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "台北二",
+    "prices": {
+      "high": 25,
+      "middle": 24.5,
+      "low": 24.5,
+      "average": 24.6
+    },
+    "volume": 2400
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "台北二",
+    "prices": {
+      "high": 80.4,
+      "middle": 62.3,
+      "low": 37,
+      "average": 60.8
+    },
+    "volume": 3808
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "台北二",
+    "prices": {
+      "high": 19.3,
+      "middle": 12.2,
+      "low": 6.8,
+      "average": 12.5
+    },
+    "volume": 15654
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "台北二",
+    "prices": {
+      "high": 49.2,
+      "middle": 27.3,
+      "low": 22.2,
+      "average": 30.7
+    },
+    "volume": 4635
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "台北二",
+    "prices": {
+      "high": 74.4,
+      "middle": 51.1,
+      "low": 36.5,
+      "average": 52.8
+    },
+    "volume": 3973
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "皇宮菜-小葉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 76.4,
+      "middle": 40.1,
+      "low": 25.7,
+      "average": 44.5
+    },
+    "volume": 1011
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 61.7,
+      "middle": 51,
+      "low": 40.8,
+      "average": 51.1
+    },
+    "volume": 4925
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芹菜-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 42.1,
+      "middle": 22.6,
+      "low": 12.9,
+      "average": 24.6
+    },
+    "volume": 2977
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 63.8,
+      "middle": 51.6,
+      "low": 36.1,
+      "average": 50.9
+    },
+    "volume": 2795
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-本島圓葉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 69.4,
+      "middle": 42.6,
+      "low": 30,
+      "average": 45.5
+    },
+    "volume": 2124
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 69.5,
+      "middle": 42.7,
+      "low": 27.1,
+      "average": 45
+    },
+    "volume": 5760
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-進口 結球萵",
+    "marketName": "台北二",
+    "prices": {
+      "high": 157.7,
+      "middle": 92.2,
+      "low": 72.6,
+      "average": 101.4
+    },
+    "volume": 1735
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 30.6,
+      "middle": 20.3,
+      "low": 11.2,
+      "average": 20.5
+    },
+    "volume": 3175
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "台北二",
+    "prices": {
+      "high": 104.7,
+      "middle": 49.8,
+      "low": 25.2,
+      "average": 55.9
+    },
+    "volume": 2163
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 48.9,
+      "middle": 42.9,
+      "low": 29.8,
+      "average": 41.5
+    },
+    "volume": 3978
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 78,
+      "middle": 50.9,
+      "low": 15.9,
+      "average": 49.3
+    },
+    "volume": 1320
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 67.2,
+      "middle": 41.5,
+      "low": 29.3,
+      "average": 44.2
+    },
+    "volume": 6504
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "九層塔",
+    "marketName": "台北二",
+    "prices": {
+      "high": 41.3,
+      "middle": 23.8,
+      "low": 7.6,
+      "average": 24
+    },
+    "volume": 1596
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "海菜-水蓮",
+    "marketName": "台北二",
+    "prices": {
+      "high": 148.4,
+      "middle": 120,
+      "low": 104.4,
+      "average": 122.6
+    },
+    "volume": 1188
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "杏鮑菇",
+    "marketName": "台北二",
+    "prices": {
+      "high": 107.3,
+      "middle": 69.5,
+      "low": 17.5,
+      "average": 66.7
+    },
+    "volume": 3933
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "李-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 102.8,
+      "middle": 97.4,
+      "low": 44.6,
+      "average": 87.9
+    },
+    "volume": 3555
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "台北二",
+    "prices": {
+      "high": 109.5,
+      "middle": 81.8,
+      "low": 42.5,
+      "average": 79.5
+    },
+    "volume": 19703
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-新興梨",
+    "marketName": "台北二",
+    "prices": {
+      "high": 92.1,
+      "middle": 57.4,
+      "low": 22.7,
+      "average": 57.4
+    },
+    "volume": 2546
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "鹹菜-清心",
+    "marketName": "台北二",
+    "prices": {
+      "high": 35,
+      "middle": 35,
+      "low": 35,
+      "average": 35
+    },
+    "volume": 1458
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "台北二",
+    "prices": {
+      "high": 99.4,
+      "middle": 47.6,
+      "low": 22,
+      "average": 52.8
+    },
+    "volume": 10153
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-紅心",
+    "marketName": "台北二",
+    "prices": {
+      "high": 48.6,
+      "middle": 32.1,
+      "low": 20.9,
+      "average": 33.1
+    },
+    "volume": 1165
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-帝王芭",
+    "marketName": "台北二",
+    "prices": {
+      "high": 117.1,
+      "middle": 50.8,
+      "low": 23.1,
+      "average": 58.5
+    },
+    "volume": 1348
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-無子進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 126.1,
+      "middle": 116,
+      "low": 87.6,
+      "average": 112.3
+    },
+    "volume": 4832
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 644.2,
+      "middle": 394.1,
+      "low": 163.3,
+      "average": 398
+    },
+    "volume": 3766
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "台北二",
+    "prices": {
+      "high": 12,
+      "middle": 10.8,
+      "low": 10,
+      "average": 10.9
+    },
+    "volume": 1350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 22.8,
+      "middle": 20.7,
+      "low": 15.5,
+      "average": 20.1
+    },
+    "volume": 13998
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-未洗",
+    "marketName": "台北二",
+    "prices": {
+      "high": 19.8,
+      "middle": 16.1,
+      "low": 13,
+      "average": 16.2
+    },
+    "volume": 1885
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "台北二",
+    "prices": {
+      "high": 34,
+      "middle": 25.2,
+      "low": 18.3,
+      "average": 25.6
+    },
+    "volume": 7960
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "台北二",
+    "prices": {
+      "high": 27.7,
+      "middle": 19.8,
+      "low": 9.3,
+      "average": 19.3
+    },
+    "volume": 5418
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "台北二",
+    "prices": {
+      "high": 37.6,
+      "middle": 29.8,
+      "low": 23.1,
+      "average": 30
+    },
+    "volume": 2553
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 29.4,
+      "middle": 25,
+      "low": 21.8,
+      "average": 25.2
+    },
+    "volume": 7689
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-北蔥",
+    "marketName": "台北二",
+    "prices": {
+      "high": 202.8,
+      "middle": 186.6,
+      "low": 162.2,
+      "average": 185
+    },
+    "volume": 1380
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-粉蔥",
+    "marketName": "台北二",
+    "prices": {
+      "high": 249.1,
+      "middle": 230.4,
+      "low": 148.2,
+      "average": 217.7
+    },
+    "volume": 1823
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "韭菜-青頭",
+    "marketName": "台北二",
+    "prices": {
+      "high": 76.2,
+      "middle": 50.1,
+      "low": 36.9,
+      "average": 52.7
+    },
+    "volume": 1036
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "大蒜-蒜仁",
+    "marketName": "台北二",
+    "prices": {
+      "high": 130,
+      "middle": 130,
+      "low": 130,
+      "average": 130
+    },
+    "volume": 1116
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-麻竹筍",
+    "marketName": "台北二",
+    "prices": {
+      "high": 49.1,
+      "middle": 44.6,
+      "low": 29.7,
+      "average": 42.5
+    },
+    "volume": 1228
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-烏殼綠",
+    "marketName": "台北二",
+    "prices": {
+      "high": 68.7,
+      "middle": 32.9,
+      "low": 20,
+      "average": 37.5
+    },
+    "volume": 1418
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芋-檳榔心芋",
+    "marketName": "台北二",
+    "prices": {
+      "high": 65.7,
+      "middle": 51.9,
+      "low": 33.3,
+      "average": 51
+    },
+    "volume": 2903
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "台北二",
+    "prices": {
+      "high": 48.6,
+      "middle": 31.4,
+      "low": 12.2,
+      "average": 31
+    },
+    "volume": 2721
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "台北二",
+    "prices": {
+      "high": 25.7,
+      "middle": 20.3,
+      "low": 15.6,
+      "average": 20.5
+    },
+    "volume": 8741
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-嫩薑",
+    "marketName": "台北二",
+    "prices": {
+      "high": 71.8,
+      "middle": 48.3,
+      "low": 16.9,
+      "average": 46.7
+    },
+    "volume": 1320
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "台北二",
+    "prices": {
+      "high": 101.6,
+      "middle": 74.2,
+      "low": 44.8,
+      "average": 73.8
+    },
+    "volume": 3147
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "台北二",
+    "prices": {
+      "high": 12,
+      "middle": 12,
+      "low": 12,
+      "average": 12
+    },
+    "volume": 2122
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 28,
+      "middle": 18.1,
+      "low": 13,
+      "average": 19.1
+    },
+    "volume": 1510
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "台北二",
+    "prices": {
+      "high": 21.1,
+      "middle": 18.7,
+      "low": 7.4,
+      "average": 16.9
+    },
+    "volume": 9722
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "台北二",
+    "prices": {
+      "high": 21.7,
+      "middle": 14.1,
+      "low": 9.7,
+      "average": 14.7
+    },
+    "volume": 7264
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "台北二",
+    "prices": {
+      "high": 63.3,
+      "middle": 29.1,
+      "low": 10,
+      "average": 32.1
+    },
+    "volume": 5919
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-溫室吊瓜",
+    "marketName": "台北二",
+    "prices": {
+      "high": 152,
+      "middle": 104.8,
+      "low": 62.3,
+      "average": 105.7
+    },
+    "volume": 1670
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-金冠進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 163.2,
+      "middle": 147.7,
+      "low": 115.5,
+      "average": 144.3
+    },
+    "volume": 6750
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "台北二",
+    "prices": {
+      "high": 96.3,
+      "middle": 49.3,
+      "low": 34.3,
+      "average": 55.7
+    },
+    "volume": 18696
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "台北二",
+    "prices": {
+      "high": 33.3,
+      "middle": 23.8,
+      "low": 12.1,
+      "average": 23.4
+    },
+    "volume": 7238
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "台北二",
+    "prices": {
+      "high": 154.5,
+      "middle": 85.6,
+      "low": 45,
+      "average": 91.2
+    },
+    "volume": 5999
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椰子-剝殼進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 50,
+      "middle": 39.9,
+      "low": 33.3,
+      "average": 40.6
+    },
+    "volume": 2296
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "藍莓-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 177.8,
+      "middle": 177.7,
+      "low": 133.6,
+      "average": 168.9
+    },
+    "volume": 1019
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "小番茄-聖女",
+    "marketName": "台北一",
+    "prices": {
+      "high": 199.7,
+      "middle": 144.1,
+      "low": 79.2,
+      "average": 142.2
+    },
+    "volume": 5211
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-白肉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 86,
+      "middle": 68.9,
+      "low": 51.2,
+      "average": 68.8
+    },
+    "volume": 3680
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 84.7,
+      "middle": 60.1,
+      "low": 36.2,
+      "average": 60.2
+    },
+    "volume": 8103
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "榴槤-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 93.3,
+      "middle": 93.3,
+      "low": 93.3,
+      "average": 93.3
+    },
+    "volume": 1100
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 26.6,
+      "middle": 13.9,
+      "low": 10.6,
+      "average": 15.8
+    },
+    "volume": 20010
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 58.3,
+      "middle": 23.7,
+      "low": 14.8,
+      "average": 28.8
+    },
+    "volume": 1254
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "台北一",
+    "prices": {
+      "high": 63.5,
+      "middle": 48.6,
+      "low": 25.2,
+      "average": 46.9
+    },
+    "volume": 5119
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柑橘-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 82.5,
+      "middle": 41.9,
+      "low": 36.4,
+      "average": 48.9
+    },
+    "volume": 5189
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 58,
+      "middle": 37.9,
+      "low": 35.6,
+      "average": 41.4
+    },
+    "volume": 2550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-檸檬",
+    "marketName": "台北一",
+    "prices": {
+      "high": 68,
+      "middle": 43.4,
+      "low": 28.8,
+      "average": 45.4
+    },
+    "volume": 2793
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-無子檸檬",
+    "marketName": "台北一",
+    "prices": {
+      "high": 95.8,
+      "middle": 53.3,
+      "low": 30.2,
+      "average": 57.2
+    },
+    "volume": 3660
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "黃秋葵",
+    "marketName": "台北一",
+    "prices": {
+      "high": 114.9,
+      "middle": 63.8,
+      "low": 27.3,
+      "average": 66.7
+    },
+    "volume": 2239
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "台北一",
+    "prices": {
+      "high": 90,
+      "middle": 67.6,
+      "low": 44.6,
+      "average": 67.5
+    },
+    "volume": 3909
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "台北一",
+    "prices": {
+      "high": 40.8,
+      "middle": 17.8,
+      "low": 8.1,
+      "average": 20.4
+    },
+    "volume": 13411
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 76.5,
+      "middle": 59,
+      "low": 37.8,
+      "average": 58.3
+    },
+    "volume": 28645
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "台北一",
+    "prices": {
+      "high": 35.1,
+      "middle": 22.4,
+      "low": 11.6,
+      "average": 22.8
+    },
+    "volume": 10368
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 62.8,
+      "middle": 44.2,
+      "low": 18.8,
+      "average": 42.8
+    },
+    "volume": 14560
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "台北一",
+    "prices": {
+      "high": 112.6,
+      "middle": 82.2,
+      "low": 49.3,
+      "average": 81.7
+    },
+    "volume": 8190
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "台北一",
+    "prices": {
+      "high": 35.6,
+      "middle": 23.5,
+      "low": 14.1,
+      "average": 24.1
+    },
+    "volume": 5506
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-梨子蒲",
+    "marketName": "台北一",
+    "prices": {
+      "high": 34.1,
+      "middle": 21.9,
+      "low": 12.9,
+      "average": 22.6
+    },
+    "volume": 2175
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "台北一",
+    "prices": {
+      "high": 74.4,
+      "middle": 50.2,
+      "low": 30.7,
+      "average": 51.1
+    },
+    "volume": 10024
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-黑柿",
+    "marketName": "台北一",
+    "prices": {
+      "high": 163.2,
+      "middle": 75.4,
+      "low": 42,
+      "average": 86.3
+    },
+    "volume": 1601
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "台北一",
+    "prices": {
+      "high": 122.3,
+      "middle": 90.3,
+      "low": 46.7,
+      "average": 88
+    },
+    "volume": 18774
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-彩色種 紅色",
+    "marketName": "台北一",
+    "prices": {
+      "high": 190.1,
+      "middle": 119.5,
+      "low": 85.5,
+      "average": 126.8
+    },
+    "volume": 3401
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-彩色種 黃色",
+    "marketName": "台北一",
+    "prices": {
+      "high": 134.3,
+      "middle": 86.5,
+      "low": 59.6,
+      "average": 90.7
+    },
+    "volume": 3031
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "台北一",
+    "prices": {
+      "high": 126.4,
+      "middle": 80.7,
+      "low": 48.1,
+      "average": 83.3
+    },
+    "volume": 10225
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菜豆-青色",
+    "marketName": "台北一",
+    "prices": {
+      "high": 73.7,
+      "middle": 54.6,
+      "low": 41.6,
+      "average": 55.8
+    },
+    "volume": 3281
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "台北一",
+    "prices": {
+      "high": 217.4,
+      "middle": 146.2,
+      "low": 71.6,
+      "average": 145.5
+    },
+    "volume": 6103
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 85.3,
+      "middle": 75.9,
+      "low": 58.1,
+      "average": 74.2
+    },
+    "volume": 14677
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿成",
+    "marketName": "台北一",
+    "prices": {
+      "high": 41.7,
+      "middle": 22.9,
+      "low": 14.5,
+      "average": 25
+    },
+    "volume": 8696
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿嬌",
+    "marketName": "台北一",
+    "prices": {
+      "high": 21.1,
+      "middle": 18.5,
+      "low": 14.8,
+      "average": 18.3
+    },
+    "volume": 6177
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-圓形",
+    "marketName": "台北一",
+    "prices": {
+      "high": 25.9,
+      "middle": 21.5,
+      "low": 17.8,
+      "average": 21.6
+    },
+    "volume": 7717
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "台北一",
+    "prices": {
+      "high": 97,
+      "middle": 63,
+      "low": 33,
+      "average": 63.8
+    },
+    "volume": 9113
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-進口 栗子",
+    "marketName": "台北一",
+    "prices": {
+      "high": 40.3,
+      "middle": 33.6,
+      "low": 30,
+      "average": 34.2
+    },
+    "volume": 5211
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "隼人瓜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 16.6,
+      "middle": 11.6,
+      "low": 7.2,
+      "average": 11.7
+    },
+    "volume": 2486
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "辣椒-糯米椒",
+    "marketName": "台北一",
+    "prices": {
+      "high": 163.7,
+      "middle": 114.5,
+      "low": 59.7,
+      "average": 113.4
+    },
+    "volume": 1390
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 59.7,
+      "middle": 30,
+      "low": 15.8,
+      "average": 33
+    },
+    "volume": 9093
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "台北一",
+    "prices": {
+      "high": 31.3,
+      "middle": 23.8,
+      "low": 18.8,
+      "average": 24.3
+    },
+    "volume": 17717
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 49.2,
+      "middle": 34.6,
+      "low": 21.3,
+      "average": 34.8
+    },
+    "volume": 12372
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-白龍王",
+    "marketName": "台北一",
+    "prices": {
+      "high": 84.2,
+      "middle": 48,
+      "low": 21.9,
+      "average": 50
+    },
+    "volume": 4832
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-進口 玉米筍",
+    "marketName": "台北一",
+    "prices": {
+      "high": 159.4,
+      "middle": 98.2,
+      "low": 34.7,
+      "average": 97.7
+    },
+    "volume": 2674
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "台北一",
+    "prices": {
+      "high": 103.7,
+      "middle": 81.1,
+      "low": 55.3,
+      "average": 80.4
+    },
+    "volume": 4974
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 111.1,
+      "middle": 94.1,
+      "low": 82.8,
+      "average": 95.2
+    },
+    "volume": 7702
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "栗子",
+    "marketName": "台北一",
+    "prices": {
+      "high": 78,
+      "middle": 72,
+      "low": 70,
+      "average": 72.8
+    },
+    "volume": 1090
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "台北一",
+    "prices": {
+      "high": 77.4,
+      "middle": 38.5,
+      "low": 21.3,
+      "average": 42.8
+    },
+    "volume": 8338
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 73.4,
+      "middle": 46.8,
+      "low": 35.7,
+      "average": 49.9
+    },
+    "volume": 13130
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-青木瓜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 50.4,
+      "middle": 39,
+      "low": 29.4,
+      "average": 39.3
+    },
+    "volume": 2424
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "龍眼-十月眼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 135.1,
+      "middle": 83.6,
+      "low": 49.7,
+      "average": 87.1
+    },
+    "volume": 1275
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "龍眼-粉殼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 90.5,
+      "middle": 60.4,
+      "low": 43.1,
+      "average": 63
+    },
+    "volume": 1366
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "台北一",
+    "prices": {
+      "high": 63.3,
+      "middle": 50.7,
+      "low": 25.9,
+      "average": 48.2
+    },
+    "volume": 4427
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 初秋",
+    "marketName": "台北一",
+    "prices": {
+      "high": 39.9,
+      "middle": 29.8,
+      "low": 25.2,
+      "average": 30.9
+    },
+    "volume": 7589
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "台北一",
+    "prices": {
+      "high": 24,
+      "middle": 23.5,
+      "low": 23,
+      "average": 23.5
+    },
+    "volume": 3296
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-土白菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 80.2,
+      "middle": 73.4,
+      "low": 27.6,
+      "average": 65.6
+    },
+    "volume": 1741
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "台北一",
+    "prices": {
+      "high": 88.4,
+      "middle": 65.6,
+      "low": 24,
+      "average": 61.9
+    },
+    "volume": 6322
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "台北一",
+    "prices": {
+      "high": 18.7,
+      "middle": 9.6,
+      "low": 5.1,
+      "average": 10.5
+    },
+    "volume": 40645
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "台北一",
+    "prices": {
+      "high": 40.6,
+      "middle": 30.9,
+      "low": 22.1,
+      "average": 31.1
+    },
+    "volume": 9830
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "台北一",
+    "prices": {
+      "high": 77.2,
+      "middle": 55,
+      "low": 34.5,
+      "average": 55.4
+    },
+    "volume": 8776
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 73.3,
+      "middle": 49.3,
+      "low": 36,
+      "average": 51.4
+    },
+    "volume": 12301
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-水蕹菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 77.2,
+      "middle": 75.6,
+      "low": 43.2,
+      "average": 69.4
+    },
+    "volume": 1189
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芹菜-白梗",
+    "marketName": "台北一",
+    "prices": {
+      "high": 171.2,
+      "middle": 88.2,
+      "low": 49.8,
+      "average": 97.1
+    },
+    "volume": 1824
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芹菜-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 53.6,
+      "middle": 31.8,
+      "low": 14,
+      "average": 32.6
+    },
+    "volume": 4666
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 88.5,
+      "middle": 47.3,
+      "low": 26.8,
+      "average": 51.4
+    },
+    "volume": 4800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-本島圓葉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 74.4,
+      "middle": 48.1,
+      "low": 25.8,
+      "average": 48.9
+    },
+    "volume": 3524
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 79.4,
+      "middle": 51,
+      "low": 30,
+      "average": 52.5
+    },
+    "volume": 9481
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-水耕",
+    "marketName": "台北一",
+    "prices": {
+      "high": 139,
+      "middle": 96.1,
+      "low": 74.4,
+      "average": 100.3
+    },
+    "volume": 1181
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-進口 結球萵",
+    "marketName": "台北一",
+    "prices": {
+      "high": 137.9,
+      "middle": 75.6,
+      "low": 46,
+      "average": 82.1
+    },
+    "volume": 3595
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 29.8,
+      "middle": 18,
+      "low": 14.2,
+      "average": 19.6
+    },
+    "volume": 2639
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "台北一",
+    "prices": {
+      "high": 70.2,
+      "middle": 39.8,
+      "low": 26.4,
+      "average": 43.2
+    },
+    "volume": 4052
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-紅莧菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 56.9,
+      "middle": 48.2,
+      "low": 33.7,
+      "average": 47
+    },
+    "volume": 1284
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 57.1,
+      "middle": 46.6,
+      "low": 29.5,
+      "average": 45.3
+    },
+    "volume": 10127
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 73.2,
+      "middle": 50.2,
+      "low": 16.4,
+      "average": 48
+    },
+    "volume": 5393
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 67.4,
+      "middle": 46.4,
+      "low": 27.4,
+      "average": 46.8
+    },
+    "volume": 13331
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "九層塔",
+    "marketName": "台北一",
+    "prices": {
+      "high": 42.4,
+      "middle": 24.2,
+      "low": 9.8,
+      "average": 24.9
+    },
+    "volume": 2244
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "海菜-水蓮",
+    "marketName": "台北一",
+    "prices": {
+      "high": 161.4,
+      "middle": 149.6,
+      "low": 116.9,
+      "average": 145.4
+    },
+    "volume": 1896
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "濕香菇",
+    "marketName": "台北一",
+    "prices": {
+      "high": 159.7,
+      "middle": 151.2,
+      "low": 116.7,
+      "average": 146
+    },
+    "volume": 1328
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "金絲菇-金針菇",
+    "marketName": "台北一",
+    "prices": {
+      "high": 39,
+      "middle": 18.3,
+      "low": 6.1,
+      "average": 20
+    },
+    "volume": 1264
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "金絲菇-盒裝",
+    "marketName": "台北一",
+    "prices": {
+      "high": 34.5,
+      "middle": 30.6,
+      "low": 30,
+      "average": 31.3
+    },
+    "volume": 1349
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "杏鮑菇",
+    "marketName": "台北一",
+    "prices": {
+      "high": 96.8,
+      "middle": 59.4,
+      "low": 14.6,
+      "average": 57.9
+    },
+    "volume": 6402
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "李-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 126,
+      "middle": 111.4,
+      "low": 52.1,
+      "average": 102.5
+    },
+    "volume": 3202
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "台北一",
+    "prices": {
+      "high": 106.8,
+      "middle": 73.4,
+      "low": 44.5,
+      "average": 74.3
+    },
+    "volume": 31166
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-世紀梨",
+    "marketName": "台北一",
+    "prices": {
+      "high": 60,
+      "middle": 47.9,
+      "low": 40,
+      "average": 48.7
+    },
+    "volume": 1435
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-新興梨",
+    "marketName": "台北一",
+    "prices": {
+      "high": 89.3,
+      "middle": 66.1,
+      "low": 47.3,
+      "average": 67
+    },
+    "volume": 5248
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "鹹菜-帶葉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 35,
+      "middle": 35,
+      "low": 35,
+      "average": 35
+    },
+    "volume": 3870
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "雪里紅",
+    "marketName": "台北一",
+    "prices": {
+      "high": 18.1,
+      "middle": 14,
+      "low": 14,
+      "average": 14.8
+    },
+    "volume": 1860
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "台北一",
+    "prices": {
+      "high": 85.5,
+      "middle": 42.9,
+      "low": 18.5,
+      "average": 46.6
+    },
+    "volume": 24638
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-紅心",
+    "marketName": "台北一",
+    "prices": {
+      "high": 60.2,
+      "middle": 42.4,
+      "low": 21.2,
+      "average": 41.7
+    },
+    "volume": 1988
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-帝王芭",
+    "marketName": "台北一",
+    "prices": {
+      "high": 87.4,
+      "middle": 43.2,
+      "low": 19.4,
+      "average": 47.3
+    },
+    "volume": 1543
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蓮霧-黑糖芭比",
+    "marketName": "台北一",
+    "prices": {
+      "high": 349.8,
+      "middle": 141.5,
+      "low": 43.8,
+      "average": 163.6
+    },
+    "volume": 1088
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 450.3,
+      "middle": 114.8,
+      "low": 76.9,
+      "average": 174.3
+    },
+    "volume": 21120
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "台北一",
+    "prices": {
+      "high": 25.6,
+      "middle": 16.2,
+      "low": 10.3,
+      "average": 16.9
+    },
+    "volume": 7259
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 20.9,
+      "middle": 17.4,
+      "low": 12,
+      "average": 17
+    },
+    "volume": 37100
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-未洗",
+    "marketName": "台北一",
+    "prices": {
+      "high": 20,
+      "middle": 16.6,
+      "low": 10,
+      "average": 16
+    },
+    "volume": 2971
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "台北一",
+    "prices": {
+      "high": 31.5,
+      "middle": 21.9,
+      "low": 10.8,
+      "average": 21.6
+    },
+    "volume": 21550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "台北一",
+    "prices": {
+      "high": 30.2,
+      "middle": 20.6,
+      "low": 10.6,
+      "average": 20.5
+    },
+    "volume": 8434
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 50,
+      "middle": 24.1,
+      "low": 10.7,
+      "average": 26.6
+    },
+    "volume": 2280
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "台北一",
+    "prices": {
+      "high": 33.2,
+      "middle": 28.7,
+      "low": 20.7,
+      "average": 28
+    },
+    "volume": 2094
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 30.3,
+      "middle": 25.5,
+      "low": 21.9,
+      "average": 25.7
+    },
+    "volume": 7351
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-日蔥",
+    "marketName": "台北一",
+    "prices": {
+      "high": 352.8,
+      "middle": 289.9,
+      "low": 218,
+      "average": 288.1
+    },
+    "volume": 1978
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-北蔥",
+    "marketName": "台北一",
+    "prices": {
+      "high": 208.6,
+      "middle": 189.1,
+      "low": 140.5,
+      "average": 183.3
+    },
+    "volume": 3126
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-粉蔥",
+    "marketName": "台北一",
+    "prices": {
+      "high": 268.8,
+      "middle": 239.5,
+      "low": 178.2,
+      "average": 233.1
+    },
+    "volume": 6133
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "韭菜-青頭",
+    "marketName": "台北一",
+    "prices": {
+      "high": 93.7,
+      "middle": 68.6,
+      "low": 44.1,
+      "average": 68.7
+    },
+    "volume": 3098
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "大蒜-蒜仁",
+    "marketName": "台北一",
+    "prices": {
+      "high": 130,
+      "middle": 126.6,
+      "low": 104.6,
+      "average": 122.8
+    },
+    "volume": 1097
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-麻竹筍",
+    "marketName": "台北一",
+    "prices": {
+      "high": 52.1,
+      "middle": 42.1,
+      "low": 32.4,
+      "average": 42.2
+    },
+    "volume": 1675
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-烏殼綠",
+    "marketName": "台北一",
+    "prices": {
+      "high": 69.3,
+      "middle": 51,
+      "low": 29.8,
+      "average": 50.4
+    },
+    "volume": 2257
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芋-檳榔心芋",
+    "marketName": "台北一",
+    "prices": {
+      "high": 73.8,
+      "middle": 51.6,
+      "low": 31.3,
+      "average": 52
+    },
+    "volume": 4964
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "豆薯",
+    "marketName": "台北一",
+    "prices": {
+      "high": 60.4,
+      "middle": 59.7,
+      "low": 49.2,
+      "average": 57.8
+    },
+    "volume": 1110
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蓮藕",
+    "marketName": "台北一",
+    "prices": {
+      "high": 60,
+      "middle": 47.8,
+      "low": 17,
+      "average": 44.1
+    },
+    "volume": 1835
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "台北一",
+    "prices": {
+      "high": 57.3,
+      "middle": 38,
+      "low": 15.6,
+      "average": 37.4
+    },
+    "volume": 3895
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-芋仔甘薯",
+    "marketName": "台北一",
+    "prices": {
+      "high": 37.7,
+      "middle": 26.4,
+      "low": 12.5,
+      "average": 25.9
+    },
+    "volume": 1475
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "台北一",
+    "prices": {
+      "high": 37.7,
+      "middle": 27.5,
+      "low": 18.9,
+      "average": 27.8
+    },
+    "volume": 12729
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-老薑",
+    "marketName": "台北一",
+    "prices": {
+      "high": 124.2,
+      "middle": 80.1,
+      "low": 36.7,
+      "average": 80.2
+    },
+    "volume": 1059
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-嫩薑",
+    "marketName": "台北一",
+    "prices": {
+      "high": 68.8,
+      "middle": 45.1,
+      "low": 29,
+      "average": 46.6
+    },
+    "volume": 2592
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-粉薑",
+    "marketName": "台北一",
+    "prices": {
+      "high": 75,
+      "middle": 52.8,
+      "low": 29.7,
+      "average": 52.6
+    },
+    "volume": 3156
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 118.8,
+      "middle": 82.9,
+      "low": 55.3,
+      "average": 84.5
+    },
+    "volume": 8398
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-去殼",
+    "marketName": "台北一",
+    "prices": {
+      "high": 198.7,
+      "middle": 125.7,
+      "low": 74.6,
+      "average": 130.1
+    },
+    "volume": 2275
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘆筍-進口 綠蘆筍",
+    "marketName": "台北一",
+    "prices": {
+      "high": 324.4,
+      "middle": 206.6,
+      "low": 125.6,
+      "average": 214
+    },
+    "volume": 1254
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "台北一",
+    "prices": {
+      "high": 14.1,
+      "middle": 13,
+      "low": 13,
+      "average": 13.2
+    },
+    "volume": 8300
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "台北一",
+    "prices": {
+      "high": 19.9,
+      "middle": 12,
+      "low": 12,
+      "average": 13.6
+    },
+    "volume": 4978
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 20.1,
+      "middle": 15,
+      "low": 9.3,
+      "average": 14.9
+    },
+    "volume": 22877
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "台北一",
+    "prices": {
+      "high": 20.6,
+      "middle": 15.5,
+      "low": 11.6,
+      "average": 15.8
+    },
+    "volume": 16189
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "台北一",
+    "prices": {
+      "high": 47.3,
+      "middle": 32.4,
+      "low": 15,
+      "average": 31.9
+    },
+    "volume": 15280
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-網狀綠肉",
+    "marketName": "台北一",
+    "prices": {
+      "high": 67,
+      "middle": 61.9,
+      "low": 35,
+      "average": 57.5
+    },
+    "volume": 1090
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-阿露斯",
+    "marketName": "台北一",
+    "prices": {
+      "high": 146.6,
+      "middle": 86.6,
+      "low": 64.9,
+      "average": 94.2
+    },
+    "volume": 3367
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 95.4,
+      "middle": 58.3,
+      "low": 49.6,
+      "average": 64
+    },
+    "volume": 2672
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-紅玉進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 121.4,
+      "middle": 88.6,
+      "low": 77.2,
+      "average": 92.9
+    },
+    "volume": 4310
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "台北一",
+    "prices": {
+      "high": 97.9,
+      "middle": 56.5,
+      "low": 43,
+      "average": 62.1
+    },
+    "volume": 14638
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "台北一",
+    "prices": {
+      "high": 42.1,
+      "middle": 28,
+      "low": 17.9,
+      "average": 28.8
+    },
+    "volume": 8529
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "台北一",
+    "prices": {
+      "high": 140.8,
+      "middle": 70.2,
+      "low": 45.5,
+      "average": 79.4
+    },
+    "volume": 11567
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 72.7,
+      "middle": 51.6,
+      "low": 34.3,
+      "average": 52.4
+    },
+    "volume": 1350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 21.6,
+      "middle": 20,
+      "low": 18.9,
+      "average": 20.1
+    },
+    "volume": 5295
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柑橘-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 111.1,
+      "middle": 108.4,
+      "low": 100,
+      "average": 107.2
+    },
+    "volume": 2984
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 66.7,
+      "middle": 66.7,
+      "low": 66.7,
+      "average": 66.7
+    },
+    "volume": 4032
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-黃金檸檬",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 56.8,
+      "middle": 47.5,
+      "low": 42.3,
+      "average": 48.3
+    },
+    "volume": 1202
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "黃秋葵",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 64.8,
+      "middle": 27.8,
+      "low": 12.9,
+      "average": 32.2
+    },
+    "volume": 1271
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 50,
+      "middle": 38.6,
+      "low": 33.3,
+      "average": 39.8
+    },
+    "volume": 1848
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 29,
+      "middle": 13.2,
+      "low": 7.1,
+      "average": 15.1
+    },
+    "volume": 3628
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 77.7,
+      "middle": 46.5,
+      "low": 27.7,
+      "average": 49
+    },
+    "volume": 4410.7
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 27.7,
+      "middle": 14.2,
+      "low": 3.2,
+      "average": 14.7
+    },
+    "volume": 2214
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 45.6,
+      "middle": 27.3,
+      "low": 16.7,
+      "average": 28.9
+    },
+    "volume": 4247
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 76.3,
+      "middle": 56.4,
+      "low": 40.1,
+      "average": 57.1
+    },
+    "volume": 1429
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 34.4,
+      "middle": 20.6,
+      "low": 9.4,
+      "average": 21.1
+    },
+    "volume": 1871
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 72.5,
+      "middle": 40.9,
+      "low": 24.1,
+      "average": 43.9
+    },
+    "volume": 2418
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 134.7,
+      "middle": 99.3,
+      "low": 53.3,
+      "average": 97.2
+    },
+    "volume": 1980
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 140.7,
+      "middle": 101.7,
+      "low": 38.9,
+      "average": 96.9
+    },
+    "volume": 1431
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菜豆-青色",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 58.6,
+      "middle": 43.7,
+      "low": 34.5,
+      "average": 44.8
+    },
+    "volume": 1327
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 179.3,
+      "middle": 99.6,
+      "low": 60.7,
+      "average": 107.8
+    },
+    "volume": 1629
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 112.5,
+      "middle": 106,
+      "low": 83.8,
+      "average": 102.8
+    },
+    "volume": 4056
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 106.3,
+      "middle": 73.3,
+      "low": 28.5,
+      "average": 70.9
+    },
+    "volume": 1132
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 54.4,
+      "middle": 38.7,
+      "low": 16.7,
+      "average": 37.4
+    },
+    "volume": 1140.2
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 24.5,
+      "middle": 18.1,
+      "low": 14.8,
+      "average": 18.7
+    },
+    "volume": 3834
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 35.7,
+      "middle": 25.7,
+      "low": 15.2,
+      "average": 25.6
+    },
+    "volume": 3520
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 200,
+      "middle": 186.5,
+      "low": 175.9,
+      "average": 187.1
+    },
+    "volume": 5145
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 64.6,
+      "middle": 53.9,
+      "low": 44.9,
+      "average": 54.3
+    },
+    "volume": 2153
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 34.3,
+      "middle": 28,
+      "low": 19.1,
+      "average": 27.5
+    },
+    "volume": 2545
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 37.6,
+      "middle": 26,
+      "low": 22.2,
+      "average": 27.6
+    },
+    "volume": 2013
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 初秋",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 30.8,
+      "middle": 29.9,
+      "low": 27,
+      "average": 29.5
+    },
+    "volume": 1950
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 29.7,
+      "middle": 24.6,
+      "low": 24,
+      "average": 25.5
+    },
+    "volume": 1200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 63.1,
+      "middle": 50,
+      "low": 15.7,
+      "average": 45.7
+    },
+    "volume": 1666
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 14.4,
+      "middle": 9.7,
+      "low": 6.3,
+      "average": 10
+    },
+    "volume": 6639
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 77,
+      "middle": 50.6,
+      "low": 46.7,
+      "average": 55.1
+    },
+    "volume": 2415
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 17.9,
+      "middle": 12.5,
+      "low": 10,
+      "average": 13.1
+    },
+    "volume": 2480
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 54.3,
+      "middle": 41.7,
+      "low": 29.4,
+      "average": 41.8
+    },
+    "volume": 2065
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 59.5,
+      "middle": 51,
+      "low": 36.1,
+      "average": 49.7
+    },
+    "volume": 2125.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 77.4,
+      "middle": 34.3,
+      "low": 26.6,
+      "average": 41.4
+    },
+    "volume": 1074
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-本島圓葉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 58.1,
+      "middle": 51,
+      "low": 25,
+      "average": 47.2
+    },
+    "volume": 1390
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 75.6,
+      "middle": 46.8,
+      "low": 23.8,
+      "average": 47.9
+    },
+    "volume": 2430
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 143.8,
+      "middle": 139.6,
+      "low": 135.9,
+      "average": 139.7
+    },
+    "volume": 2351
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 17,
+      "middle": 15.4,
+      "low": 11.5,
+      "average": 15
+    },
+    "volume": 1105
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 40.1,
+      "middle": 32.6,
+      "low": 17.8,
+      "average": 31.1
+    },
+    "volume": 1673
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 54.4,
+      "middle": 41.8,
+      "low": 36.6,
+      "average": 43.3
+    },
+    "volume": 1476.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 44.3,
+      "middle": 42.6,
+      "low": 30.7,
+      "average": 40.6
+    },
+    "volume": 1448
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 54.3,
+      "middle": 33.1,
+      "low": 22,
+      "average": 35.1
+    },
+    "volume": 2024
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "金絲菇-金針菇",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 22.8,
+      "middle": 18.1,
+      "low": 18,
+      "average": 19
+    },
+    "volume": 1240
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "杏鮑菇",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 54.8,
+      "middle": 43.4,
+      "low": 18.4,
+      "average": 40.7
+    },
+    "volume": 1193
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 85.6,
+      "middle": 64.4,
+      "low": 45.4,
+      "average": 64.9
+    },
+    "volume": 5408
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-蜜梨",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 55,
+      "middle": 47.2,
+      "low": 45,
+      "average": 48.3
+    },
+    "volume": 1200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 63.7,
+      "middle": 40.9,
+      "low": 22.5,
+      "average": 41.7
+    },
+    "volume": 5944
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 365.7,
+      "middle": 148.5,
+      "low": 134.6,
+      "average": 189.1
+    },
+    "volume": 8363.2
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 13,
+      "middle": 8.9,
+      "low": 5,
+      "average": 9
+    },
+    "volume": 1950
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 25,
+      "middle": 24.2,
+      "low": 15.5,
+      "average": 22.6
+    },
+    "volume": 9460
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-未洗",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 20.3,
+      "middle": 19.9,
+      "low": 19,
+      "average": 19.8
+    },
+    "volume": 1136
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 26.7,
+      "middle": 19.6,
+      "low": 12.3,
+      "average": 19.5
+    },
+    "volume": 6350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 25,
+      "middle": 18.4,
+      "low": 11.7,
+      "average": 18.4
+    },
+    "volume": 2942
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 52.2,
+      "middle": 52,
+      "low": 47.6,
+      "average": 51.1
+    },
+    "volume": 1207
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 27.2,
+      "middle": 24.5,
+      "low": 24,
+      "average": 25
+    },
+    "volume": 3000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 60.9,
+      "middle": 56,
+      "low": 32.2,
+      "average": 52.2
+    },
+    "volume": 15567
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-麻竹筍",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 30,
+      "middle": 28.9,
+      "low": 25.7,
+      "average": 28.5
+    },
+    "volume": 1340
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-烏殼綠",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 37.9,
+      "middle": 33,
+      "low": 29.6,
+      "average": 33.3
+    },
+    "volume": 1932
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芋-檳榔心芋",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 49.9,
+      "middle": 37.6,
+      "low": 29.5,
+      "average": 38.4
+    },
+    "volume": 1303
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 34.1,
+      "middle": 25.2,
+      "low": 11.5,
+      "average": 24.2
+    },
+    "volume": 2318
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 35.7,
+      "middle": 31.1,
+      "low": 19.7,
+      "average": 29.8
+    },
+    "volume": 2565
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 105.2,
+      "middle": 68.6,
+      "low": 62.1,
+      "average": 74.6
+    },
+    "volume": 1368
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 13,
+      "middle": 11.6,
+      "low": 11,
+      "average": 11.7
+    },
+    "volume": 3131
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 15.5,
+      "middle": 12.6,
+      "low": 9.1,
+      "average": 12.5
+    },
+    "volume": 2908
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 15.8,
+      "middle": 12.7,
+      "low": 9.7,
+      "average": 12.7
+    },
+    "volume": 4011
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 43.1,
+      "middle": 23.8,
+      "low": 20,
+      "average": 26.9
+    },
+    "volume": 2707
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 76.9,
+      "middle": 70,
+      "low": 69.6,
+      "average": 71.3
+    },
+    "volume": 2696
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 40,
+      "middle": 35,
+      "low": 33.4,
+      "average": 35.7
+    },
+    "volume": 1152
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "板橋區",
+    "prices": {
+      "high": 85.3,
+      "middle": 68.6,
+      "low": 55.4,
+      "average": 69.3
+    },
+    "volume": 1831
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椰子",
+    "marketName": "三重區",
+    "prices": {
+      "high": 23.4,
+      "middle": 21,
+      "low": 20.5,
+      "average": 21.4
+    },
+    "volume": 2265
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椰子-剝殼進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 60.5,
+      "middle": 40,
+      "low": 40,
+      "average": 44.1
+    },
+    "volume": 4108
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "小番茄-聖女",
+    "marketName": "三重區",
+    "prices": {
+      "high": 87.3,
+      "middle": 55,
+      "low": 55,
+      "average": 61.5
+    },
+    "volume": 1017
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-白肉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 91.1,
+      "middle": 63.2,
+      "low": 44.3,
+      "average": 65
+    },
+    "volume": 2261
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 93,
+      "middle": 58.7,
+      "low": 38.2,
+      "average": 61.4
+    },
+    "volume": 7151
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 22.1,
+      "middle": 17.8,
+      "low": 11.4,
+      "average": 17.4
+    },
+    "volume": 11040
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 58.2,
+      "middle": 35.6,
+      "low": 16,
+      "average": 36.2
+    },
+    "volume": 1328
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 39.1,
+      "middle": 25.1,
+      "low": 24.7,
+      "average": 27.8
+    },
+    "volume": 8672
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-牛奶鳳梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 11,
+      "middle": 11,
+      "low": 11,
+      "average": 11
+    },
+    "volume": 1562
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-西瓜鳳梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 15,
+      "middle": 13.7,
+      "low": 12,
+      "average": 13.6
+    },
+    "volume": 1131
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椪柑",
+    "marketName": "三重區",
+    "prices": {
+      "high": 40,
+      "middle": 40,
+      "low": 40,
+      "average": 40
+    },
+    "volume": 1428
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柑橘-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 101.4,
+      "middle": 90,
+      "low": 67.4,
+      "average": 87.8
+    },
+    "volume": 8381
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 64.8,
+      "middle": 55.5,
+      "low": 50,
+      "average": 56.2
+    },
+    "volume": 3340
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-檸檬",
+    "marketName": "三重區",
+    "prices": {
+      "high": 64.3,
+      "middle": 39.1,
+      "low": 31.5,
+      "average": 42.6
+    },
+    "volume": 2923
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-無子檸檬",
+    "marketName": "三重區",
+    "prices": {
+      "high": 74.3,
+      "middle": 47.5,
+      "low": 32,
+      "average": 49.7
+    },
+    "volume": 1783
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "三重區",
+    "prices": {
+      "high": 57.5,
+      "middle": 48.7,
+      "low": 43.2,
+      "average": 49.4
+    },
+    "volume": 1345
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "三重區",
+    "prices": {
+      "high": 37.1,
+      "middle": 16.4,
+      "low": 8.4,
+      "average": 18.9
+    },
+    "volume": 2516
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 72.4,
+      "middle": 44.5,
+      "low": 23,
+      "average": 45.8
+    },
+    "volume": 3563
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "三重區",
+    "prices": {
+      "high": 16.9,
+      "middle": 12,
+      "low": 8.4,
+      "average": 12.2
+    },
+    "volume": 1113
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 49.5,
+      "middle": 26.9,
+      "low": 17.6,
+      "average": 29.6
+    },
+    "volume": 2966
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "三重區",
+    "prices": {
+      "high": 84.7,
+      "middle": 50,
+      "low": 28.2,
+      "average": 52.6
+    },
+    "volume": 1839
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "三重區",
+    "prices": {
+      "high": 30.3,
+      "middle": 18.2,
+      "low": 6.6,
+      "average": 18.3
+    },
+    "volume": 1306
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "三重區",
+    "prices": {
+      "high": 57.3,
+      "middle": 36.4,
+      "low": 24.1,
+      "average": 38.1
+    },
+    "volume": 1690
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "三重區",
+    "prices": {
+      "high": 115.7,
+      "middle": 84.5,
+      "low": 48.9,
+      "average": 83.6
+    },
+    "volume": 2577
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "三重區",
+    "prices": {
+      "high": 124.9,
+      "middle": 68.7,
+      "low": 31.5,
+      "average": 72.5
+    },
+    "volume": 1597
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "三重區",
+    "prices": {
+      "high": 183.9,
+      "middle": 102.2,
+      "low": 50.8,
+      "average": 108.3
+    },
+    "volume": 1121
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 140,
+      "middle": 133.6,
+      "low": 80.4,
+      "average": 124.2
+    },
+    "volume": 1372
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-圓形",
+    "marketName": "三重區",
+    "prices": {
+      "high": 21.8,
+      "middle": 18.5,
+      "low": 16.6,
+      "average": 18.8
+    },
+    "volume": 2359
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "三重區",
+    "prices": {
+      "high": 93.5,
+      "middle": 61.7,
+      "low": 20,
+      "average": 59.8
+    },
+    "volume": 1506
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-進口 栗子",
+    "marketName": "三重區",
+    "prices": {
+      "high": 30,
+      "middle": 24.6,
+      "low": 21.8,
+      "average": 25.1
+    },
+    "volume": 1345
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "三重區",
+    "prices": {
+      "high": 38,
+      "middle": 20.9,
+      "low": 9.6,
+      "average": 22.1
+    },
+    "volume": 1607
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "三重區",
+    "prices": {
+      "high": 35,
+      "middle": 32.9,
+      "low": 19,
+      "average": 30.6
+    },
+    "volume": 1146
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "三重區",
+    "prices": {
+      "high": 39.6,
+      "middle": 26.3,
+      "low": 11,
+      "average": 25.9
+    },
+    "volume": 1528
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 118.2,
+      "middle": 84.6,
+      "low": 59.1,
+      "average": 86.2
+    },
+    "volume": 3380.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 120.1,
+      "middle": 106.9,
+      "low": 76.8,
+      "average": 103.5
+    },
+    "volume": 10631
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "三重區",
+    "prices": {
+      "high": 57.8,
+      "middle": 27.3,
+      "low": 19,
+      "average": 31.7
+    },
+    "volume": 2988
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 62.6,
+      "middle": 41,
+      "low": 39.4,
+      "average": 45
+    },
+    "volume": 7039
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "龍眼-粉殼",
+    "marketName": "三重區",
+    "prices": {
+      "high": 45.3,
+      "middle": 38,
+      "low": 37.3,
+      "average": 39.3
+    },
+    "volume": 4040
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "三重區",
+    "prices": {
+      "high": 36,
+      "middle": 34,
+      "low": 30,
+      "average": 33.6
+    },
+    "volume": 1494
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "三重區",
+    "prices": {
+      "high": 27,
+      "middle": 26.5,
+      "low": 25,
+      "average": 26.3
+    },
+    "volume": 1800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "三重區",
+    "prices": {
+      "high": 19.8,
+      "middle": 12.6,
+      "low": 8,
+      "average": 13.1
+    },
+    "volume": 4520
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "三重區",
+    "prices": {
+      "high": 18,
+      "middle": 8.7,
+      "low": 5,
+      "average": 9.8
+    },
+    "volume": 1125
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 64.3,
+      "middle": 44.7,
+      "low": 22.6,
+      "average": 44.2
+    },
+    "volume": 1148
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 69.8,
+      "middle": 47.8,
+      "low": 21.1,
+      "average": 46.9
+    },
+    "volume": 1580
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 22,
+      "middle": 17.9,
+      "low": 12.3,
+      "average": 17.6
+    },
+    "volume": 1070
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "三重區",
+    "prices": {
+      "high": 45.7,
+      "middle": 34.2,
+      "low": 21.2,
+      "average": 33.9
+    },
+    "volume": 1200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 33.3,
+      "middle": 25.7,
+      "low": 21.1,
+      "average": 26.3
+    },
+    "volume": 1660
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 57.2,
+      "middle": 35.5,
+      "low": 20.1,
+      "average": 36.7
+    },
+    "volume": 1592
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "楊桃-馬來亞種",
+    "marketName": "三重區",
+    "prices": {
+      "high": 36.5,
+      "middle": 23.1,
+      "low": 19.8,
+      "average": 25.1
+    },
+    "volume": 1043
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "李-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 182.7,
+      "middle": 120,
+      "low": 98.2,
+      "average": 128.2
+    },
+    "volume": 4190
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 50.9,
+      "middle": 39,
+      "low": 38,
+      "average": 41.2
+    },
+    "volume": 43575
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-新興梨",
+    "marketName": "三重區",
+    "prices": {
+      "high": 87.9,
+      "middle": 60.2,
+      "low": 30.4,
+      "average": 59.8
+    },
+    "volume": 2205.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "三重區",
+    "prices": {
+      "high": 64.3,
+      "middle": 40,
+      "low": 33,
+      "average": 43.5
+    },
+    "volume": 19694
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-紅心",
+    "marketName": "三重區",
+    "prices": {
+      "high": 49.9,
+      "middle": 18.2,
+      "low": 11.6,
+      "average": 23.2
+    },
+    "volume": 1607
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-帝王芭",
+    "marketName": "三重區",
+    "prices": {
+      "high": 60.6,
+      "middle": 40,
+      "low": 30.3,
+      "average": 42.2
+    },
+    "volume": 2005
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蓮霧-黑糖芭比",
+    "marketName": "三重區",
+    "prices": {
+      "high": 56.5,
+      "middle": 55,
+      "low": 55,
+      "average": 55.3
+    },
+    "volume": 1627
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-巨峰",
+    "marketName": "三重區",
+    "prices": {
+      "high": 23,
+      "middle": 20,
+      "low": 20,
+      "average": 20.6
+    },
+    "volume": 4453
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 483.6,
+      "middle": 169.7,
+      "low": 134.2,
+      "average": 225.4
+    },
+    "volume": 19063
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "三重區",
+    "prices": {
+      "high": 10,
+      "middle": 3.9,
+      "low": 2,
+      "average": 4.7
+    },
+    "volume": 2670
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 31.5,
+      "middle": 16.7,
+      "low": 6.7,
+      "average": 17.7
+    },
+    "volume": 5300
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-未洗",
+    "marketName": "三重區",
+    "prices": {
+      "high": 16.2,
+      "middle": 10.2,
+      "low": 8,
+      "average": 11
+    },
+    "volume": 2002
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "三重區",
+    "prices": {
+      "high": 29,
+      "middle": 22.5,
+      "low": 10,
+      "average": 21.3
+    },
+    "volume": 4530
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "三重區",
+    "prices": {
+      "high": 22.1,
+      "middle": 16.3,
+      "low": 8.2,
+      "average": 15.8
+    },
+    "volume": 1946
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 21.7,
+      "middle": 18,
+      "low": 11.5,
+      "average": 17.5
+    },
+    "volume": 1712
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "竹筍-麻竹筍",
+    "marketName": "三重區",
+    "prices": {
+      "high": 37,
+      "middle": 32.5,
+      "low": 24.2,
+      "average": 31.8
+    },
+    "volume": 1085
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芋-檳榔心芋",
+    "marketName": "三重區",
+    "prices": {
+      "high": 42.7,
+      "middle": 31.5,
+      "low": 21.2,
+      "average": 31.7
+    },
+    "volume": 1003
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "三重區",
+    "prices": {
+      "high": 28.8,
+      "middle": 21.4,
+      "low": 15.5,
+      "average": 21.7
+    },
+    "volume": 2468
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "三重區",
+    "prices": {
+      "high": 124,
+      "middle": 91.9,
+      "low": 62.1,
+      "average": 92.4
+    },
+    "volume": 1478
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "三重區",
+    "prices": {
+      "high": 13.9,
+      "middle": 12.6,
+      "low": 11.5,
+      "average": 12.6
+    },
+    "volume": 17217
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "三重區",
+    "prices": {
+      "high": 15.2,
+      "middle": 11.5,
+      "low": 9.9,
+      "average": 11.9
+    },
+    "volume": 14687
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "三重區",
+    "prices": {
+      "high": 18.3,
+      "middle": 7.7,
+      "low": 6.5,
+      "average": 9.6
+    },
+    "volume": 9555
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "三重區",
+    "prices": {
+      "high": 29.5,
+      "middle": 21,
+      "low": 18.8,
+      "average": 22.3
+    },
+    "volume": 11511
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-阿露斯",
+    "marketName": "三重區",
+    "prices": {
+      "high": 194.1,
+      "middle": 113.4,
+      "low": 67.2,
+      "average": 120.3
+    },
+    "volume": 1100
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "三重區",
+    "prices": {
+      "high": 97.9,
+      "middle": 66.1,
+      "low": 60,
+      "average": 71.2
+    },
+    "volume": 22025
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "三重區",
+    "prices": {
+      "high": 30,
+      "middle": 27.6,
+      "low": 13.8,
+      "average": 25.3
+    },
+    "volume": 8628
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "三重區",
+    "prices": {
+      "high": 82.5,
+      "middle": 52,
+      "low": 44.2,
+      "average": 56.5
+    },
+    "volume": 12997.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "桃農",
+    "prices": {
+      "high": 58.6,
+      "middle": 44.5,
+      "low": 37.6,
+      "average": 46
+    },
+    "volume": 2289
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "桃農",
+    "prices": {
+      "high": 25.1,
+      "middle": 17.4,
+      "low": 7.7,
+      "average": 17
+    },
+    "volume": 2664
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "桃農",
+    "prices": {
+      "high": 68.4,
+      "middle": 48.4,
+      "low": 24.3,
+      "average": 47.6
+    },
+    "volume": 2698
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "桃農",
+    "prices": {
+      "high": 36.9,
+      "middle": 22.1,
+      "low": 9.5,
+      "average": 22.5
+    },
+    "volume": 1642
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "桃農",
+    "prices": {
+      "high": 44.3,
+      "middle": 30.2,
+      "low": 13.1,
+      "average": 29.6
+    },
+    "volume": 1454
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "桃農",
+    "prices": {
+      "high": 83.4,
+      "middle": 56.7,
+      "low": 37.5,
+      "average": 58.2
+    },
+    "volume": 1048
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-青大米",
+    "marketName": "桃農",
+    "prices": {
+      "high": 62.5,
+      "middle": 54,
+      "low": 21.4,
+      "average": 49.2
+    },
+    "volume": 1300
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-梨子蒲",
+    "marketName": "桃農",
+    "prices": {
+      "high": 27.5,
+      "middle": 20.8,
+      "low": 13.3,
+      "average": 20.6
+    },
+    "volume": 1101
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "桃農",
+    "prices": {
+      "high": 123.2,
+      "middle": 85.6,
+      "low": 40.7,
+      "average": 84.2
+    },
+    "volume": 2150
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "桃農",
+    "prices": {
+      "high": 127.4,
+      "middle": 106.4,
+      "low": 58,
+      "average": 100.9
+    },
+    "volume": 1707
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "桃農",
+    "prices": {
+      "high": 193.9,
+      "middle": 76.1,
+      "low": 20.8,
+      "average": 88.6
+    },
+    "volume": 1101
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "桃農",
+    "prices": {
+      "high": 82.7,
+      "middle": 75.8,
+      "low": 60.6,
+      "average": 74.2
+    },
+    "volume": 3816
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-圓形",
+    "marketName": "桃農",
+    "prices": {
+      "high": 28.3,
+      "middle": 15.4,
+      "low": 12,
+      "average": 17.3
+    },
+    "volume": 1553
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "桃農",
+    "prices": {
+      "high": 33,
+      "middle": 24.9,
+      "low": 17.3,
+      "average": 25
+    },
+    "volume": 2391
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "桃農",
+    "prices": {
+      "high": 38.5,
+      "middle": 29.6,
+      "low": 21.7,
+      "average": 29.8
+    },
+    "volume": 1088
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "桃農",
+    "prices": {
+      "high": 36.2,
+      "middle": 29.5,
+      "low": 12.3,
+      "average": 27.4
+    },
+    "volume": 1940
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-進口 玉米筍",
+    "marketName": "桃農",
+    "prices": {
+      "high": 15.3,
+      "middle": 12.8,
+      "low": 10.5,
+      "average": 12.9
+    },
+    "volume": 10400
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "桃農",
+    "prices": {
+      "high": 36.4,
+      "middle": 27.2,
+      "low": 24.3,
+      "average": 28.4
+    },
+    "volume": 3450
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "桃農",
+    "prices": {
+      "high": 30,
+      "middle": 29,
+      "low": 28,
+      "average": 29
+    },
+    "volume": 1800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "桃農",
+    "prices": {
+      "high": 22.1,
+      "middle": 13.8,
+      "low": 5.8,
+      "average": 13.9
+    },
+    "volume": 7000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "桃農",
+    "prices": {
+      "high": 31.8,
+      "middle": 19.4,
+      "low": 9.1,
+      "average": 19.9
+    },
+    "volume": 2795
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "桃農",
+    "prices": {
+      "high": 62.9,
+      "middle": 40.8,
+      "low": 28.7,
+      "average": 42.8
+    },
+    "volume": 1097
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "桃農",
+    "prices": {
+      "high": 68.8,
+      "middle": 47.7,
+      "low": 28.4,
+      "average": 48.1
+    },
+    "volume": 1719
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "桃農",
+    "prices": {
+      "high": 68.6,
+      "middle": 50.2,
+      "low": 19.7,
+      "average": 47.8
+    },
+    "volume": 2393
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "桃農",
+    "prices": {
+      "high": 24.9,
+      "middle": 16,
+      "low": 13.4,
+      "average": 17.2
+    },
+    "volume": 2200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "桃農",
+    "prices": {
+      "high": 38.8,
+      "middle": 22.3,
+      "low": 14.1,
+      "average": 24
+    },
+    "volume": 1061
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "桃農",
+    "prices": {
+      "high": 42,
+      "middle": 36.8,
+      "low": 28.6,
+      "average": 36.2
+    },
+    "volume": 1581
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "桃農",
+    "prices": {
+      "high": 39.2,
+      "middle": 28.7,
+      "low": 13.3,
+      "average": 27.7
+    },
+    "volume": 2235
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "金絲菇-金針菇",
+    "marketName": "桃農",
+    "prices": {
+      "high": 8,
+      "middle": 7.1,
+      "low": 6,
+      "average": 7
+    },
+    "volume": 1700
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "杏鮑菇",
+    "marketName": "桃農",
+    "prices": {
+      "high": 126.7,
+      "middle": 75.7,
+      "low": 49.5,
+      "average": 80.6
+    },
+    "volume": 1130
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "桃農",
+    "prices": {
+      "high": 30,
+      "middle": 19.1,
+      "low": 6.6,
+      "average": 18.8
+    },
+    "volume": 1172
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "桃農",
+    "prices": {
+      "high": 9.8,
+      "middle": 6.2,
+      "low": 3,
+      "average": 6.2
+    },
+    "volume": 2125
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "桃農",
+    "prices": {
+      "high": 24.8,
+      "middle": 18.9,
+      "low": 11,
+      "average": 18.5
+    },
+    "volume": 5280
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "桃農",
+    "prices": {
+      "high": 27.5,
+      "middle": 22.7,
+      "low": 15.4,
+      "average": 22.2
+    },
+    "volume": 3920
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "桃農",
+    "prices": {
+      "high": 25.1,
+      "middle": 19.4,
+      "low": 12.2,
+      "average": 19.1
+    },
+    "volume": 2994
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "桃農",
+    "prices": {
+      "high": 36.7,
+      "middle": 25,
+      "low": 17,
+      "average": 25.7
+    },
+    "volume": 1020
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "桃農",
+    "prices": {
+      "high": 24,
+      "middle": 23.6,
+      "low": 20,
+      "average": 22.9
+    },
+    "volume": 1680
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-粉蔥",
+    "marketName": "桃農",
+    "prices": {
+      "high": 258.5,
+      "middle": 189.3,
+      "low": 54,
+      "average": 176.1
+    },
+    "volume": 1635
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "桃農",
+    "prices": {
+      "high": 34.5,
+      "middle": 23.8,
+      "low": 13,
+      "average": 23.8
+    },
+    "volume": 2120
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "桃農",
+    "prices": {
+      "high": 96.2,
+      "middle": 73.3,
+      "low": 38.8,
+      "average": 71
+    },
+    "volume": 3231
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "桃農",
+    "prices": {
+      "high": 14,
+      "middle": 8.4,
+      "low": 8,
+      "average": 9.4
+    },
+    "volume": 1086
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椰子-剝殼進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 50,
+      "middle": 50,
+      "low": 50,
+      "average": 50
+    },
+    "volume": 1540
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "藍莓-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 250,
+      "middle": 250,
+      "low": 250,
+      "average": 250
+    },
+    "volume": 3550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "小番茄-聖女",
+    "marketName": "台中市",
+    "prices": {
+      "high": 90,
+      "middle": 85.6,
+      "low": 80,
+      "average": 85.3
+    },
+    "volume": 2761
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 79.8,
+      "middle": 54.6,
+      "low": 37.5,
+      "average": 61.4
+    },
+    "volume": 7558
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 29.4,
+      "middle": 21.2,
+      "low": 14.9,
+      "average": 23.7
+    },
+    "volume": 10875
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 52.2,
+      "middle": 37.6,
+      "low": 22.3,
+      "average": 34.5
+    },
+    "volume": 1853
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "台中市",
+    "prices": {
+      "high": 37.5,
+      "middle": 27.2,
+      "low": 15.2,
+      "average": 31.6
+    },
+    "volume": 12878
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-西瓜鳳梨",
+    "marketName": "台中市",
+    "prices": {
+      "high": 28,
+      "middle": 23.7,
+      "low": 21.5,
+      "average": 24.9
+    },
+    "volume": 1477
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椪柑",
+    "marketName": "台中市",
+    "prices": {
+      "high": 60,
+      "middle": 42.8,
+      "low": 26.7,
+      "average": 42.4
+    },
+    "volume": 1392
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柑橘-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 125,
+      "middle": 125,
+      "low": 125,
+      "average": 125
+    },
+    "volume": 3296
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 100,
+      "middle": 100,
+      "low": 100,
+      "average": 100
+    },
+    "volume": 4575
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-檸檬",
+    "marketName": "台中市",
+    "prices": {
+      "high": 61.2,
+      "middle": 50.6,
+      "low": 35,
+      "average": 52
+    },
+    "volume": 5952
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-無子檸檬",
+    "marketName": "台中市",
+    "prices": {
+      "high": 61.7,
+      "middle": 43.9,
+      "low": 24.7,
+      "average": 48.4
+    },
+    "volume": 1323
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "黃秋葵",
+    "marketName": "台中市",
+    "prices": {
+      "high": 100.1,
+      "middle": 44.6,
+      "low": 13.7,
+      "average": 32.3
+    },
+    "volume": 1393
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "台中市",
+    "prices": {
+      "high": 17.4,
+      "middle": 9.6,
+      "low": 5.4,
+      "average": 9.7
+    },
+    "volume": 2761
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "台中市",
+    "prices": {
+      "high": 66.1,
+      "middle": 43.8,
+      "low": 22.8,
+      "average": 46.6
+    },
+    "volume": 4329
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "台中市",
+    "prices": {
+      "high": 28.8,
+      "middle": 11.9,
+      "low": 9.6,
+      "average": 18
+    },
+    "volume": 3295
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "台中市",
+    "prices": {
+      "high": 34,
+      "middle": 22.8,
+      "low": 12.5,
+      "average": 22.3
+    },
+    "volume": 2666
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "台中市",
+    "prices": {
+      "high": 69.2,
+      "middle": 49.8,
+      "low": 30.2,
+      "average": 48.2
+    },
+    "volume": 1193
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "台中市",
+    "prices": {
+      "high": 23,
+      "middle": 13.1,
+      "low": 6,
+      "average": 13.3
+    },
+    "volume": 1112
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "台中市",
+    "prices": {
+      "high": 37.3,
+      "middle": 27,
+      "low": 15.5,
+      "average": 26.6
+    },
+    "volume": 2170
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "台中市",
+    "prices": {
+      "high": 106.9,
+      "middle": 63.3,
+      "low": 34.5,
+      "average": 69
+    },
+    "volume": 4099
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "台中市",
+    "prices": {
+      "high": 190,
+      "middle": 108.6,
+      "low": 45.4,
+      "average": 121.8
+    },
+    "volume": 1589
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 98,
+      "middle": 91.2,
+      "low": 73.1,
+      "average": 87.6
+    },
+    "volume": 2494
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿成",
+    "marketName": "台中市",
+    "prices": {
+      "high": 33.5,
+      "middle": 19.8,
+      "low": 12.8,
+      "average": 17.8
+    },
+    "volume": 1433
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "台中市",
+    "prices": {
+      "high": 63.2,
+      "middle": 38.9,
+      "low": 21.5,
+      "average": 42
+    },
+    "volume": 4437
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 46,
+      "middle": 30,
+      "low": 24.8,
+      "average": 29.8
+    },
+    "volume": 1183
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-進口 栗子",
+    "marketName": "台中市",
+    "prices": {
+      "high": 33,
+      "middle": 28.1,
+      "low": 23.7,
+      "average": 29.5
+    },
+    "volume": 2532
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍",
+    "marketName": "台中市",
+    "prices": {
+      "high": 39,
+      "middle": 26.5,
+      "low": 19.2,
+      "average": 25.7
+    },
+    "volume": 1419
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "台中市",
+    "prices": {
+      "high": 39.1,
+      "middle": 28.4,
+      "low": 19.6,
+      "average": 28.6
+    },
+    "volume": 1582
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "台中市",
+    "prices": {
+      "high": 30,
+      "middle": 19.8,
+      "low": 8.2,
+      "average": 20.2
+    },
+    "volume": 1553
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "台中市",
+    "prices": {
+      "high": 36.4,
+      "middle": 22.3,
+      "low": 4.6,
+      "average": 18
+    },
+    "volume": 3017
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-進口 玉米筍",
+    "marketName": "台中市",
+    "prices": {
+      "high": 15,
+      "middle": 14,
+      "low": 13,
+      "average": 13.8
+    },
+    "volume": 1880
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "台中市",
+    "prices": {
+      "high": 118.5,
+      "middle": 92.7,
+      "low": 64.2,
+      "average": 92.3
+    },
+    "volume": 10455
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 125,
+      "middle": 125,
+      "low": 125,
+      "average": 125
+    },
+    "volume": 33056
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "台中市",
+    "prices": {
+      "high": 58,
+      "middle": 37.5,
+      "low": 22.2,
+      "average": 27.5
+    },
+    "volume": 10308
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄柚-紅寶石",
+    "marketName": "台中市",
+    "prices": {
+      "high": 35,
+      "middle": 33.3,
+      "low": 30,
+      "average": 32.2
+    },
+    "volume": 1608
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 64,
+      "middle": 52.3,
+      "low": 33.2,
+      "average": 55.8
+    },
+    "volume": 4189
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "台中市",
+    "prices": {
+      "high": 25,
+      "middle": 20,
+      "low": 12,
+      "average": 20.9
+    },
+    "volume": 1400
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 改良尖",
+    "marketName": "台中市",
+    "prices": {
+      "high": 30,
+      "middle": 29.5,
+      "low": 24,
+      "average": 27.1
+    },
+    "volume": 2050
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "台中市",
+    "prices": {
+      "high": 54.5,
+      "middle": 43.5,
+      "low": 26.6,
+      "average": 41.7
+    },
+    "volume": 1856
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "台中市",
+    "prices": {
+      "high": 8,
+      "middle": 4.3,
+      "low": 2.2,
+      "average": 4.4
+    },
+    "volume": 6510
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "台中市",
+    "prices": {
+      "high": 20.4,
+      "middle": 9.7,
+      "low": 3.8,
+      "average": 10.2
+    },
+    "volume": 4372
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "台中市",
+    "prices": {
+      "high": 61.2,
+      "middle": 42.2,
+      "low": 31.4,
+      "average": 41.8
+    },
+    "volume": 1669
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 70,
+      "middle": 47.7,
+      "low": 31.1,
+      "average": 49.6
+    },
+    "volume": 1420
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "台中市",
+    "prices": {
+      "high": 64.8,
+      "middle": 37.9,
+      "low": 28.6,
+      "average": 38.9
+    },
+    "volume": 1825
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "莧菜-白莧菜",
+    "marketName": "台中市",
+    "prices": {
+      "high": 63.4,
+      "middle": 39.7,
+      "low": 33.2,
+      "average": 39.1
+    },
+    "volume": 3303
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "金絲菇-金針菇",
+    "marketName": "台中市",
+    "prices": {
+      "high": 30.8,
+      "middle": 7.4,
+      "low": 7.4,
+      "average": 10.6
+    },
+    "volume": 1100
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "李-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 125,
+      "middle": 100,
+      "low": 100,
+      "average": 103.5
+    },
+    "volume": 3618
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "台中市",
+    "prices": {
+      "high": 177.3,
+      "middle": 95.4,
+      "low": 61.1,
+      "average": 102.2
+    },
+    "volume": 45616
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-新興梨",
+    "marketName": "台中市",
+    "prices": {
+      "high": 90,
+      "middle": 76.7,
+      "low": 65,
+      "average": 81.7
+    },
+    "volume": 2352
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "台中市",
+    "prices": {
+      "high": 50.6,
+      "middle": 44.1,
+      "low": 26.3,
+      "average": 43.7
+    },
+    "volume": 26125
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-帝王芭",
+    "marketName": "台中市",
+    "prices": {
+      "high": 65.5,
+      "middle": 47.8,
+      "low": 28.2,
+      "average": 54.4
+    },
+    "volume": 1687
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蓮霧-紅蓮霧",
+    "marketName": "台中市",
+    "prices": {
+      "high": 73.3,
+      "middle": 52.5,
+      "low": 40,
+      "average": 51.7
+    },
+    "volume": 1333
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "芒果-凱特",
+    "marketName": "台中市",
+    "prices": {
+      "high": 100,
+      "middle": 86.7,
+      "low": 60,
+      "average": 68
+    },
+    "volume": 2460
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-巨峰",
+    "marketName": "台中市",
+    "prices": {
+      "high": 120,
+      "middle": 80,
+      "low": 62.5,
+      "average": 77.1
+    },
+    "volume": 4290
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 125,
+      "middle": 125,
+      "low": 125,
+      "average": 125
+    },
+    "volume": 17824
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 21.8,
+      "middle": 16.9,
+      "low": 14.2,
+      "average": 18.3
+    },
+    "volume": 3300
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "台中市",
+    "prices": {
+      "high": 27.2,
+      "middle": 19.8,
+      "low": 6.9,
+      "average": 16.9
+    },
+    "volume": 7130
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "台中市",
+    "prices": {
+      "high": 23,
+      "middle": 17.5,
+      "low": 11.5,
+      "average": 17.5
+    },
+    "volume": 1898
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "台中市",
+    "prices": {
+      "high": 30,
+      "middle": 23.7,
+      "low": 16.8,
+      "average": 22.6
+    },
+    "volume": 2211
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 23,
+      "middle": 20.3,
+      "low": 13,
+      "average": 19.4
+    },
+    "volume": 3020
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "台中市",
+    "prices": {
+      "high": 32.5,
+      "middle": 22.2,
+      "low": 5.8,
+      "average": 17.5
+    },
+    "volume": 2143
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "台中市",
+    "prices": {
+      "high": 24.7,
+      "middle": 17.9,
+      "low": 4.8,
+      "average": 17.1
+    },
+    "volume": 2142
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "台中市",
+    "prices": {
+      "high": 106.2,
+      "middle": 83.5,
+      "low": 47.2,
+      "average": 77.5
+    },
+    "volume": 2550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "台中市",
+    "prices": {
+      "high": 20,
+      "middle": 14.7,
+      "low": 12,
+      "average": 15.1
+    },
+    "volume": 12800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 20,
+      "middle": 15.5,
+      "low": 11.7,
+      "average": 16.2
+    },
+    "volume": 26738
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "台中市",
+    "prices": {
+      "high": 19.8,
+      "middle": 14.4,
+      "low": 9.9,
+      "average": 16
+    },
+    "volume": 17290
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "台中市",
+    "prices": {
+      "high": 43,
+      "middle": 29.8,
+      "low": 12.4,
+      "average": 30.7
+    },
+    "volume": 13081
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-溫室吊瓜",
+    "marketName": "台中市",
+    "prices": {
+      "high": 95,
+      "middle": 61.1,
+      "low": 45,
+      "average": 65.4
+    },
+    "volume": 2315
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-網狀紅肉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 67.1,
+      "middle": 42.4,
+      "low": 10.6,
+      "average": 54.6
+    },
+    "volume": 4465
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-網狀綠肉",
+    "marketName": "台中市",
+    "prices": {
+      "high": 62,
+      "middle": 44.2,
+      "low": 16.8,
+      "average": 56.2
+    },
+    "volume": 1848
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-阿露斯",
+    "marketName": "台中市",
+    "prices": {
+      "high": 96.7,
+      "middle": 65.5,
+      "low": 31.7,
+      "average": 80
+    },
+    "volume": 1005
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "台中市",
+    "prices": {
+      "high": 250,
+      "middle": 141.7,
+      "low": 125,
+      "average": 132.5
+    },
+    "volume": 15871
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "台中市",
+    "prices": {
+      "high": 39.3,
+      "middle": 32.4,
+      "low": 25,
+      "average": 33.3
+    },
+    "volume": 8861
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "台中市",
+    "prices": {
+      "high": 127.4,
+      "middle": 77.4,
+      "low": 43.4,
+      "average": 88.4
+    },
+    "volume": 7279
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 23.1,
+      "middle": 22.1,
+      "low": 20.3,
+      "average": 21.9
+    },
+    "volume": 10888.7
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 36,
+      "middle": 23.1,
+      "low": 15.9,
+      "average": 24.2
+    },
+    "volume": 3093
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "椪柑",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 60,
+      "middle": 40.3,
+      "low": 30,
+      "average": 42.2
+    },
+    "volume": 1864.4
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 17,
+      "middle": 10.4,
+      "low": 5.4,
+      "average": 10.7
+    },
+    "volume": 1570
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 18,
+      "middle": 12.4,
+      "low": 9.5,
+      "average": 13
+    },
+    "volume": 1803
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 26.4,
+      "middle": 23,
+      "low": 21.2,
+      "average": 23.3
+    },
+    "volume": 1076
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 27.5,
+      "middle": 23.3,
+      "low": 19.2,
+      "average": 23.3
+    },
+    "volume": 1400
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 100,
+      "middle": 88.1,
+      "low": 70.8,
+      "average": 87
+    },
+    "volume": 1200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿成",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 35,
+      "middle": 25.8,
+      "low": 16.2,
+      "average": 25.7
+    },
+    "volume": 1056
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 37.4,
+      "middle": 20.9,
+      "low": 12,
+      "average": 22.4
+    },
+    "volume": 1468
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 30,
+      "middle": 17.4,
+      "low": 7.2,
+      "average": 17.9
+    },
+    "volume": 1070
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 34.9,
+      "middle": 27.6,
+      "low": 8,
+      "average": 25.2
+    },
+    "volume": 2056
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-進口 玉米筍",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 15,
+      "middle": 12.2,
+      "low": 4,
+      "average": 11.1
+    },
+    "volume": 1440
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "奇異果-進口",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 117.5,
+      "middle": 110,
+      "low": 109.4,
+      "average": 111.4
+    },
+    "volume": 5178.8
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 38.6,
+      "middle": 28.7,
+      "low": 15,
+      "average": 27.9
+    },
+    "volume": 6066.3
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 26.6,
+      "middle": 22.8,
+      "low": 18.4,
+      "average": 22.7
+    },
+    "volume": 1830
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 10.2,
+      "middle": 8.1,
+      "low": 5.7,
+      "average": 8.1
+    },
+    "volume": 1990
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包頭蓮",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 22.5,
+      "middle": 20,
+      "low": 20,
+      "average": 20.5
+    },
+    "volume": 1180
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 25,
+      "middle": 22.1,
+      "low": 9.8,
+      "average": 20.2
+    },
+    "volume": 1385
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 49.9,
+      "middle": 35.1,
+      "low": 26,
+      "average": 36.2
+    },
+    "volume": 1344
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 35.3,
+      "middle": 23.5,
+      "low": 20.3,
+      "average": 25.2
+    },
+    "volume": 1320
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 31.8,
+      "middle": 30,
+      "low": 25,
+      "average": 29.4
+    },
+    "volume": 1000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 82.7,
+      "middle": 80,
+      "low": 68.6,
+      "average": 78.3
+    },
+    "volume": 3201.2
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 48.2,
+      "middle": 29.5,
+      "low": 18.5,
+      "average": 31
+    },
+    "volume": 2494.9
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 134.3,
+      "middle": 112.6,
+      "low": 108.9,
+      "average": 116.2
+    },
+    "volume": 2518.6
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 20.2,
+      "middle": 11.1,
+      "low": 2.5,
+      "average": 11.2
+    },
+    "volume": 1350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 29.8,
+      "middle": 21.9,
+      "low": 14.6,
+      "average": 22.1
+    },
+    "volume": 2340
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 25,
+      "middle": 22.5,
+      "low": 16.3,
+      "average": 21.8
+    },
+    "volume": 1056
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 32,
+      "middle": 14.5,
+      "low": 4,
+      "average": 15.9
+    },
+    "volume": 1390
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 29,
+      "middle": 18.5,
+      "low": 10,
+      "average": 18.9
+    },
+    "volume": 1230
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-老薑",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 64.9,
+      "middle": 55,
+      "low": 37,
+      "average": 53.4
+    },
+    "volume": 1440
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 100,
+      "middle": 54.7,
+      "low": 41,
+      "average": 61
+    },
+    "volume": 1134
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菱角-生菱角",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 50,
+      "middle": 50,
+      "low": 50,
+      "average": 50
+    },
+    "volume": 1200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 19.6,
+      "middle": 15.1,
+      "low": 12,
+      "average": 15.4
+    },
+    "volume": 6250
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 15.6,
+      "middle": 13.2,
+      "low": 10.1,
+      "average": 13
+    },
+    "volume": 20265.3
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 34,
+      "middle": 28,
+      "low": 15.9,
+      "average": 26.8
+    },
+    "volume": 5899.8
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "洋香瓜-網狀紅肉",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 68,
+      "middle": 42.7,
+      "low": 30.3,
+      "average": 45.3
+    },
+    "volume": 1656.5
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 124.9,
+      "middle": 110,
+      "low": 108.8,
+      "average": 112.7
+    },
+    "volume": 3602.6
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "豐原區",
+    "prices": {
+      "high": 94.2,
+      "middle": 92.7,
+      "low": 88.7,
+      "average": 92.2
+    },
+    "volume": 3049.6
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 61,
+      "middle": 53.6,
+      "low": 41,
+      "average": 52.6
+    },
+    "volume": 12225
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 52.4,
+      "middle": 30.4,
+      "low": 19.2,
+      "average": 32.5
+    },
+    "volume": 2071
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 97.5,
+      "middle": 70.5,
+      "low": 46.2,
+      "average": 71
+    },
+    "volume": 2587
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 79.6,
+      "middle": 30.4,
+      "low": 15.2,
+      "average": 37.2
+    },
+    "volume": 14200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 15,
+      "middle": 11.3,
+      "low": 8.2,
+      "average": 11.4
+    },
+    "volume": 12652
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 50,
+      "middle": 40,
+      "low": 22.5,
+      "average": 38.5
+    },
+    "volume": 1000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 50,
+      "middle": 40,
+      "low": 22.5,
+      "average": 38.5
+    },
+    "volume": 1000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 18.2,
+      "middle": 12.7,
+      "low": 10,
+      "average": 13.3
+    },
+    "volume": 7029
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 28.7,
+      "middle": 24.2,
+      "low": 16.6,
+      "average": 23.6
+    },
+    "volume": 3047
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 29.2,
+      "middle": 21.8,
+      "low": 12.4,
+      "average": 21.4
+    },
+    "volume": 2985
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "溪湖鎮",
+    "prices": {
+      "high": 13,
+      "middle": 13,
+      "low": 13,
+      "average": 13
+    },
+    "volume": 1123
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 68.3,
+      "middle": 47.6,
+      "low": 39.6,
+      "average": 50.14
+    },
+    "volume": 3660
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 40,
+      "middle": 33.1,
+      "low": 21.2,
+      "average": 32.11
+    },
+    "volume": 3125
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 35,
+      "middle": 28.4,
+      "low": 25,
+      "average": 29.01
+    },
+    "volume": 1015
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 47.1,
+      "middle": 40.4,
+      "low": 30.9,
+      "average": 39.87
+    },
+    "volume": 3040
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜橙-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 83.3,
+      "middle": 83.3,
+      "low": 83.3,
+      "average": 83.3
+    },
+    "volume": 1080
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-檸檬",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 75,
+      "middle": 66.4,
+      "low": 55.7,
+      "average": 66
+    },
+    "volume": 1225
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 148.2,
+      "middle": 63.3,
+      "low": 41.3,
+      "average": 75.89
+    },
+    "volume": 1508
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 47.8,
+      "middle": 26.1,
+      "low": 9,
+      "average": 27.02
+    },
+    "volume": 4878
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 68.7,
+      "middle": 52.5,
+      "low": 36.6,
+      "average": 52.55
+    },
+    "volume": 3322
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 30,
+      "middle": 25,
+      "low": 13,
+      "average": 23.62
+    },
+    "volume": 2457
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 51.8,
+      "middle": 29.5,
+      "low": 22.9,
+      "average": 32.65
+    },
+    "volume": 5092
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 109,
+      "middle": 87.8,
+      "low": 35.5,
+      "average": 81.61
+    },
+    "volume": 1201
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "扁蒲-花蒲",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 25,
+      "middle": 24.6,
+      "low": 21.4,
+      "average": 24.01
+    },
+    "volume": 1065
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 74.1,
+      "middle": 45.6,
+      "low": 24.4,
+      "average": 47.05
+    },
+    "volume": 2825
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 152.7,
+      "middle": 97.2,
+      "low": 38.7,
+      "average": 96.58
+    },
+    "volume": 2767
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 133.1,
+      "middle": 75.6,
+      "low": 23.3,
+      "average": 76.67
+    },
+    "volume": 2547
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菜豆-青色",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 90,
+      "middle": 80.6,
+      "low": 46.1,
+      "average": 75.6
+    },
+    "volume": 1127
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "敏豆-白豆",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 249,
+      "middle": 150.3,
+      "low": 44.8,
+      "average": 148.91
+    },
+    "volume": 2146
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青花苔-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 95.7,
+      "middle": 83,
+      "low": 63.9,
+      "average": 81.72
+    },
+    "volume": 1990
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜型 阿成",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 55.2,
+      "middle": 37.6,
+      "low": 19,
+      "average": 37.39
+    },
+    "volume": 3443
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-圓形",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 30,
+      "middle": 30,
+      "low": 22.6,
+      "average": 28.49
+    },
+    "volume": 2070
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 89.8,
+      "middle": 62.5,
+      "low": 33.2,
+      "average": 62.1
+    },
+    "volume": 2198
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-栗子 小黑",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 34.6,
+      "middle": 31.8,
+      "low": 26,
+      "average": 31.22
+    },
+    "volume": 1427
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 54.7,
+      "middle": 33.1,
+      "low": 12.4,
+      "average": 33.29
+    },
+    "volume": 2138
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-糯米黑",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 50,
+      "middle": 34.4,
+      "low": 8.2,
+      "average": 32.3
+    },
+    "volume": 1248
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 43.6,
+      "middle": 22.1,
+      "low": 4.8,
+      "average": 22.96
+    },
+    "volume": 2852
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 90,
+      "middle": 73.5,
+      "low": 60,
+      "average": 74.08
+    },
+    "volume": 3737
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 68.2,
+      "middle": 54.3,
+      "low": 45,
+      "average": 55.19
+    },
+    "volume": 2370
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 60.2,
+      "middle": 38.3,
+      "low": 17.6,
+      "average": 38.54
+    },
+    "volume": 17210
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 18.5,
+      "middle": 15.8,
+      "low": 8.5,
+      "average": 14.87
+    },
+    "volume": 5960
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口 初秋",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 40,
+      "middle": 32.7,
+      "low": 20,
+      "average": 31.63
+    },
+    "volume": 7493
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-土白菜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 60,
+      "middle": 50.3,
+      "low": 38.7,
+      "average": 49.93
+    },
+    "volume": 1009
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 59.8,
+      "middle": 51.4,
+      "low": 25.7,
+      "average": 47.92
+    },
+    "volume": 2478
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 32.7,
+      "middle": 21.1,
+      "low": 2,
+      "average": 19.59
+    },
+    "volume": 8431
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白菜-進口 包頭蓮 ",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 47.1,
+      "middle": 29.4,
+      "low": 8.9,
+      "average": 28.82
+    },
+    "volume": 7765
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 57.5,
+      "middle": 40.4,
+      "low": 19.3,
+      "average": 39.59
+    },
+    "volume": 2790
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 79.8,
+      "middle": 52.5,
+      "low": 36.1,
+      "average": 54.66
+    },
+    "volume": 2044
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芹菜-白梗",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 133.6,
+      "middle": 68.7,
+      "low": 12.7,
+      "average": 70.51
+    },
+    "volume": 1048
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芹菜-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 58.7,
+      "middle": 31.2,
+      "low": 15.4,
+      "average": 33.55
+    },
+    "volume": 1145
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 138.4,
+      "middle": 73.9,
+      "low": 42.6,
+      "average": 80.53
+    },
+    "volume": 1721
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 68,
+      "middle": 55.3,
+      "low": 36.9,
+      "average": 54.18
+    },
+    "volume": 2907
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 91.6,
+      "middle": 57.8,
+      "low": 42.2,
+      "average": 61.42
+    },
+    "volume": 1155
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥藍菜-芥藍芽",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 61.8,
+      "middle": 51,
+      "low": 27.9,
+      "average": 48.58
+    },
+    "volume": 1238
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 50.3,
+      "middle": 39.7,
+      "low": 10.4,
+      "average": 35.93
+    },
+    "volume": 1563
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯葉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 49.3,
+      "middle": 36.2,
+      "low": 24.5,
+      "average": 36.46
+    },
+    "volume": 4156
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "九層塔",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 46.6,
+      "middle": 40.1,
+      "low": 25.4,
+      "average": 38.43
+    },
+    "volume": 1120
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "杏鮑菇",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 100,
+      "middle": 76.6,
+      "low": 20.9,
+      "average": 70.14
+    },
+    "volume": 1175
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 140,
+      "middle": 96,
+      "low": 69.6,
+      "average": 99.5
+    },
+    "volume": 5505
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-豐水梨",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 48.6,
+      "middle": 38.4,
+      "low": 29.8,
+      "average": 38.7
+    },
+    "volume": 1597
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "鹹菜-帶葉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 30,
+      "middle": 30,
+      "low": 30,
+      "average": 30
+    },
+    "volume": 1172
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 59.4,
+      "middle": 45.2,
+      "low": 33.4,
+      "average": 45.67
+    },
+    "volume": 1932
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "葡萄-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 877.2,
+      "middle": 210.4,
+      "low": 191.2,
+      "average": 339.91
+    },
+    "volume": 3395
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 32,
+      "middle": 12.6,
+      "low": 9,
+      "average": 15.75
+    },
+    "volume": 1875
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 20,
+      "middle": 17.8,
+      "low": 12,
+      "average": 17.08
+    },
+    "volume": 7065
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 28.3,
+      "middle": 19.5,
+      "low": 8,
+      "average": 18.97
+    },
+    "volume": 11214
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 30,
+      "middle": 24.9,
+      "low": 13.5,
+      "average": 23.61
+    },
+    "volume": 2690
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 35,
+      "middle": 30.9,
+      "low": 19,
+      "average": 29.31
+    },
+    "volume": 1523
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 32,
+      "middle": 29.5,
+      "low": 21.1,
+      "average": 28.32
+    },
+    "volume": 2300
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 28,
+      "middle": 24.5,
+      "low": 18.5,
+      "average": 23.97
+    },
+    "volume": 3999
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-粉蔥",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 286.3,
+      "middle": 216.1,
+      "low": 142.6,
+      "average": 215.4
+    },
+    "volume": 1637
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芋-檳榔心芋",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 72.7,
+      "middle": 55.5,
+      "low": 37.7,
+      "average": 55.39
+    },
+    "volume": 1028
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 36.9,
+      "middle": 26.9,
+      "low": 16.1,
+      "average": 26.72
+    },
+    "volume": 3372
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-老薑",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 117.8,
+      "middle": 90.5,
+      "low": 65,
+      "average": 90.85
+    },
+    "volume": 1196
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 114.2,
+      "middle": 78.9,
+      "low": 56.8,
+      "average": 81.56
+    },
+    "volume": 2011
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 30,
+      "middle": 30,
+      "low": 30,
+      "average": 30
+    },
+    "volume": 4896
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 20,
+      "middle": 20,
+      "low": 20,
+      "average": 20
+    },
+    "volume": 3040
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 25.6,
+      "middle": 22.2,
+      "low": 17.6,
+      "average": 21.96
+    },
+    "volume": 4897
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "蘋果-富士進口",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 225.9,
+      "middle": 97.9,
+      "low": 78.1,
+      "average": 119.53
+    },
+    "volume": 10600
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 60,
+      "middle": 50.2,
+      "low": 40,
+      "average": 50.11
+    },
+    "volume": 1110
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "高雄市",
+    "prices": {
+      "high": 154.2,
+      "middle": 106.4,
+      "low": 80,
+      "average": 110.67
+    },
+    "volume": 1424
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "紅龍果-紅肉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 67.8,
+      "middle": 47.8,
+      "low": 35.2,
+      "average": 47.8
+    },
+    "volume": 5200
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 35,
+      "middle": 19.1,
+      "low": 10.1,
+      "average": 19.1
+    },
+    "volume": 7230
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "香蕉-芭蕉紅芭蕉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 41.6,
+      "middle": 29.2,
+      "low": 20.2,
+      "average": 29.2
+    },
+    "volume": 1060
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "鳳梨-金鑽鳳梨",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 46.2,
+      "middle": 33.6,
+      "low": 20.1,
+      "average": 33.6
+    },
+    "volume": 3330
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "雜柑-檸檬",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 74.1,
+      "middle": 62,
+      "low": 54.2,
+      "average": 62
+    },
+    "volume": 1290
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 18.2,
+      "middle": 10.8,
+      "low": 6.2,
+      "average": 11.4
+    },
+    "volume": 4750
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 47.1,
+      "middle": 34.9,
+      "low": 26.6,
+      "average": 35.7
+    },
+    "volume": 2400
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 18.4,
+      "middle": 11.5,
+      "low": 9.1,
+      "average": 12.4
+    },
+    "volume": 3930
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 38,
+      "middle": 20.5,
+      "low": 11.1,
+      "average": 22.1
+    },
+    "volume": 2550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 76.8,
+      "middle": 37.3,
+      "low": 25.4,
+      "average": 42.8
+    },
+    "volume": 1450
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 66.7,
+      "middle": 36.9,
+      "low": 27.5,
+      "average": 41
+    },
+    "volume": 1550
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-甜軟殼",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 40.6,
+      "middle": 14.7,
+      "low": 6.4,
+      "average": 18.2
+    },
+    "volume": 1020
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "酪梨",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 90.9,
+      "middle": 77.2,
+      "low": 58.2,
+      "average": 77.2
+    },
+    "volume": 2320
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柚子-文旦",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 64.5,
+      "middle": 35.3,
+      "low": 29,
+      "average": 35.3
+    },
+    "volume": 5800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "木瓜-網室紅肉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 66.7,
+      "middle": 51,
+      "low": 38.2,
+      "average": 51
+    },
+    "volume": 5770
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 32.2,
+      "middle": 21.5,
+      "low": 16.2,
+      "average": 22.6
+    },
+    "volume": 11350
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 24,
+      "middle": 16.3,
+      "low": 5.8,
+      "average": 15.7
+    },
+    "volume": 2500
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 49.5,
+      "middle": 25.9,
+      "low": 17.1,
+      "average": 28.9
+    },
+    "volume": 1030
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 19.4,
+      "middle": 12.4,
+      "low": 3.1,
+      "average": 11.9
+    },
+    "volume": 4480
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蕹菜-小葉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 57.6,
+      "middle": 25,
+      "low": 17.2,
+      "average": 30
+    },
+    "volume": 1000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 31.5,
+      "middle": 19.5,
+      "low": 16,
+      "average": 21.2
+    },
+    "volume": 1240
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "油菜",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 51.9,
+      "middle": 24.5,
+      "low": 17.2,
+      "average": 28.6
+    },
+    "volume": 1140
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "梨-寶島甘露梨",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 140.4,
+      "middle": 76.1,
+      "low": 45.2,
+      "average": 76.1
+    },
+    "volume": 10990
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "鹹菜-清心",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 10,
+      "middle": 10,
+      "low": 10,
+      "average": 10
+    },
+    "volume": 1000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "番石榴-珍珠芭",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 57.1,
+      "middle": 46.7,
+      "low": 38.1,
+      "average": 46.7
+    },
+    "volume": 5050
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 15.5,
+      "middle": 10.8,
+      "low": 8.1,
+      "average": 11.2
+    },
+    "volume": 3640
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 25.8,
+      "middle": 17.6,
+      "low": 12.1,
+      "average": 18.2
+    },
+    "volume": 4490
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 21.1,
+      "middle": 14.4,
+      "low": 10,
+      "average": 14.8
+    },
+    "volume": 1744
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "洋蔥-本產",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 33.4,
+      "middle": 24.6,
+      "low": 19.3,
+      "average": 25.3
+    },
+    "volume": 1070
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農57號",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 33.5,
+      "middle": 18.1,
+      "low": 11.3,
+      "average": 19.8
+    },
+    "volume": 2730
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 26.7,
+      "middle": 14.8,
+      "low": 8,
+      "average": 15.8
+    },
+    "volume": 1290
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-老薑",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 25,
+      "middle": 19.4,
+      "low": 15,
+      "average": 19.6
+    },
+    "volume": 1120
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芽菜類-綠豆芽",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 14.6,
+      "middle": 10.8,
+      "low": 9,
+      "average": 11.2
+    },
+    "volume": 4500
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-大西瓜",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 34.1,
+      "middle": 24.9,
+      "low": 19,
+      "average": 24.9
+    },
+    "volume": 7700
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-黃肉",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 21.1,
+      "middle": 16,
+      "low": 10,
+      "average": 16
+    },
+    "volume": 21880
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "西瓜-甜美人",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 22.2,
+      "middle": 13.8,
+      "low": 10.3,
+      "average": 13.8
+    },
+    "volume": 11130
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "甜瓜-美濃",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 75.5,
+      "middle": 23.1,
+      "low": 12,
+      "average": 23.1
+    },
+    "volume": 9930
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-紅柿",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 58.8,
+      "middle": 26.6,
+      "low": 15.1,
+      "average": 26.6
+    },
+    "volume": 4660
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N05",
+    "cropName": "柿子-甜柿",
+    "marketName": "鳳山區",
+    "prices": {
+      "high": 153.8,
+      "middle": 80.8,
+      "low": 46.6,
+      "average": 80.8
+    },
+    "volume": 1800
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "黃秋葵",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 30.1,
+      "middle": 23.5,
+      "low": 17.1,
+      "average": 23.5
+    },
+    "volume": 1049
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-青梗",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 58.3,
+      "middle": 43.7,
+      "low": 29.2,
+      "average": 43.7
+    },
+    "volume": 1830
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花椰菜-白梗",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 20,
+      "middle": 20,
+      "low": 20,
+      "average": 20
+    },
+    "volume": 19700
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡瓜-黑刺",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 17.7,
+      "middle": 12.9,
+      "low": 6,
+      "average": 12.5
+    },
+    "volume": 3777
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "花胡瓜",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 45.2,
+      "middle": 37.7,
+      "low": 26,
+      "average": 36.8
+    },
+    "volume": 2318
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "冬瓜-白皮",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 12.3,
+      "middle": 8.2,
+      "low": 7,
+      "average": 8.2
+    },
+    "volume": 3093
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "絲瓜",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 37.3,
+      "middle": 27.1,
+      "low": 10.7,
+      "average": 25.8
+    },
+    "volume": 3788
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "苦瓜-白大米",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 75.9,
+      "middle": 47.5,
+      "low": 25,
+      "average": 47.5
+    },
+    "volume": 2237
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茄子-麻荸茄",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 66.3,
+      "middle": 42.4,
+      "low": 29.3,
+      "average": 42.4
+    },
+    "volume": 1762
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "番茄-牛番茄",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 113.5,
+      "middle": 75.6,
+      "low": 27.5,
+      "average": 73.6
+    },
+    "volume": 1587
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甜椒-青椒",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 157.8,
+      "middle": 63.6,
+      "low": 10,
+      "average": 63.6
+    },
+    "volume": 2745
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-木瓜形",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 35.6,
+      "middle": 30.7,
+      "low": 16.8,
+      "average": 28.9
+    },
+    "volume": 1105
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-青如意",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 87.9,
+      "middle": 54.1,
+      "low": 22.2,
+      "average": 54.1
+    },
+    "volume": 2138
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "南瓜-栗子",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 33.9,
+      "middle": 25.5,
+      "low": 12.6,
+      "average": 24.6
+    },
+    "volume": 1547
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "玉米-玉米筍 帶殼",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 35.8,
+      "middle": 29,
+      "low": 15.5,
+      "average": 27.6
+    },
+    "volume": 1808
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-初秋",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 31.9,
+      "middle": 21.9,
+      "low": 15,
+      "average": 21.9
+    },
+    "volume": 6861
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘藍-進口",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 24,
+      "middle": 19.6,
+      "low": 4.3,
+      "average": 17.4
+    },
+    "volume": 5070
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "小白菜-蚵仔白",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 50.5,
+      "middle": 39.2,
+      "low": 10.7,
+      "average": 35.8
+    },
+    "volume": 1398
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-包白",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 18.7,
+      "middle": 6.3,
+      "low": 1.9,
+      "average": 6.3
+    },
+    "volume": 6040
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "包心白-進口",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 18.8,
+      "middle": 9.4,
+      "low": 2.7,
+      "average": 9.4
+    },
+    "volume": 2365
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青江白菜-小梗",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 69.2,
+      "middle": 49.4,
+      "low": 14.8,
+      "average": 46.5
+    },
+    "volume": 1199
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "菠菜-角葉",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 83.6,
+      "middle": 67.5,
+      "low": 50.9,
+      "average": 67.4
+    },
+    "volume": 1030
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "萵苣菜-油麥菜",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 61.4,
+      "middle": 54.1,
+      "low": 37.8,
+      "average": 52.3
+    },
+    "volume": 1710
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "芥菜-大芥菜",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 32,
+      "middle": 24.2,
+      "low": 18.1,
+      "average": 24.2
+    },
+    "volume": 1250
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "鹹菜-清心",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 8,
+      "middle": 8,
+      "low": 8,
+      "average": 8
+    },
+    "volume": 3332
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "蘿蔔-矸仔",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 10.2,
+      "middle": 9.1,
+      "low": 6.8,
+      "average": 8.9
+    },
+    "volume": 1375
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "胡蘿蔔-清洗",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 25.4,
+      "middle": 20.4,
+      "low": 15.4,
+      "average": 20.4
+    },
+    "volume": 5000
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "馬鈴薯-本產",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 20.4,
+      "middle": 16.5,
+      "low": 9.4,
+      "average": 15.9
+    },
+    "volume": 1731
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "青蔥-北蔥",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 152.6,
+      "middle": 48.5,
+      "low": 10,
+      "average": 48.5
+    },
+    "volume": 1038
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "韭菜-白頭",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 22.1,
+      "middle": 12.4,
+      "low": 10,
+      "average": 12.4
+    },
+    "volume": 1276
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "甘薯-臺農66號",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 25.6,
+      "middle": 18.9,
+      "low": 6.6,
+      "average": 17.8
+    },
+    "volume": 1935
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "薑-老薑",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 15.6,
+      "middle": 11.1,
+      "low": 10,
+      "average": 11.1
+    },
+    "volume": 10771
+  },
+  {
+    "tradeDate": "114.10.02",
+    "categoryCode": "N04",
+    "cropName": "茭白筍-帶殼",
+    "marketName": "屏東市",
+    "prices": {
+      "high": 104.5,
+      "middle": 70.1,
+      "low": 36.6,
+      "average": 70.1
+    },
+    "volume": 1781
+  },
+  {
     "tradeDate": "114.10.01",
     "categoryCode": "N05",
     "cropName": "藍莓-進口",
@@ -21188,1019 +30119,5 @@
       "average": 54.7
     },
     "volume": 7043
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "甘藍-初秋",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 75,
-      "middle": 30,
-      "low": 15,
-      "average": 36
-    },
-    "volume": 4500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "包心白-包白",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 14.9,
-      "middle": 9.8,
-      "low": 7.5,
-      "average": 10.4
-    },
-    "volume": 3384
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "油菜",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 24.8,
-      "middle": 20,
-      "low": 10,
-      "average": 19
-    },
-    "volume": 1000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "蘿蔔-矸仔",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 18.5,
-      "middle": 13.4,
-      "low": 10,
-      "average": 13.7
-    },
-    "volume": 3001
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "胡蘿蔔-清洗",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 29,
-      "middle": 24,
-      "low": 15,
-      "average": 23.2
-    },
-    "volume": 1000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "洋蔥-本產",
-    "marketName": "溪湖鎮",
-    "prices": {
-      "high": 30,
-      "middle": 20.9,
-      "low": 10.9,
-      "average": 20.7
-    },
-    "volume": 1000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "紅龍果-紅肉",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 78,
-      "middle": 54,
-      "low": 35,
-      "average": 54
-    },
-    "volume": 2300
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "香蕉",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 25,
-      "middle": 19,
-      "low": 14,
-      "average": 19
-    },
-    "volume": 4500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "鳳梨-金鑽鳳梨",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 42,
-      "middle": 30,
-      "low": 16,
-      "average": 30
-    },
-    "volume": 3500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "甜橙-進口",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 85,
-      "middle": 65,
-      "low": 30,
-      "average": 65
-    },
-    "volume": 1000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "雜柑-檸檬",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 57,
-      "middle": 37,
-      "low": 30,
-      "average": 37
-    },
-    "volume": 1500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "酪梨",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 123,
-      "middle": 92,
-      "low": 65,
-      "average": 92
-    },
-    "volume": 1200
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "奇異果-進口",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 167,
-      "middle": 120,
-      "low": 100,
-      "average": 120
-    },
-    "volume": 1400
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "柚子-文旦",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 65,
-      "middle": 32,
-      "low": 16,
-      "average": 32
-    },
-    "volume": 7300
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "木瓜-網室紅肉",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 88,
-      "middle": 63,
-      "low": 41,
-      "average": 63
-    },
-    "volume": 2500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "李-進口",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 175,
-      "middle": 125,
-      "low": 90,
-      "average": 125
-    },
-    "volume": 1000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "梨-寶島甘露梨",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 130,
-      "middle": 80,
-      "low": 50,
-      "average": 80
-    },
-    "volume": 7000
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "番石榴-珍珠芭",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 62,
-      "middle": 40,
-      "low": 23,
-      "average": 40
-    },
-    "volume": 1300
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "葡萄-巨峰",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 120,
-      "middle": 80,
-      "low": 50,
-      "average": 80
-    },
-    "volume": 1200
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "葡萄-進口",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 260,
-      "middle": 140,
-      "low": 88,
-      "average": 140
-    },
-    "volume": 2700
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "西瓜-黑美人",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 18,
-      "middle": 14,
-      "low": 10,
-      "average": 14
-    },
-    "volume": 6700
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "西瓜-黃肉",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 18,
-      "middle": 13,
-      "low": 10,
-      "average": 13
-    },
-    "volume": 7200
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "柿子-紅柿",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 45,
-      "middle": 28,
-      "low": 18,
-      "average": 28
-    },
-    "volume": 1500
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N05",
-    "cropName": "柿子-甜柿",
-    "marketName": "嘉義市",
-    "prices": {
-      "high": 135,
-      "middle": 90,
-      "low": 52,
-      "average": 90
-    },
-    "volume": 1400
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "花椰菜-青梗",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 61.2,
-      "middle": 45,
-      "low": 30,
-      "average": 46.4
-    },
-    "volume": 10448
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "胡瓜-黑刺",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 31.9,
-      "middle": 22.5,
-      "low": 12.5,
-      "average": 23.2
-    },
-    "volume": 21616
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "花胡瓜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 68.5,
-      "middle": 47.3,
-      "low": 27.8,
-      "average": 47.9
-    },
-    "volume": 33068
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "冬瓜-白皮",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 38.8,
-      "middle": 30,
-      "low": 25,
-      "average": 31.2
-    },
-    "volume": 12585
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "絲瓜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 52.5,
-      "middle": 38.8,
-      "low": 22.3,
-      "average": 38.6
-    },
-    "volume": 28047
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "苦瓜-白大米",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 85.5,
-      "middle": 50,
-      "low": 25,
-      "average": 52.6
-    },
-    "volume": 14182
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "扁蒲-花蒲",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 22.7,
-      "middle": 16,
-      "low": 8,
-      "average": 16.6
-    },
-    "volume": 11760
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "扁蒲-梨子蒲",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 32.5,
-      "middle": 25,
-      "low": 12.5,
-      "average": 24.2
-    },
-    "volume": 6035
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "茄子-麻荸茄",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 65.6,
-      "middle": 44,
-      "low": 22.3,
-      "average": 44.3
-    },
-    "volume": 16624
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "番茄-牛番茄",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 130.1,
-      "middle": 100,
-      "low": 50,
-      "average": 96.2
-    },
-    "volume": 30664
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "甜椒-青椒",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 160.1,
-      "middle": 110.7,
-      "low": 55.6,
-      "average": 110
-    },
-    "volume": 9165
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "菜豆-白色",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 83.9,
-      "middle": 60,
-      "low": 40,
-      "average": 61.4
-    },
-    "volume": 5830
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "敏豆-白豆",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 245,
-      "middle": 170,
-      "low": 90,
-      "average": 169
-    },
-    "volume": 8248
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "青花苔-進口",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 112.5,
-      "middle": 87.5,
-      "low": 68.8,
-      "average": 88.8
-    },
-    "volume": 13200
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "玉米-甜軟殼",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 40.7,
-      "middle": 33.4,
-      "low": 21.7,
-      "average": 33
-    },
-    "volume": 24035
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "甘藍-初秋",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 53.4,
-      "middle": 26.7,
-      "low": 16.7,
-      "average": 30.1
-    },
-    "volume": 211820
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "小白菜-土白菜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 54.9,
-      "middle": 43.7,
-      "low": 25,
-      "average": 42.5
-    },
-    "volume": 9705
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "小白菜-蚵仔白",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 50,
-      "middle": 40,
-      "low": 22.5,
-      "average": 38.5
-    },
-    "volume": 17359
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "包心白-包白",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 9.9,
-      "middle": 7.5,
-      "low": 5,
-      "average": 7.6
-    },
-    "volume": 80663
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "青江白菜-小梗",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 44.9,
-      "middle": 34.2,
-      "low": 20,
-      "average": 33.6
-    },
-    "volume": 18187
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "蕹菜-小葉",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 83.4,
-      "middle": 65,
-      "low": 40,
-      "average": 63.7
-    },
-    "volume": 16058
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "芹菜-白梗",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 133.4,
-      "middle": 96.4,
-      "low": 75,
-      "average": 98.2
-    },
-    "volume": 5599
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "萵苣菜-本島圓葉",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 61.9,
-      "middle": 47.5,
-      "low": 30,
-      "average": 47.7
-    },
-    "volume": 4325
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "芥菜-小芥菜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 54.8,
-      "middle": 44,
-      "low": 25,
-      "average": 42.7
-    },
-    "volume": 4962
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "芥藍菜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 50,
-      "middle": 39.3,
-      "low": 22.5,
-      "average": 38.3
-    },
-    "volume": 6382
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "莧菜-白莧菜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 100,
-      "middle": 83.3,
-      "low": 50,
-      "average": 80.2
-    },
-    "volume": 6466
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "油菜",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 42.4,
-      "middle": 31.7,
-      "low": 17.5,
-      "average": 31.2
-    },
-    "volume": 17709
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "蘿蔔-矸仔",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 18.4,
-      "middle": 13.4,
-      "low": 10,
-      "average": 13.7
-    },
-    "volume": 8190
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "蘿蔔-進口",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 22.5,
-      "middle": 17.5,
-      "low": 15,
-      "average": 18
-    },
-    "volume": 37900
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "胡蘿蔔-清洗",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 29,
-      "middle": 24,
-      "low": 15,
-      "average": 23.3
-    },
-    "volume": 30083
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "馬鈴薯-本產",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 29.2,
-      "middle": 23,
-      "low": 14.6,
-      "average": 22.6
-    },
-    "volume": 19248
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "洋蔥-本產",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 25,
-      "middle": 20.9,
-      "low": 10.9,
-      "average": 19.7
-    },
-    "volume": 5280
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "洋蔥-進口",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 26.7,
-      "middle": 22.5,
-      "low": 16.7,
-      "average": 22.2
-    },
-    "volume": 22644
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "青蔥-北蔥",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 200,
-      "middle": 150,
-      "low": 116.7,
-      "average": 153.3
-    },
-    "volume": 8460
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "青蔥-粉蔥",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 251.3,
-      "middle": 183.4,
-      "low": 133.4,
-      "average": 191.6
-    },
-    "volume": 4632
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "韭菜-白頭",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 55.6,
-      "middle": 55.6,
-      "low": 55.6,
-      "average": 55.6
-    },
-    "volume": 3309
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "大蒜-軟梗",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 200,
-      "middle": 183.4,
-      "low": 150,
-      "average": 180
-    },
-    "volume": 1530
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "大蒜-蒜仁",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 157.3,
-      "middle": 133.4,
-      "low": 100,
-      "average": 131.5
-    },
-    "volume": 3721
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "芋-檳榔心芋",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 66.5,
-      "middle": 50,
-      "low": 26.7,
-      "average": 48.8
-    },
-    "volume": 12046
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "甘薯-臺農57號",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 53.4,
-      "middle": 40,
-      "low": 20,
-      "average": 38.7
-    },
-    "volume": 9510
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "薑-老薑",
-    "marketName": "西螺鎮",
-    "prices": {
-      "high": 88.8,
-      "middle": 66.7,
-      "low": 33.4,
-      "average": 64.5
-    },
-    "volume": 11602
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "花胡瓜",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 67.9,
-      "middle": 48.3,
-      "low": 23.9,
-      "average": 47.3
-    },
-    "volume": 1539.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "絲瓜",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 27,
-      "middle": 18.4,
-      "low": 8.7,
-      "average": 18.2
-    },
-    "volume": 3691.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "扁蒲-花蒲",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 21.4,
-      "middle": 12.3,
-      "low": 6.1,
-      "average": 12.9
-    },
-    "volume": 2551
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "茄子-麻荸茄",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 57.6,
-      "middle": 37.4,
-      "low": 22.2,
-      "average": 38.4
-    },
-    "volume": 1148.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "番茄-牛番茄",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 163.6,
-      "middle": 129.4,
-      "low": 50.2,
-      "average": 120.4
-    },
-    "volume": 1628.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "南瓜-圓形",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 15.3,
-      "middle": 11.3,
-      "low": 7.6,
-      "average": 11.4
-    },
-    "volume": 4001
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "玉米-甜硬殼",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 35.3,
-      "middle": 23.3,
-      "low": 15.7,
-      "average": 24.1
-    },
-    "volume": 1585
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "玉米-糯米黑",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 29.3,
-      "middle": 21.6,
-      "low": 15.2,
-      "average": 21.9
-    },
-    "volume": 1079.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "玉米-甜軟殼",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 40,
-      "middle": 31.4,
-      "low": 13.7,
-      "average": 29.6
-    },
-    "volume": 1007.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "甘藍-改良尖",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 68,
-      "middle": 46.3,
-      "low": 13.4,
-      "average": 44.1
-    },
-    "volume": 2433.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "包心白-包白",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 43,
-      "middle": 39.2,
-      "low": 26.3,
-      "average": 37.4
-    },
-    "volume": 1010
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "包心白-成功白",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 49.8,
-      "middle": 39.1,
-      "low": 24,
-      "average": 38.2
-    },
-    "volume": 1255.5
-  },
-  {
-    "tradeDate": "114.09.29",
-    "categoryCode": "N04",
-    "cropName": "芋-檳榔心芋",
-    "marketName": "花蓮市",
-    "prices": {
-      "high": 45.9,
-      "middle": 40.1,
-      "low": 27,
-      "average": 38.6
-    },
-    "volume": 1211
   }
 ]

@@ -80,7 +80,7 @@ async function getPriceData(forceRefresh = false) {
       console.log("API failed, using cache");
       return cached;
     }
-    throw new Error(`無法從農委會 API 取得交易資料: ${error.message}`);
+    throw new Error(`無法從農業部 API 取得交易資料: ${error.message}`);
   }
 }
 

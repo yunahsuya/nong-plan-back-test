@@ -7,10 +7,10 @@ export function handlePriceError(err, req, res, next) {
   console.error("Price API error:", err.message);
 
   // API fetch error
-  if (err.message.includes("無法從農委會 API")) {
+  if (err.message.includes("無法從農業部 API")) {
     return res.status(StatusCodes.SERVICE_UNAVAILABLE).json({
       success: false,
-      message: "農委會 API 無法連線",
+      message: "農業部 API 無法連線",
       error: err.message,
     });
   }
