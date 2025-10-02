@@ -101,59 +101,36 @@ export const getAllPrices = async (req, res, next) => {
   }
 };
 
-export const getPricesByCrop = async (req, res, next) => {
-  try {
-    const { crop } = req.params;
-    const { refresh } = req.query;
+function searchByField(fieldName, errorMsg) {
+  return async (req, res, next) => {
+    try {
+      const term = req.params[fieldName]?.trim();
+      if (!term) {
+        return res.status(StatusCodes.BAD_REQUEST).json({
+          success: false,
+          message: errorMsg,
+        });
+      }
 
-    if (!crop?.trim()) {
-      return res.status(StatusCodes.BAD_REQUEST).json({
-        success: false,
-        message: "請提供作物名稱",
+      const data = await getPriceData(req.query.refresh === "true");
+      const filtered = data.filter((item) =>
+        item[fieldName].toLowerCase().includes(term.toLowerCase())
+      );
+
+      res.json({
+        success: true,
+        data: filtered,
+        count: filtered.length,
+        timestamp: new Date().toISOString(),
       });
+    } catch (error) {
+      next(error);
     }
+  };
+}
 
-    let data = await getPriceData(refresh === "true");
-    const term = crop.toLowerCase();
-    data = data.filter((item) => item.cropName.toLowerCase().includes(term));
-
-    res.json({
-      success: true,
-      data,
-      count: data.length,
-      timestamp: new Date().toISOString(),
-    });
-  } catch (error) {
-    next(error);
-  }
-};
-
-export const getPricesByMarket = async (req, res, next) => {
-  try {
-    const { market } = req.params;
-    const { refresh } = req.query;
-
-    if (!market?.trim()) {
-      return res.status(StatusCodes.BAD_REQUEST).json({
-        success: false,
-        message: "請提供市場名稱",
-      });
-    }
-
-    let data = await getPriceData(refresh === "true");
-    const term = market.toLowerCase();
-    data = data.filter((item) => item.marketName.toLowerCase().includes(term));
-
-    res.json({
-      success: true,
-      data,
-      count: data.length,
-      timestamp: new Date().toISOString(),
-    });
-  } catch (error) {
-    next(error);
-  }
-};
+export const getPricesByCrop = searchByField("cropName", "請提供作物名稱");
+export const getPricesByMarket = searchByField("marketName", "請提供市場名稱");
 
 export const getCacheStatus = async (req, res, next) => {
   try {

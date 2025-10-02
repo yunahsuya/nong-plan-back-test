@@ -1,8 +1,9 @@
 // Price data model and filtering logic
 // 只做一件事：定義資料結構和篩選規則
 
-const ALLOWED_CATEGORIES = ["N04", "N05"];
+const VALID_CATEGORIES = new Set(["N04", "N05"]);
 const MIN_VOLUME = 1000;
+const INVALID_CROP_PATTERNS = ["休市", "其他", "改良種"];
 
 export function transformPriceData(rawData) {
   return rawData.map((item) => ({
@@ -20,38 +21,19 @@ export function transformPriceData(rawData) {
   }));
 }
 
+export function isValidPriceRecord(item) {
+  return (
+    VALID_CATEGORIES.has(item.categoryCode) &&
+    item.volume >= MIN_VOLUME &&
+    item.prices.average > 0 &&
+    !hasInvalidCropName(item.cropName)
+  );
+}
+
+function hasInvalidCropName(name) {
+  return INVALID_CROP_PATTERNS.some((pattern) => name.includes(pattern));
+}
+
 export function filterPriceData(data) {
-  return data.filter((item) => {
-    // 1. Category filter: only N04 and N05
-    if (!ALLOWED_CATEGORIES.includes(item.categoryCode)) {
-      return false;
-    }
-
-    // 2. Remove rest day records
-    if (item.cropName === "休市") {
-      return false;
-    }
-
-    // 3. Remove zero volume
-    if (item.volume === 0) {
-      return false;
-    }
-
-    // 4. Remove low volume
-    if (item.volume < MIN_VOLUME) {
-      return false;
-    }
-
-    // 5. Remove invalid price
-    if (item.prices.average <= 0) {
-      return false;
-    }
-
-    // 6. Remove "其他" and "改良種"
-    if (item.cropName.includes("其他") || item.cropName.includes("改良種")) {
-      return false;
-    }
-
-    return true;
-  });
+  return data.filter(isValidPriceRecord);
 }
