@@ -10,6 +10,7 @@ import { VarietiesModel } from './models/education/VarietiesModel.js'
 import { FarmModel } from './models/farms/FarmModel.js'
 import { OutdoorEduFarmModel } from './models/farms/OutdoorEduFarmModel.js'
 import { ParkingModel } from './models/farms/ParkingModel.js'
+import { ToiletModel } from './models/farms/ToiletModel.js'
 
 // 建立 Model 實例
 export const aquacultureModel = new AquacultureModel()
@@ -18,11 +19,13 @@ export const varietiesModel = new VarietiesModel()
 export const farmModel = new FarmModel()
 export const outdoorEduFarmModel = new OutdoorEduFarmModel()
 export const parkingModel = new ParkingModel()  // 新增
+export const toiletModel = new ToiletModel()  
 
 // 引入路由
 import farmRoutes from './routes/farms/farms.js'
 import educationRoutes from './routes/education.js'
 import parkingRoutes from './routes/farms/parking.js'
+import toiletRoutes from './routes/farms/toilets.js'
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
@@ -37,6 +40,7 @@ app.use(express.json())
 app.use('/api', farmRoutes)
 app.use('/api/education', educationRoutes)
 app.use('/api/parking', parkingRoutes)  // 新增
+app.use('/api/toilets', toiletRoutes)
 
 // 錯誤處理中間件
 app.use(errorHandler)
