@@ -1,4 +1,4 @@
-import { BaseModel } from './BaseModel.js'
+import { BaseModel } from '../BaseModel.js'
 
 /**
  * 產品資料 Model - 只負責資料處理和快取

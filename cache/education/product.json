@@ -52,36 +52,6 @@
   {
     "id": "product-5",
     "category": "product",
-    "crop": "芭樂芯葉茶",
-    "verify_marker": "organic",
-    "yield": 200,
-    "season": "全年",
-    "shipments_min": 10,
-    "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E8%8A%AD%E6%A8%82%E8%8A%AF%E8%91%89%E8%8C%B6"
-  },
-  {
-    "id": "product-6",
-    "category": "product",
-    "crop": "有機芭樂",
-    "verify_marker": "preorganic",
-    "yield": 2000,
-    "season": "全年",
-    "shipments_min": 12,
-    "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F%E8%8A%AD%E6%A8%82"
-  },
-  {
-    "id": "product-7",
-    "category": "product",
-    "crop": "台灣土肉桂茶",
-    "verify_marker": "organic",
-    "yield": 200,
-    "season": "全年",
-    "shipments_min": 10,
-    "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E5%8F%B0%E7%81%A3%E5%9C%9F%E8%82%89%E6%A1%82%E8%8C%B6"
-  },
-  {
-    "id": "product-8",
-    "category": "product",
     "crop": "木瓜",
     "verify_marker": "TAP",
     "yield": 5000,
@@ -90,7 +60,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%A8%E7%93%9C"
   },
   {
-    "id": "product-9",
+    "id": "product-6",
     "category": "product",
     "crop": "有機(轉型期)青花菜芽",
     "verify_marker": "preorganic",
@@ -100,7 +70,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E9%9D%92%E8%8A%B1%E8%8F%9C%E8%8A%BD"
   },
   {
-    "id": "product-10",
+    "id": "product-7",
     "category": "product",
     "crop": "有機(轉型期)紫莖球莖甘藍",
     "verify_marker": "preorganic",
@@ -110,7 +80,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E7%B4%AB%E8%8E%96%E7%90%83%E8%8E%96%E7%94%98%E8%97%8D"
   },
   {
-    "id": "product-11",
+    "id": "product-8",
     "category": "product",
     "crop": "有機(轉型期)蘿蔔嬰",
     "verify_marker": "preorganic",
@@ -120,7 +90,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E8%98%BF%E8%94%94%E5%AC%B0"
   },
   {
-    "id": "product-12",
+    "id": "product-9",
     "category": "product",
     "crop": "有機(轉型期)發芽黑豆",
     "verify_marker": "preorganic",
@@ -130,7 +100,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E7%99%BC%E8%8A%BD%E9%BB%91%E8%B1%86"
   },
   {
-    "id": "product-13",
+    "id": "product-10",
     "category": "product",
     "crop": "有機(轉型期)發芽黃豆",
     "verify_marker": "preorganic",
@@ -140,7 +110,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E7%99%BC%E8%8A%BD%E9%BB%83%E8%B1%86"
   },
   {
-    "id": "product-14",
+    "id": "product-11",
     "category": "product",
     "crop": "有機(轉型期)綠豆芽",
     "verify_marker": "preorganic",
@@ -150,7 +120,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E7%B6%A0%E8%B1%86%E8%8A%BD"
   },
   {
-    "id": "product-15",
+    "id": "product-12",
     "category": "product",
     "crop": "有機(轉型期)紅豆芽",
     "verify_marker": "preorganic",
@@ -160,7 +130,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E7%B4%85%E8%B1%86%E8%8A%BD"
   },
   {
-    "id": "product-16",
+    "id": "product-13",
     "category": "product",
     "crop": "有機(轉型期)小麥草",
     "verify_marker": "preorganic",
@@ -170,7 +140,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F(%E8%BD%89%E5%9E%8B%E6%9C%9F)%E5%B0%8F%E9%BA%A5%E8%8D%89"
   },
   {
-    "id": "product-17",
+    "id": "product-14",
     "category": "product",
     "crop": "關廟陸軍山金鑽鳳梨",
     "verify_marker": "TAP",
@@ -180,7 +150,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E9%97%9C%E5%BB%9F%E9%99%B8%E8%BB%8D%E5%B1%B1%E9%87%91%E9%91%BD%E9%B3%B3%E6%A2%A8"
   },
   {
-    "id": "product-18",
+    "id": "product-15",
     "category": "product",
     "crop": "有機牛番茄",
     "verify_marker": "organic",
@@ -190,7 +160,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F%E7%89%9B%E7%95%AA%E8%8C%84"
   },
   {
-    "id": "product-19",
+    "id": "product-16",
     "category": "product",
     "crop": "梨山蜜香紅茶",
     "verify_marker": "preorganic",
@@ -200,7 +170,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%A2%A8%E5%B1%B1%E8%9C%9C%E9%A6%99%E7%B4%85%E8%8C%B6"
   },
   {
-    "id": "product-20",
+    "id": "product-17",
     "category": "product",
     "crop": "梨山烏龍茶包",
     "verify_marker": "NOpesticide",
@@ -210,7 +180,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%A2%A8%E5%B1%B1%E7%83%8F%E9%BE%8D%E8%8C%B6%E5%8C%85"
   },
   {
-    "id": "product-21",
+    "id": "product-18",
     "category": "product",
     "crop": "有機番石榴",
     "verify_marker": "organic",
@@ -220,7 +190,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%89%E6%A9%9F%E7%95%AA%E7%9F%B3%E6%A6%B4"
   },
   {
-    "id": "product-22",
+    "id": "product-19",
     "category": "product",
     "crop": "木鱉果滴雞精",
     "verify_marker": "TAP",
@@ -230,7 +200,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E6%9C%A8%E9%B1%89%E6%9E%9C%E6%BB%B4%E9%9B%9E%E7%B2%BE"
   },
   {
-    "id": "product-23",
+    "id": "product-20",
     "category": "product",
     "crop": "蜂蜜",
     "verify_marker": "TAP",
@@ -240,7 +210,7 @@
     "url": "https://academy.moa.gov.tw/channel.php?theme=member_production&category=PT001&search=%E8%9C%82%E8%9C%9C"
   },
   {
-    "id": "product-24",
+    "id": "product-21",
     "category": "product",
     "crop": "鳳梨",
     "verify_marker": "TAP",

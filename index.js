@@ -4,11 +4,12 @@ import cors from 'cors'
 import { StatusCodes } from 'http-status-codes'
 
 // 引入 Model 類別
-import { AquacultureModel } from './models/AquacultureModel.js'
-import { ProductModel } from './models/ProductModel.js'
-import { VarietiesModel } from './models/VarietiesModel.js'
-import { FarmModel } from './models/FarmModel.js'
-import { OutdoorEduFarmModel } from './models/OutdoorEduFarmModel.js'
+import { AquacultureModel } from './models/education/AquacultureModel.js'
+import { ProductModel } from './models/education/ProductModel.js'
+import { VarietiesModel } from './models/education/VarietiesModel.js'
+import { FarmModel } from './models/farms/FarmModel.js'
+import { OutdoorEduFarmModel } from './models/farms/OutdoorEduFarmModel.js'
+import { ParkingModel } from './models/farms/ParkingModel.js'
 
 // 建立 Model 實例
 export const aquacultureModel = new AquacultureModel()
@@ -16,11 +17,12 @@ export const productModel = new ProductModel()
 export const varietiesModel = new VarietiesModel()
 export const farmModel = new FarmModel()
 export const outdoorEduFarmModel = new OutdoorEduFarmModel()
-
+export const parkingModel = new ParkingModel()  // 新增
 
 // 引入路由
-import farmRoutes from './routes/farms.js'
+import farmRoutes from './routes/farms/farms.js'
 import educationRoutes from './routes/education.js'
+import parkingRoutes from './routes/farms/parking.js'
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
@@ -34,6 +36,7 @@ app.use(express.json())
 // 路由
 app.use('/api', farmRoutes)
 app.use('/api/education', educationRoutes)
+app.use('/api/parking', parkingRoutes)  // 新增
 
 // 錯誤處理中間件
 app.use(errorHandler)
@@ -56,4 +59,7 @@ app.listen(PORT, () => {
   console.log('  GET /api/accessible-farms/:county - 根據縣市篩選農場')
   console.log('  GET /api/education/categories - 取得教育資源分類')
   console.log('  GET /api/education/data/:category - 取得特定分類的教育資源資料')
+  console.log('  GET /api/parking - 取得所有停車場')  // 新增
+  console.log('  GET /api/parking/accessible - 取得無障礙停車場')  // 新增
+  console.log('  GET /api/parking/statistics - 取得停車場統計')  // 新增
 })

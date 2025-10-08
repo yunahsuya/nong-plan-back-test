@@ -1,35 +1,63 @@
-import { BaseModel } from './BaseModel.js'
+import { BaseModel } from '../BaseModel.js'
 
 /**
- * 戶外教育農場資料 Model - 負責資料處理和快取
+ * 農場資料 Model - 只負責資料處理和快取
  */
-export class OutdoorEduFarmModel extends BaseModel {
+export class FarmModel extends BaseModel {
   constructor() {
-    super('outdoor-edu-farms', 'cache') // 使用 cache 目錄
+    super('farms', 'cache') // 使用不同的快取目錄
+  }
+
+  // 縣市代碼對應表
+  static COUNTY_MAP = {
+    '10001': '基隆市',
+    '10002': '宜蘭縣',
+    '10003': '新北市',
+    '10004': '新竹縣',
+    '10005': '苗栗縣',
+    '10006': '新竹市',
+    '10007': '彰化縣',
+    '10008': '南投縣',
+    '10009': '雲林縣',
+    '10010': '嘉義縣',
+    '10011': '嘉義市',
+    '10012': '台南市',
+    '10013': '高雄市',
+    '10014': '台東縣',
+    '10015': '花蓮縣',
+    '10016': '屏東縣',
+    '10017': '澎湖縣',
+    '10018': '金門縣',
+    '10019': '連江縣',
+    '64000': '高雄市',
+    '66000': '台中市',
+    '67000': '台南市'
   }
 
   /**
-   * 轉換戶外教育農場資料格式
+   * 轉換農場資料格式
    */
   transformData(rawData) {
     return rawData.map(farm => {
+      // 解析無障礙設施
+      const accessibleItems = (farm.AccessibleItem || '').split('、').filter(Boolean)
+      
+      // 取得縣市名稱
+      const countyName = FarmModel.COUNTY_MAP[farm.County] || farm.County
+      
       const transformed = {
-        id: farm.FarmNm_CH ? `outdoor-${farm.FarmNm_CH}-${farm.County}`.replace(/\s+/g, '-') : `outdoor-${Date.now()}-${Math.random()}`,
-        name: farm.FarmNm_CH || '',
-        address: farm.Address_CH || '',
-        tel: farm.TEL || '',
-        website: farm.WebURL || '',
-        countyName: farm.County || '',
+        name: farm.FarmNm_CH,
+        countyName: countyName,
         township: farm.Township || '',
-        farmType: '戶外教育農場',
-        serveItems: farm.ServeItem ? farm.ServeItem.split('、') : ['體驗', '導覽', '解說'],
-        accessibleItems: farm.ServeItem ? farm.ServeItem.split('、') : ['體驗', '導覽', '解說'],
+        address: {
+          chinese: farm.Address_CH || ''
+        },
+        website: farm.WebURL || '',
         coordinates: {
           longitude: parseFloat(farm.Longitude) || 0,
           latitude: parseFloat(farm.Latitude) || 0
         },
-        facebook: farm.Facebook || '',
-        postalCode: farm.PCODE || ''
+        accessibleItems: accessibleItems
       }
       
       return this.validateData(transformed)
@@ -54,10 +82,6 @@ export class OutdoorEduFarmModel extends BaseModel {
     
     if (typeof data.coordinates.latitude !== 'number' || isNaN(data.coordinates.latitude)) {
       data.coordinates.latitude = 0
-    }
-    
-    if (!Array.isArray(data.serveItems)) {
-      data.serveItems = []
     }
     
     if (!Array.isArray(data.accessibleItems)) {
@@ -121,6 +145,14 @@ export class OutdoorEduFarmModel extends BaseModel {
         return false
       }
       
+      // 無障礙設施搜尋
+      if (criteria.accessibleItem) {
+        const hasItem = farm.accessibleItems.some(item => 
+          item.toLowerCase().includes(criteria.accessibleItem.toLowerCase())
+        )
+        if (!hasItem) return false
+      }
+      
       // 座標範圍搜尋
       if (criteria.coordinates) {
         const { minLat, maxLat, minLng, maxLng } = criteria.coordinates
@@ -141,12 +173,12 @@ export class OutdoorEduFarmModel extends BaseModel {
     const allData = await this.getAll()
     
     const counties = [...new Set(allData.map(farm => farm.countyName).filter(Boolean))]
-    const serveItems = [...new Set(allData.flatMap(farm => farm.serveItems).filter(Boolean))]
+    const accessibleItems = [...new Set(allData.flatMap(farm => farm.accessibleItems).filter(Boolean))]
     
     return {
       total: allData.length,
       counties: counties,
-      serveItems: serveItems,
+      accessibleItems: accessibleItems,
       withCoordinates: allData.filter(farm => 
         farm.coordinates.longitude !== 0 || farm.coordinates.latitude !== 0
       ).length,

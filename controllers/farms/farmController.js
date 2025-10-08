@@ -1,6 +1,6 @@
 import { StatusCodes } from 'http-status-codes'
 import axios from 'axios'
-import { farmModel, outdoorEduFarmModel } from '../index.js'  // 從主程式匯入
+import { farmModel, outdoorEduFarmModel } from '../../index.js'  // 從主程式匯入
 
 
 // API 配置

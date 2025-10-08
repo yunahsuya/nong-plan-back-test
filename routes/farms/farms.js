@@ -11,7 +11,7 @@ import {
   getOutdoorEduFarmCacheStatus,
   clearOutdoorEduFarmCache,
   refreshOutdoorEduFarmCache
-} from '../controllers/farmController.js'
+} from '../../controllers/farms/farmController.js'
 
 const router = express.Router()
 
