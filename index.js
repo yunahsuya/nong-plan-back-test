@@ -6,6 +6,7 @@ import { StatusCodes } from "http-status-codes";
 // 引入路由
 import farmRoutes from "./routes/farms.js";
 import priceRoutes from "./routes/prices.js";
+import fishPriceRoutes from "./routes/fishPrices.js";
 
 // 引入中間件
 import errorHandler from "./middleware/errorHandler.js";
@@ -19,6 +20,7 @@ app.use(express.json());
 // 路由
 app.use("/api", farmRoutes);
 app.use("/api/prices", priceRoutes);
+app.use("/api/fishPrice", fishPriceRoutes);
 
 // 錯誤處理中間件
 app.use(errorHandler);
@@ -44,4 +46,10 @@ app.listen(PORT, () => {
   console.log("  GET /api/prices/cache/status - 取得快取狀態");
   console.log("  DELETE /api/prices/cache - 清除快取");
   console.log("  POST /api/prices/cache/refresh - 強制刷新快取");
+  console.log("  GET /api/fishPrice - 取得水產品交易行情");
+  console.log("  GET /api/fishPrice/goods/:goodsName - 根據漁貨物名稱查詢行情");
+  console.log("  GET /api/fishPrice/market/:marketName - 根據漁市場查詢行情");
+  console.log("  GET /api/fishPrice/cache/status - 取得快取狀態");
+  console.log("  DELETE /api/fishPrice/cache - 清除快取");
+  console.log("  POST /api/fishPrice/cache/refresh - 強制刷新快取");
 });
