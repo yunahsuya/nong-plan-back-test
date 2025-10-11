@@ -12,6 +12,8 @@ import { OutdoorEduFarmModel } from './models/farms/OutdoorEduFarmModel.js'
 import { ParkingModel } from './models/farms/ParkingModel.js'
 import { TrailModel } from './models/farms/TrailModel.js'
 import { ToiletModel } from './models/farms/ToiletModel.js'
+import { MarketModel } from './models/farms/MarketModel.js'
+
 
 // 建立 Model 實例
 export const aquacultureModel = new AquacultureModel()
@@ -22,6 +24,7 @@ export const outdoorEduFarmModel = new OutdoorEduFarmModel()
 export const parkingModel = new ParkingModel()  // 新增
 export const trailModel = new TrailModel()
 export const toiletModel = new ToiletModel()  
+export const marketModel = new MarketModel() 
 
 // 引入路由
 import farmRoutes from './routes/farms/farms.js'
@@ -29,6 +32,8 @@ import educationRoutes from './routes/education.js'
 import parkingRoutes from './routes/farms/parking.js'
 import trailRoutes from './routes/farms/trails.js'
 import toiletRoutes from './routes/farms/toilets.js'
+import marketRoutes from './routes/farms/markets.js'
+
 
 // 引入中間件
 import errorHandler from './middleware/errorHandler.js'
@@ -45,6 +50,7 @@ app.use('/api/education', educationRoutes)
 app.use('/api/parking', parkingRoutes)  // 新增
 app.use('/api/trails', trailRoutes)
 app.use('/api/toilets', toiletRoutes)
+app.use('/api/farms/markets', marketRoutes)
 
 // 錯誤處理中間件
 app.use(errorHandler)
@@ -70,4 +76,8 @@ app.listen(PORT, () => {
   console.log('  GET /api/parking - 取得所有停車場')  // 新增
   console.log('  GET /api/parking/accessible - 取得無障礙停車場')  // 新增
   console.log('  GET /api/parking/statistics - 取得停車場統計')  // 新增
+  console.log('  GET /api/markets - 取得所有農民市集')
+  console.log('  GET /api/markets/certification/:certification - 根據認證標章篩選市集')
+  console.log('  GET /api/markets/search - 搜尋市集')
+  console.log('  GET /api/markets/statistics - 取得市集統計資料')
 })
