@@ -21,18 +21,23 @@ export class FoodModel extends BaseModel {
       const response = await axios.get(FoodModel.MOA_API_URL, {
         timeout: 30000
       })
-
+  
       if (!response.data || !Array.isArray(response.data)) {
         throw new Error('API 回應格式錯誤')
       }
-
+  
       console.log(`✅ 成功取得 ${response.data.length} 筆美食資料`)
+      console.log('🔄 開始轉換資料...')
       const transformedData = this.transformData(response.data)
+      console.log(`✅ 資料轉換完成，共 ${transformedData.length} 筆`)
+      console.log('💾 開始儲存快取...')
       await this.saveToCache(transformedData)
+      console.log('✅ 快取儲存完成')
       
       return transformedData
     } catch (error) {
       console.error('❌ 從 MOA API 取得美食資料失敗:', error.message)
+      console.error('❌ 錯誤詳情:', error)
       throw error
     }
   }
@@ -242,7 +247,7 @@ export class FoodModel extends BaseModel {
     // 快取無效，從 API 取得
     console.log('⚠️ 快取已過期，從 API 重新取得資料')
     return await this.fetchFromAPI()
-  }
+}
 
   /**
    * 取得美食統計資料
