@@ -14,6 +14,8 @@ import { TrailModel } from './models/farms/TrailModel.js'
 import { ToiletModel } from './models/farms/ToiletModel.js'
 import { MarketModel } from './models/farms/MarketModel.js'
 import { FoodModel } from './models/farms/FoodModel.js'
+import { SouvenirModel } from './models/farms/SouvenirModel.js'
+
 
 // 建立 Model 實例
 export const aquacultureModel = new AquacultureModel()
@@ -26,6 +28,7 @@ export const trailModel = new TrailModel()
 export const toiletModel = new ToiletModel()  
 export const marketModel = new MarketModel() 
 export const foodModel = new FoodModel()
+export const souvenirModel = new SouvenirModel()
 
 // 引入路由
 import farmRoutes from './routes/farms/farms.js'
@@ -35,6 +38,8 @@ import trailRoutes from './routes/farms/trails.js'
 import toiletRoutes from './routes/farms/toilets.js'
 import marketRoutes from './routes/farms/markets.js'
 import foodRoutes from './routes/farms/food.js'
+import souvenirRoutes from './routes/farms/souvenirs.js'
+
 
 
 // 引入中間件
@@ -54,6 +59,8 @@ app.use('/api/trails', trailRoutes)
 app.use('/api/toilets', toiletRoutes)
 app.use('/api/farms/markets', marketRoutes)
 app.use('/api/farms/food', foodRoutes)
+app.use('/api/souvenirs', souvenirRoutes)
+
 
 // 錯誤處理中間件
 app.use(errorHandler)
@@ -94,4 +101,13 @@ app.listen(PORT, () => {
   console.log('  GET /api/farms/food/city/:city - 根據縣市篩選美食')
   console.log('  GET /api/farms/food/search - 搜尋美食')
   console.log('  GET /api/farms/food/statistics - 取得美食統計資料')
+
+  // 伴手禮
+  console.log('  GET /api/souvenirs - 取得所有伴手禮')
+  console.log('  GET /api/souvenirs/county/:county - 根據縣市篩選伴手禮')
+  console.log('  GET /api/souvenirs/search - 搜尋伴手禮')
+  console.log('  GET /api/souvenirs/counties - 取得縣市列表')
+  console.log('  GET /api/souvenirs/statistics - 取得統計資料')
+  console.log('  DELETE /api/souvenirs/cache - 清除伴手禮快取')
+  console.log('  GET /api/souvenirs/cache/status - 取得快取狀態')
 })
