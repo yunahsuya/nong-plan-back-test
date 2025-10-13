@@ -15,6 +15,8 @@ import { ToiletModel } from './models/farms/ToiletModel.js'
 import { MarketModel } from './models/farms/MarketModel.js'
 import { FoodModel } from './models/farms/FoodModel.js'
 import { SouvenirModel } from './models/farms/SouvenirModel.js'
+import { AgriBestItemModel } from './models/farms/AgriBestItemModel.js'
+
 
 
 // 建立 Model 實例
@@ -29,6 +31,8 @@ export const toiletModel = new ToiletModel()
 export const marketModel = new MarketModel() 
 export const foodModel = new FoodModel()
 export const souvenirModel = new SouvenirModel()
+export const agriBestItemModel = new AgriBestItemModel()
+
 
 // 引入路由
 import farmRoutes from './routes/farms/farms.js'
@@ -39,6 +43,9 @@ import toiletRoutes from './routes/farms/toilets.js'
 import marketRoutes from './routes/farms/markets.js'
 import foodRoutes from './routes/farms/food.js'
 import souvenirRoutes from './routes/farms/souvenirs.js'
+import agriBestItemRoutes from './routes/farms/agriBestItems.js'
+
+
 
 
 
@@ -60,6 +67,8 @@ app.use('/api/toilets', toiletRoutes)
 app.use('/api/farms/markets', marketRoutes)
 app.use('/api/farms/food', foodRoutes)
 app.use('/api/souvenirs', souvenirRoutes)
+app.use('/api/agri-best-items', agriBestItemRoutes)
+
 
 
 // 錯誤處理中間件
@@ -110,4 +119,15 @@ app.listen(PORT, () => {
   console.log('  GET /api/souvenirs/statistics - 取得統計資料')
   console.log('  DELETE /api/souvenirs/cache - 清除伴手禮快取')
   console.log('  GET /api/souvenirs/cache/status - 取得快取狀態')
+
+  // 農漁會年度百大農業精品好禮-伴手禮
+  console.log('  GET /api/agri-best-items - 取得所有農漁會年度百大農業精品好禮')
+  console.log('  GET /api/agri-best-items/county/:county - 根據縣市篩選')
+  console.log('  GET /api/agri-best-items/type/:type - 根據類型篩選')
+  console.log('  GET /api/agri-best-items/search - 搜尋')
+  console.log('  GET /api/agri-best-items/counties - 取得縣市列表')
+  console.log('  GET /api/agri-best-items/types - 取得類型列表')
+  console.log('  GET /api/agri-best-items/statistics - 取得統計資料')
+  console.log('  DELETE /api/agri-best-items/cache - 清除快取')
+  console.log('  GET /api/agri-best-items/cache/status - 取得快取狀態')
 })
