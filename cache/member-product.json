@@ -1,0 +1,421 @@
+[
+  {
+    "id": "member-product--",
+    "memberName": "李冠毅",
+    "crop": "蜜香沁玉烏龍茶",
+    "verifyMarker": "TAP",
+    "yield": 100,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "小量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "李冠毅",
+    "crop": "沁玉紅茶",
+    "verifyMarker": "TAP",
+    "yield": 100,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "小量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "劉珍修",
+    "crop": "有機百香果",
+    "verifyMarker": "organic",
+    "yield": 500,
+    "season": [
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "shipmentsMin": 3,
+    "category": "有機認證",
+    "tags": [
+      "有機",
+      "小量產",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "洪僑志",
+    "crop": "雞蛋",
+    "verifyMarker": "TAP",
+    "yield": 1800,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 20,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "劉珍修",
+    "crop": "有機草莓",
+    "verifyMarker": "organic",
+    "yield": 35,
+    "season": [
+      "一月",
+      "二月",
+      "三月",
+      "四月"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機認證",
+    "tags": [
+      "有機",
+      "小量產",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": false
+  },
+  {
+    "id": "member-product--",
+    "memberName": "鄧瑞展",
+    "crop": "木瓜",
+    "verifyMarker": "TAP",
+    "yield": 5000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1000,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)青花菜芽",
+    "verifyMarker": "preorganic",
+    "yield": 240,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "小量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)紫莖球莖甘藍",
+    "verifyMarker": "preorganic",
+    "yield": 240,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "小量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)蘿蔔嬰",
+    "verifyMarker": "preorganic",
+    "yield": 30,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "小量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)發芽黑豆",
+    "verifyMarker": "preorganic",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)發芽黃豆",
+    "verifyMarker": "preorganic",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)綠豆芽",
+    "verifyMarker": "preorganic",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)紅豆芽",
+    "verifyMarker": "preorganic",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 1,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "王一涵",
+    "crop": "有機(轉型期)小麥草",
+    "verifyMarker": "preorganic",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 25,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "楊舜閎",
+    "crop": "關廟陸軍山金鑽鳳梨",
+    "verifyMarker": "TAP",
+    "yield": 30000,
+    "season": [
+      "一月",
+      "二月",
+      "十一月",
+      "十二月"
+    ],
+    "shipmentsMin": 200,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "大宗產量",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": false
+  },
+  {
+    "id": "member-product--",
+    "memberName": "吳妮霖",
+    "crop": "梨山蜜香紅茶",
+    "verifyMarker": "preorganic",
+    "yield": 150,
+    "season": [
+      "八月"
+    ],
+    "shipmentsMin": 18,
+    "category": "有機轉型期",
+    "tags": [
+      "轉型期",
+      "小量產",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": false
+  },
+  {
+    "id": "member-product--",
+    "memberName": "吳妮霖",
+    "crop": "梨山烏龍茶包",
+    "verifyMarker": "NOpesticide",
+    "yield": 30,
+    "season": [
+      "五月",
+      "十月"
+    ],
+    "shipmentsMin": 1,
+    "category": "無農藥",
+    "tags": [
+      "無農藥",
+      "小量產",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "林華彥",
+    "crop": "有機番石榴",
+    "verifyMarker": "organic",
+    "yield": 800,
+    "season": [
+      "一月",
+      "二月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "shipmentsMin": 100,
+    "category": "有機認證",
+    "tags": [
+      "有機",
+      "小量產",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "宋珮瑜",
+    "crop": "木鱉果滴雞精",
+    "verifyMarker": "TAP",
+    "yield": 1000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 600,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "吳俊賢",
+    "crop": "蜂蜜",
+    "verifyMarker": "TAP",
+    "yield": 2000,
+    "season": [
+      "全年"
+    ],
+    "shipmentsMin": 10,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "中量產",
+      "全年供應"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": true
+  },
+  {
+    "id": "member-product--",
+    "memberName": "簡偉翔",
+    "crop": "鳳梨",
+    "verifyMarker": "TAP",
+    "yield": 129042,
+    "season": [
+      "五月",
+      "六月",
+      "七月",
+      "八月"
+    ],
+    "shipmentsMin": 77425,
+    "category": "產銷履歷",
+    "tags": [
+      "產銷履歷",
+      "大宗產量",
+      "季節性"
+    ],
+    "source": "農民學院找產品",
+    "isAvailable": false
+  }
+]

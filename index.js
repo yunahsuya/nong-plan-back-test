@@ -44,6 +44,7 @@ import marketRoutes from './routes/farms/markets.js'
 import foodRoutes from './routes/farms/food.js'
 import souvenirRoutes from './routes/farms/souvenirs.js'
 import agriBestItemRoutes from './routes/farms/agriBestItems.js'
+import memberProductRoutes from './routes/farms/memberProduct.js'
 
 
 
@@ -68,6 +69,7 @@ app.use('/api/farms/markets', marketRoutes)
 app.use('/api/farms/food', foodRoutes)
 app.use('/api/souvenirs', souvenirRoutes)
 app.use('/api/agri-best-items', agriBestItemRoutes)
+app.use('/api/education/member-product', memberProductRoutes)
 
 
 
@@ -130,4 +132,11 @@ app.listen(PORT, () => {
   console.log('  GET /api/agri-best-items/statistics - 取得統計資料')
   console.log('  DELETE /api/agri-best-items/cache - 清除快取')
   console.log('  GET /api/agri-best-items/cache/status - 取得快取狀態')
+
+  // 農民學院找產品
+  console.log('  GET /api/education/member-product - 取得所有農民學院找產品')
+  console.log('  GET /api/education/member-product/members - 取得農民列表')
+  console.log('  GET /api/education/member-product/crops - 取得作物列表')
+  console.log('  GET /api/education/member-product/verify-markers - 取得驗證標章列表')
+  console.log('  GET /api/education/member-product/statistics - 取得統計資料')
 })
